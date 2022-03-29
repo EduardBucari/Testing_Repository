@@ -1,3 +1,5 @@
+Топ-20 вопросов и ответов на собеседованиях на тестировщика, QA Engineer.
+
 В чем разница между QA (Quality Assurance), QC (Quality Control ) 
 И Software testing
 
