@@ -1,0 +1,83 @@
+Английский 
+ЧТО ДОЛЖЕН ЗНАТЬ тестировщик ПО//английский для тестировщика
+
+must have - обязательно
+to test/to check - тестировать, проверять
+to display/to show - отображать, показывать
+to fix - чинить
+access/to access - доступ
+to respond - отвечать
+to open/to close - открыть / закрыть
+to navigate - перейти к 
+to click - нажать
+to select - выбирать
+---------------------
+to create - создавать
+to assign - назначать
+to wait - ждать
+to search - искать
+to manage - управлять
+to review - проверять 
+to train - обучать
+to expect - ожидать
+to track - отслеживать
+to verify - прверять
+----------------------
+to submit - подчинять, подавать
+to approve - одобрять
+to run/to lunch - запускать
+to make - создавать, запускать
+to add - добавлять
+to complete - заканчивать
+to fail / to pass - провалить / пройти
+passed / failed - тест прошел / тест не прошел
+to plan - планировать
+button - кнопка
+-----------------------
+font - шрифт
+bug - баг, ошибка
+malfunction / defect - неисправность / дефект
+manual - руководство, справочник
+rights - права
+permission - разрешение 
+response - ответ
+name - имя
+place - место
+specific - особенный
+------------------------
+an issue - проблема, спорный вопрос
+task - задание
+recently - недавно
+often - часто
+customer / user - потребитель / пользователь
+report - отчет
+remote - удаленный
+skill - навык
+loop - цикл, петля
+please keep me in the loop - держите меня в курсе
+--------------------------
+cross-browser - кроссбраузерный
+application (app) - приложение
+software / hardware - Програмное обеспечение / техника(железо)
+efficiency - эффективность
+blocker - блокатор
+public / local - общий / локальный
+structure - структура
+menu - меню
+true / false - правда / ложь
+improvement - улучшение
+---------------------------
+type - тип
+module - модуль
+value - значение (field value - значение поля)
+link - ссылка
+signature - подпись
+pop-up window - всплывающее окно 
+author - автор, исполнитель, ответственный
+checkbox - окно с выбором нескольких вариантов.
+radio button - выбор только одного варианта в кружочке. (муж. жен.)
+repeat - повторять
+behavior - поведение
+API (application programming interface) - парограмный интерфейс
+notification - уведомление
+----------------------------
