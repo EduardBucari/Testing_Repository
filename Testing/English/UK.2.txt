@@ -1,0 +1,76 @@
+АНГЛИЙСКИЕ СЛОВА ДЛЯ ТЕСТИРОВЩИКА PART 2
+
+bild - сборка 
+permission - разрешение 
+to pay attention to the symbols that are prohibited in this field - 
+обращать внимание на символы которые запрезены в этом поле.
+replicability of a bug - воспроизводимость ошибки
+tooltip / hint - подсказка
+verification - проверка(качества ПО)
+validation - на сколько ПО соответствует ожиданиям клиента.
+often - часто
+rarely - редко
+random - в случайном порядке
+----------------------------
+access rights - права доступа:
+view - смотреть 
+read - читать
+create - создавать
+edit - редактировать
+delete - удалять
+update - обновлять
+load - загружать
+------------------------------
+Blocker defect - блокирующий дефект.
+Critical - критичный
+Major(мэжор) - серьезный 
+Minor(майнэр) - несерьезный, мелкий
+trivial - незначительный
+unable to reproduce - невозможно воспроизвести
+I have never met this bug before - я никогда не встречал эту ошибку раньше
+ASAP - как можно быстрее
+I can not aprove this project plan - я не могу одобрить этот план.
+differed - отсроченный
+rejected - отказ
+------------------------------
+dublicated - дублированный
+assigned - назначен
+fixed - починенный
+verified - проверенный
+reopen - открыть заново
+already - уже
+feature - особенность
+environment - окружение
+description - описание
+additio - дополнение
+expected result - ожидаемый результат
+actual result - действительный результат
+-------------------------------
+attachmet - прикреленный документ
+support - поддержка
+accurate - точный
+summary - краткое описание, резюме
+pro and con - за и против
+regarding - относительно, касательно
+contradiction - противоречия
+specification (SPECS) - технические характеристики
+interaction - взаимодействие
+Query - запрос
+table - таблица
+-------------------------------
+GRID - сетка (способ отображения данных на экране)
+insert - вносить, вводить
+rollback - откатывать
+to record - записывать
+incorrect - не правильный
+to prevent - предотвратить
+a failure - сбой
+requirement - требование
+development - разработка
+postponed - отложить
+complexity - сложность
+trigger - вызывать, инициировать
+to implement - реализовать, осуществлять
+to execute - выполнять
+------------------------------------------------------
+
