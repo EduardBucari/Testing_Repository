@@ -1,0 +1,88 @@
+Таблицы.
+
+Загрузка элементов из таблицы.
+
+Получаем данные из таблицы с помощью запроса SELECT
+SELECT col_name_1, col_name_2
+FROM table_name;
+Где вместо col_name_* вводим названия столбцов, данные которых хотим загрузить, 
+а вместо table_name имя таблицы, из которой хотим загрузить данные.
+Например:
+SELECT class_id, name
+FROM Classes;
+
+Чтобы выбрать все столбцы, мы можем использовать знак *. 
+SELECT *
+FROM Classes;
+Следует помнить, что если в этом нет необходимости, не загружайте 
+все столбцы из таблицы.
+
+упражнения
+1. Отобразите все данные в таблице «Студенты».
+2. Отображать только имена и фамилии учащихся.
+3. Просмотр всех данных учителей.
+
+Оператор WHERE
+Мы можем сузить результаты поиска SELECT, добавив WHERE в наш запрос.
+SELECT *
+FROM Students
+WHERE name = "Wojtek";
+-------------------------------------
+Реляционные операторы
+
+=  (равно)             SELECT * FROM Students WHERE name = "Dexter";
+<> (Не равно или != )  SELECT * FROM Students WHERE name <> "Dexter";
+> (>=)                 SELECT * FROM Teachers WHERE pay > 139;
+< (<=)                 SELECT * FROM Teachers WHERE pay < 100;
+BETWEEN a AND b        SELECT * FROM Marks WHERE mark BETWEEN 3 and 5;
+
+IS NULL (пустое)   SELECT * FROM Students WHERE name IS NULL;
+IN(a, b, c)        SELECT * FROM Students WHERE name IN ('Dexter','Stephen');
+NOT IN(a, b, c)    SELECT * FROM Students WHERE name NOT IN ('Dexter','Stephen');
+OR                 SELECT * FROM Students WHERE name = 'Dexter' OR name = 'Stephen';
+AND                SELECT * FROM Students WHERE name = 'Dexter' AND name = 'Stephen';
+-------
+LIKE 
+
+'Dе%' - Поиск имен студентов начинющихся на "De"
+SELECT * FROM Students WHERE name LIKE 'De%';
+
+'%ter'– Поиск имен студентов заканчивающихся на "ter"
+SELECT * FROM Students WHERE name LIKE '%ter';
+
+'%exte%' – Поиск имен студентов содержащих в нутри буквы "exte"
+SELECT * FROM Students WHERE name LIKE '%exte%';
+-------
+NOT (не соответствовать)
+SELECT * FROM Students WHERE name NOT LIKE 'De%';
+SELECT * FROM Marks WHERE mark NOT BETWEEN 3 and 5;
+-------------------------------------------
+
+Оператор WHERE - объединение нескольких запросов.
+
+Мы можем добавить несколько условий в один запрос SQL. 
+Например, когда мы хотим найти всех людей, принадлежащих к классу с id 3 
+и их имя Brandon. Мы можем добиться этого, используя логический оператор AND. 
+Это приводит к тому, что наш запрос находит строки, которые удовлетворяют 
+обоим (или более) требованиям.
+SELECT * FROM Students WHERE name = "Brandon" AND class_id = 3;
+
+Что, если мы не хотим объединять запросы, используя «и» а только «или». 
+Так, например, мы хотим найти все оценки в нашей системе, которые выставлены 
+для студента с id 5 или для студента с id 6. 
+Этот эффект можно получить, используя ключевое слово OR.
+SELECT * FROM Marks WHERE student_id = 5 OR student_id = 6;
+------------------------------------------------
+Оператор ORDER BY
+
+Мы можем отсортировать найденные результаты по одному (или нескольким) столбцам. 
+Для этого используется оператор ORDER BY. 
+Сортировка производится в соответствии с порядком в запросе.
+
+SELECT col_name_1, col_name_2
+FROM table_name ORDER BY col_name_1
+ASC| DESC, col_name_2 ASC|DESC;
+
+SELECT * FROM Marks ORDER BY mark ASC; - (ascending) сортировка в порядке возростания
+SELECT * FROM Marks ORDER BY mark DESC; - (descending) сортировка в порядке убывания.
+
