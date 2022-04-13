@@ -56,7 +56,7 @@ skill - навык
 loop - цикл, петля
 please keep me in the loop - держите меня в курсе
 --------------------------
-cross-browser - кроссбраузерный
+cross-browser - кроссбраузерный, межплатформенный
 application (app) - приложение
 software / hardware - Програмное обеспечение / техника(железо)
 efficiency - эффективность
