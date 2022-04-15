@@ -3,7 +3,7 @@
 bild - сборка 
 permission - разрешение 
 to pay attention to the symbols that are prohibited in this field - 
-обращать внимание на символы которые запрезены в этом поле.
+обращать внимание на символы которые запрещены в этом поле.
 replicability of a bug - воспроизводимость ошибки
 tooltip / hint - подсказка
 verification - проверка(качества ПО)
@@ -29,7 +29,7 @@ trivial - незначительный
 unable to reproduce - невозможно воспроизвести
 I have never met this bug before - я никогда не встречал эту ошибку раньше
 ASAP - как можно быстрее
-I can not aprove this project plan - я не могу одобрить этот план.
+I can not approve this project plan - я не могу одобрить (утвердить) этот план.
 differed - отсроченный
 rejected - отказ
 ------------------------------
@@ -42,7 +42,7 @@ already - уже
 feature - особенность
 environment - окружение
 description - описание
-additio - дополнение
+addition - дополнение
 expected result - ожидаемый результат
 actual result - действительный результат
 -------------------------------
