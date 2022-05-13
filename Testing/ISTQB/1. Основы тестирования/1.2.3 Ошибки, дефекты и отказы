@@ -1,0 +1,55 @@
+1.2.3 Ошибки, дефекты и отказы - Errors, Defects, and Failures
+
+Ошибка извлечения требований может привести к дефекту требований, 
+который затем приводит к ошибке программирования, 
+что приводит к дефекту в коде.
+A requirements elicitation error can lead to a requirements defect, 
+which then results in a programming error 
+that leads to a defect in the code. 
+
+
+Ошибки могут возникать по многим причинам:
+Errors may occur for many reasons:
+
+1. Нехватка времени - Time pressure
+
+2. Человек может ошибаться - Human fallibility
+
+3. Неопытные или недостаточно квалифицированные участники проекта.
+   Inexperienced or insufficiently skilled project participants.
+
+4. Недопонимание между участниками проекта, включая недопонимание 
+   требований и проектирования.
+   Miscommunication between project participants, including 
+   miscommunication about requirements and design.
+
+5. Сложность кода, проектирования, архитектуры, основной проблемы, 
+   которую надо решить, и/или используемых технологий.
+   Complexity of the code, design, architecture, the underlying problem 
+   to be solved, and/or the technologies used.
+
+6. Непонимание внутрисистемных и межсистемных интерфейсов, особенно 
+   когда таких внутрисистемных и межсистемных взаимодействий много.
+   Misunderstandings about intra-system and inter-system interfaces, 
+   especially when such intra-system and inter-system interactions 
+   are large in number.
+
+7. Новые, незнакомые технологии - New, unfamiliar technologies.
+
+
+Может возникнуть и обратная ситуация, когда подобные ошибки или дефекты 
+приводят к ошибочным негативным тестам. 
+The inverse situation can also occur, where similar errors or defects 
+lead to false negatives. 
+
+Ошибочные негативные тесты – это тесты, которые должны были обнаружить, 
+но не обнаружили дефекты. 
+False negatives are tests that do not detect defects that they 
+should have detected; 
+
+Ошибочные позитивные тесты – это тесты, которые обнаружили 
+дефекты, не являющиеся реальными дефектами.
+False positives are reported as defects, but aren’t actually defects. 
+
+
+

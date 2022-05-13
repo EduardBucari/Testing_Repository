@@ -1,0 +1,26 @@
+1.2.1 Вклад тестирования в успех - Testing’s Contributions to Success
+
+1. Наличие тестировщиков, участвующих в рецензировании требований.
+Having testers involved in requirements reviews.
+
+Выявление и устранение дефектов требований снижает риск разработки 
+неправильной или нетестируемой функциональности.
+The identification and removal of requirements defects reduces the risk 
+of incorrect or untestable functionality being developed.
+
+2. Наличие тесного сотрудничества тестировщиков с 
+проектировщиками системы.
+Having testers work closely with system designers.
+
+3. Наличие тесного взаимодействия тестировщиков с программистами.
+Having testers work closely with developers.
+
+4. Наличие тестировщиков для верификации и валидации программного 
+обеспечения до релиза может обнаружить сбои.
+Having testers verify and validate the software 
+prior to release can detect failures.
+
+Это повышает вероятность того, что программное обеспечение удовлетворяет 
+потребностям заинтересованных лиц и соответствует требованиям.
+This increases the likelihood that the software meets stakeholder 
+needs and satisfies requirements.

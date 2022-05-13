@@ -1,0 +1,19 @@
+1.2.4 Дефект, первопричина и эффект - Defects, Root Causes and Effects.
+
+Первопричины дефектов – это самые ранние действия или условия, 
+которые способствовали созданию дефектов.
+The root causes of defects are the earliest actions or conditions 
+that contributed to creating the defects.
+
+Дефекты можно проанализировать для поиска первопричины, чтобы 
+уменьшить возникновение подобных дефектов в будущем. 
+Defects can be analyzed to identify their root causes, so as 
+to reduce the occurrence of similar defects in the future.
+
+Анализ первопричин может привести к улучшению процессов, 
+которые предотвратят появление значительного числа будущих дефектов.
+Root cause analysis can lead to process improvements that 
+prevent a significant number of future defects from being introduced.
+
+Жалобы клиентов – это эффекты.
+The customer complaints are effects.
