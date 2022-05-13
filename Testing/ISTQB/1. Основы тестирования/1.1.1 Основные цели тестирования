@@ -1,0 +1,52 @@
+1.1.1 Основные цели тестирования - Typical Objectives of Testing
+
+1. Оценку рабочих продуктов, таких как требования, пользовательские истории, 
+проектирование и код.
+To evaluate work products such as requirements, user stories, design, and code.
+
+2. Проверку, все ли указанные требования выполнены.
+To verify whether all specified requirements have been fulfilled. 
+
+3. Проверку, завершен ли объект тестирования и работает, как ожидают пользователи и 
+заинтересованные лица.
+To validate whether the test object is complete and works as the users 
+and other stakeholders expect.
+
+4. Создание уверенности в уровне качества объекта тестирования.
+To build confidence in the level of quality of the test object.
+
+5. Предотвращение дефектов.
+To prevent defects.
+
+6. Обнаружение отказов и дефектов.
+To find failures and defects.
+
+7. Предоставление заинтересованным лицам достаточной информации, позволяющей им 
+принять обоснованные решения, особенно в отношении уровня качества 
+объекта тестирования.
+To provide sufficient information to stakeholders to allow them 
+to make informed decisions, especially regarding the level of quality of 
+the test object. 
+
+8. Снижение уровня риска ненадлежащего качества программного обеспечения 
+(например, пропущенные сбои в работе).
+To reduce the level of risk of inadequate software quality 
+(e.g., previously undetected failures occurring in operation) 
+
+9. Соблюдение договорных, правовых или нормативных требований, или стандартов и/или 
+проверка соответствия объекта тестирования таким требованиям и стандартам.
+To comply with contractual, legal, or regulatory requirements or standards, and/or 
+to verify the test object’s compliance with such requirements or standards.
+
+-------------------
+Цели тестирования могут варьироваться в зависимости от контекста.
+The objectives of testing can vary, depending upon the context.
+
+При компонентном тестировании одна из целей может заключаться в том, чтобы найти 
+как можно больше сбоев.
+During component testing, one objective may be to find as many failures as possible.
+
+При приемочном тестировании одна из целей может заключаться в том, чтобы подтвердить, 
+что система работает, как ожидалось, и удовлетворяет требованиям.
+During acceptance testing, one objective may be to confirm 
+that the system works as expected and satisfies requirements.

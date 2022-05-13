@@ -1,1 +1,32 @@
 1.1 Что такое тестирование? - What is Testing?
+
+Тестирование программного обеспечения – это способ оценить качество программного 
+обеспечения и снизить риск отказа программного обеспечения.
+
+Software testing is a way to assess the quality of the 
+software and to reduce the risk of software failure in operation. 
+
+Процесс тестирования содержит такие активности, как:
+The test process includes activities such as:
+планирование - test planning 
+анализ - analyzing
+проектирование - designing
+реализация тестов - implementing tests
+создание отчетов о ходе и результатах тестирования - reporting test progress and results 
+оценка качества объекта тестирования - evaluating the quality of a test object
+
+Тестирование, во время которого задействуется выполнение тестируемого компонента или 
+системы, называется динамическим тестированием.
+Some testing does involve the execution of the component or system being tested; 
+such testing is called dynamic testing. 
+
+Другой вид тестирования, который не предполагает выполнение тестируемого компонента 
+или системы, называется статическим тестированием.
+Other testing does not involve the execution of the component or system being tested; 
+such testing is called static testing.
+
+Тестирование также включает рецензирование рабочих продуктов, таких как 
+требования, пользовательские истории и исходный код.
+Testing also includes reviewing work products such as 
+requirements, user stories, and source code.
+

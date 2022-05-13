@@ -1,0 +1,23 @@
+1.1.2 Тестирование и отладка - Testing and Debugging
+
+Тестирование и отладка отличаеются.
+Testing and debugging are different.
+
+Выполнение тестов может показать сбои, вызванные дефектами 
+в программном обеспечении.
+Executing tests can show failures that are caused by defects 
+in the software.
+
+Отладка – это деятельность разработки для нахождения, анализа 
+и исправления таких дефектов.
+Debugging is the development activity that finds, analyzes, 
+and fixes such defects.
+
+В некоторых случаях тестировщики отвечают только за исходный тест 
+и финальное подтверждающее тестирование, 
+в то время как разработчики выполняют отладку и соответствующее 
+компонентное тестирование.
+In some cases, testers are responsible for the initial test 
+and the final confirmation test, 
+while developers do the debugging and associated 
+component testing.
