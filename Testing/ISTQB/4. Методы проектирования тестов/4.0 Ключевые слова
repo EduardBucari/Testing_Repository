@@ -1,0 +1,19 @@
+4.0 Ключевые слова - Keywords 
+4. Методы проектирования тестов - Test Techniques
+
+разработка тестов методом черного ящика - black-box test technique
+анализ граничных значений - boundary value analysis 
+тестирование на основе чек-листов -  checklist-based testing
+покрытие - coverage
+покрытие условий - decision coverage 
+тестирование с помощью таблицы альтернатив - decision table testing 
+предположение об ошибках - error guessing 
+эквивалентное разбиение - equivalence partitioning
+
+метод проектирования тестов на основе опыта - experience-based test technique 
+исследовательское тестирование - exploratory testing
+тестирование таблицы переходов - state transition testing 
+покрытие операторов - statement coverage 
+метод проектирования тестов - test technique
+тестирование по сценариям использования - use case testing
+разработка тестов методом белого ящика - white-box test technique 
