@@ -1,0 +1,37 @@
+Ключевые определения - Keywords
+
+2. Тестирование в течение жизненного цикла 
+разработки ПО
+2. Testing Throughout the Software 
+Development Lifecycle
+
+приемочное тестирование - acceptance testing
+альфа-тестирование - alpha testing
+бета-тестирование - beta testing
+готовое программное обеспечение - commercial off-the-shelf (COTS)
+тестирование интеграции компонентов - component integration testing
+компонентное тестирование - component testing
+подтверждающее тестирование - confirmation testing
+контрактное приемочное тестирование - contractual acceptance testing
+функциональное тестирование - functional testing
+анализ влияния - impact analysis
+
+интеграционное тестирование - integration testing
+тестирование в период сопровождения - maintenance testing 
+нефункциональное тестирование - non-functional testing 
+эксплуатационное приемочное тестирование - operational acceptance testing 
+регрессионное тестирование - regression testing 
+нормативное приемочное тестирование - regulatory acceptance testing 
+каскадная модель разработки ПО - sequential development model
+системное интеграционное тестирование - system integration testing
+системное тестирование - system testing
+базис тестирования - test basis
+
+тестовый сценарий - test case
+тестовое окружение - test environment
+уровень тестирования - test level 
+объект тестирования - test object
+причина тестирования - test objective
+тип тестирования - test type
+пользовательское приёмочное тестирование - user acceptance testing 
+тестирование методом белого ящика - white-box testing
