@@ -86,6 +86,11 @@ from an e-commerce mobile app.
 7. Заблуждение об отсутствии ошибок.
 7. Absence-of-errors is a fallacy.
 
+Некоторые организации ожидают, что тестировщики смогут выполнить все возможные 
+тесты и найти все возможные дефекты - это невозможно. 
+Some organizations expect that testers can run all possible tests and find all 
+possible defects, but this is impossible.
+
 Ошибочно ожидать, что простое нахождение и исправление большого 
 числа дефектов обеспечит успех системе.
 It is a fallacy (i.e., a mistaken belief) to expect that just finding 
