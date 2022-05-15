@@ -1,0 +1,19 @@
+2. Мониторинг и контроль тестирования - Test monitoring and control.
+
+- Мониторинг тестирования предполагает непрерывное сравнение фактического 
+хода работы с планом тестирования, используя любые метрики мониторинга 
+тестирования, определённые в плане тестирования. 
+Test monitoring involves the on-going comparison of actual progress 
+against the test plan using any test monitoring metrics defined 
+in the test plan.
+
+- Контроль тестирования подразумевает принятие мер, необходимых для 
+достижения целей плана тестирования (который может быть обновлен 
+с течением времени).
+Test control involves taking actions necessary to meet the 
+objectives of the test plan (which may be updated over time). 
+
+Мониторинг и контроль тестирования поддерживаются оценкой критериев выхода, 
+которые в некоторых жизненных циклах называются "критериями готовности".
+Test monitoring and control are supported by the evaluation of exit criteria, 
+which are referred to as "the definition of done" in some lifecycles.

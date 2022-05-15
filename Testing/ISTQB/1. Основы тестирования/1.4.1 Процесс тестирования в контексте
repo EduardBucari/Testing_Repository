@@ -1,0 +1,39 @@
+1.4.1 Процесс тестирования в контексте - Test Process in Context
+
+Факторы, которые влияют на корпоративный процесс тестирования:
+Factors that influence the test process for an organization:
+
+1. Используемая модель жизненного цикла разработки программного 
+обеспечения и проектные методологии.
+   Software development lifecycle model and project methodologies 
+being used.
+
+2. Рассматриваемые уровни и типы тестирования.
+   Test levels and test types being considered.
+
+3. Продуктовые и проектные риски - Product and project risks.
+
+4. Предметная область - Business domain.
+
+5. Ограничения, включая, в частности: (Бюджеты и ресурсы, Сроки,
+Сложность, Договорные и нормативные требования).
+   Operational constraints, including but not limited to: 
+(Budgets and resources, Timescales, Complexity, Contractual and 
+regulatory requirements).
+
+6. Организационные политики и практики.
+   Organizational policies and practices.
+
+7. Необходимые внутренние и внешние стандарты.
+   Required internal and external standards.
+
+8. Активности и задачи тестирования - Test activities and tasks.
+
+9. Рабочие продукты тестирования - Test work products.
+
+10. Трассируемости между базисом тестирования и рабочими продуктами 
+тестирования.
+    Traceability between the test basis and test work products.
+   
+
+

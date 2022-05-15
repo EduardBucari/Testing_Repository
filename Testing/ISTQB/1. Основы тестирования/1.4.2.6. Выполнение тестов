@@ -1,0 +1,21 @@
+6. Выполнение тестов - Test execution.
+
+Во время выполнения тестов, наборы тестов запускаются в соответствии 
+с расписанием выполнения тестов.
+During test execution, test suites are run in accordance with 
+the test execution schedule. 
+
+Выполнение тестов состоит из:
+Test execution includes:
+
+1. Запись идентификаторов и версий элемента тестирования или объекта 
+тестирования, инструмента тестирования, и тестового обеспечения.
+   Recording the IDs and versions of the test item or test object, 
+test tool, and testware.
+
+2. Выполнение тестов вручную или с помощью инструментов выполнения тестов.
+   Executing tests either manually or by using test execution tools.
+
+3. Сравнение фактических и ожидаемых результатов.
+
+

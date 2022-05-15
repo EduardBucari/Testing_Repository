@@ -1,0 +1,38 @@
+4. Проектирование тестов - Test design.
+
+Во время проектирования тестов тестовые условия воплощаются в 
+высокоуровневые тестовые сценарии.
+During test design, the test conditions are elaborated into 
+high-level test cases.
+
+Aнализ тестирования отвечает на вопрос «что тестировать?», 
+а проектирование тестов отвечает на вопрос «как тестировать?». 
+Test analysis answers the question “what to test?” 
+while test design answers the question “how to test?”
+
+Проектирование тестов состоит из:
+Test design includes:
+
+1. Проектирования и приоритизации тестовых сценариев и 
+   наборов тестовых сценариев.
+   Designing and prioritizing test cases and sets of test cases.
+
+2. Определения необходимых тестовых данных для поддержки 
+   тестовых условий и тестовых сценариев.
+   Identifying necessary test data to support 
+   test conditions and test cases.
+
+3. Проектирования тестового окружения и определения необходимой 
+   инфраструктуры и инструментов.
+   Designing the test environment and identifying any required 
+   infrastructure and tools.
+
+4. Отражения двунаправленной трассируемости между базисом тестирования, 
+   тестовыми условиями, тестовыми сценариями и процедурами тестирования.
+   Capturing bi-directional traceability between the test basis, 
+   test conditions, test cases, and test procedures.
+
+Kак и при анализе тестирования, выявление дефектов при проектировании 
+тестов является важным потенциальным преимуществом.
+As with test analysis, the identification of defects during 
+test design is an important potential benefit.

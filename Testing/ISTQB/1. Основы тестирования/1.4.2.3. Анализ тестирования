@@ -1,0 +1,53 @@
+3. Анализ тестирования - Test analysis.
+
+Анализ тестирования решает “что тестировать”.
+Test analysis determines “what to test”.
+
+Анализ тестирования состоит из:
+Test analysis includes:
+
+1. Анализ базиса тестирования - Analyzing the test basis
+
+        1.1 Спецификации требований - Requirement specifications:
+              - функциональные и нефункциональные компоненты
+                 functional and non-functional component;
+              - бизнес-требования - business requirements; 
+              - системные требования - system requirements;
+              - сценарии использования системы - use cases;
+
+        1.2 Информация о проектировании и реализации:
+            Design and implementation information:
+              - диаграммы или документы архитектуры системы;
+                 system or software architecture diagrams or documents
+              - спецификации проектирования;
+                  design specifications;
+              - диаграммы моделирования - modelling diagrams;
+              - спецификации интерфейсов - nterface specifications.
+
+        1.3 Реализация самого компонента или системы:
+            The implementation of the component or system itself:
+              - код - code;
+              - метаданные - metadata; 
+              - запросы базы данных - database queries; 
+              - интерфейсы - interfaces;
+
+2. Оценка базиса тестирования для выявления дефектов, таких как:
+       Evaluating the test basis to identify defects, such as:
+             
+              - Неоднозначность - Ambiguities;
+              - Пропуски - Omissions;
+              - Несоответствие - Inconsistencies;
+              - Неточность - Inaccuracies;
+              - Противоречивость - Contradictions;
+              - Избыточные утверждения - Superfluous statements;
+
+3. Определение свойств и совокупность свойств для тестирования;
+   Identifying features and sets of features to be tested;
+
+4. Установление и приоритизация тестовых условий;
+   Defining and prioritizing test conditions;
+
+5. Обеспечение двунаправленной трассируемости между каждым элементом 
+   базиса тестирования и соответствующими тестовыми условиями.
+   Capturing bi-directional traceability between each element of 
+   the test basis and the associated test conditions.

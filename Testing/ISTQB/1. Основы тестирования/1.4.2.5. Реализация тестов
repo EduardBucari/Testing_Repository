@@ -1,0 +1,58 @@
+5. Реализация тестов - Test implementation.
+
+Во время реализации тестов создается и/или подготавливается необходимое 
+тестовое обеспечение для выполнения тестов, включая упорядочивание 
+тестовых сценариев в процедурах тестирования.
+During test implementation, the testware necessary for test execution 
+is created and/or completed, including sequencing the test cases into 
+test procedures.
+
+Aнализ тестирования отвечает на вопрос «что тестировать?»,
+Проектирование тестов отвечает на вопрос «как тестировать?», 
+в то время как реализация тестов отвечает на вопрос: 
+«у нас теперь есть все для запуска тестов?». 
+
+Test analysis determines “what to test ?”,
+test design answers the question “how to test?”, 
+while test implementation answers the question 
+“do we now have everything in place to run the tests?” 
+
+Реализация тестов – это активность, во время которой процедуры или 
+сценарии тестирования выстраиваются в определенном порядке, чтобы 
+облегчить выполнение тестов.
+Test implementation - is the activity during which test procedures or 
+test scripts are arranged in a certain order to make it easier to run tests.
+
+Реализация тестов состоит из:
+Test implementation includes:
+
+1. Разработка и расстановка приоритетов процедур тестирования и, возможно, 
+создание автоматизированных сценариев тестирования.
+   Developing and prioritizing test procedures, and, potentially, 
+creating automated test scripts.
+
+2. Создание наборов тестов из процедур тестирования и (при наличии) 
+автоматизированных сценариев тестирования.
+   Creating test suites from the test procedures and (if any) 
+automated test scripts.
+
+3. Организация наборов тестов с расписанием выполнения тестов таким образом,
+чтобы тесты выполнялись эффективно.
+   Arranging the test suites within a test execution schedule in a way 
+that results in efficient test execution.
+
+4. Построение тестового окружения и проверка правильности настройки 
+всего необходимого.
+   Building the test environment and verifying that everything needed 
+has been set up correctly.
+
+5. Подготовка тестовых данных и правильная загрузка их в 
+тестовое окружение.
+   Preparing test data and ensuring it is properly loaded in 
+the test environment.
+
+6. Проверка и обновление двунаправленной трассируемости между базисом 
+тестирования, тестовыми условиями, тестовыми сценариями, процедурами 
+тестирования и наборами тестов.
+   Verifying and updating bi-directional traceability between the test 
+basis, test conditions, test cases, test procedures, and test suites.
