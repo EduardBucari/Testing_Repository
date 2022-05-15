@@ -1,0 +1,40 @@
+7. Завершение тестирования - Test completion.
+
+Завершение тестирования состоит из:
+Test completion includes:
+
+1. Проверка закрытия всех отчетов о дефектах, входящих запросов 
+на изменение или набора задач продукта для любых дефектов, 
+которые остаются не реализованными в конце выполнения тестирования.
+   Checking whether all defect reports are closed, entering change 
+requests or product backlog items for any defects 
+that remain unresolved at the end of test execution.
+
+2. Создание сводного отчета по тестированию для передачи 
+заинтересованным лицам.
+   Creating a test summary report to be communicated to stakeholders.
+
+3. Завершение и архивирование тестового окружения, тестовых данных, 
+инфраструктуры тестирования и другого тестового обеспечения для 
+последующего использования.
+   Finalizing and archiving the test environment, the test data, 
+the test infrastructure, and other testware for later reuse.
+
+4. Передача тестового обеспечения команде сопровождения, другим 
+проектным командам, и/или другим заинтересованным лицам, которые 
+могут извлечь выгоду из его использования.
+   Handing over the testware to the maintenance teams, other 
+project teams, and/or other stakeholders who 
+could benefit from its use.
+
+5. Анализ полученных уроков для определения изменений, необходимых 
+для будущих итераций, релизов и проектов.
+   Analyzing lessons learned from the completed test activities to 
+determine changes needed for future iterations, releases, and projects.
+
+6. Использование собранной информации для повышения зрелости процесса 
+тестирования.
+   Using the information gathered to improve test process maturity.
+
+
+

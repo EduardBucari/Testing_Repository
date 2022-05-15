@@ -17,5 +17,33 @@ test tool, and testware.
    Executing tests either manually or by using test execution tools.
 
 3. Сравнение фактических и ожидаемых результатов.
+   Comparing actual results with expected results.
 
+4. Анализ отклонений для установления их вероятных причин 
+(например, отказы могут произойти из-за дефектов в коде, но также 
+могут возникнуть ложные срабатывания).
+   Analyzing anomalies to establish their likely causes 
+(e.g., failures may occur due to defects in the code, but false 
+positives also may occur).
 
+5. Составление отчетов о дефектах на основе наблюдаемых отказов.
+   Reporting defects based on the failures observed.
+
+6. Протоколирование результатов выполнения тестов (например, пройден, 
+не пройден, блокирован).
+   Logging the outcome of test execution (e.g., pass, fail, blocked).
+
+7. Повторение тестовых действий, результаты которых привели к каждому 
+из отклонений, либо в рамках запланированного тестирования 
+(например, выполнение исправленного теста, подтверждающее тестирование 
+и/или регрессионное тестирование).
+   Repeating test activities either as a result of action taken for 
+an anomaly, or as part of the planned testing 
+(e.g., execution of a corrected test, confirmation testing, 
+and/or regression testing).
+
+8. Проверка и обновление двунаправленной трассируемости между базисом 
+тестирования, тестовыми условиями, тестовыми сценариями, процедурами 
+тестирования и результатами тестирования.
+   Verifying and updating bi-directional traceability between the test 
+basis, test conditions, test cases, test procedures, and test results.
