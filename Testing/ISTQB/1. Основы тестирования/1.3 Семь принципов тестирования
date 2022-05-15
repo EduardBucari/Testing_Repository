@@ -4,3 +4,92 @@
 для тестирования в целом.
 Seven Testing Principles offer general guidelines 
 common for all testing. 
+
+1. Тестирование демонстрирует наличие дефектов, а не их отсутствие.
+1. Testing shows the presence of defects, not their absence.
+
+Тестирование может показать, что дефекты присутствуют, 
+но не может доказать, что их нет. 
+Testing can show that defects are present, 
+but cannot prove that there are no defects.
+
+Тестирование снижает вероятность наличия дефектов.
+Testing reduces the probability of undiscovered defects. 
+
+Если дефекты не были обнаружены, тестирование не доказывает корректности ПО.
+Even if no defects are found, testing is not a proof of SW correctness. 
+------------------
+
+2. Исчерпывающее тестирование недостижимо.
+2. Exhaustive testing is impossible.
+
+Вместо попытки исчерпывающего тестирования должны использоваться анализ 
+рисков, методы тестирования и расстановка приоритетов, чтобы сосредоточить 
+усилия по тестированию.
+Rather than attempting to test exhaustively, risk analysis, 
+test techniques, and priorities should be used to 
+focus test efforts.
+-------------------
+
+3. Раннее тестирование сохраняет время и деньги.
+3. Early testing saves time and money.
+
+Для нахождения дефектов на ранних стадиях, как статические, так и 
+динамические активности по тестированию должны быть начаты как можно раньше 
+в жизненном цикле разработки программного обеспечения.
+To find defects early, both static and dynamic test activities should be 
+started as early as possible in the software development lifecycle.
+
+Раннее тестирование иногда называют «сдвигом влево».
+Early testing is sometimes referred to as "shift left".
+-------------------
+
+4. Кластеризация дефектов.
+4. Defects cluster together.
+
+Обычно небольшое количество модулей содержит большинство дефектов , 
+обнаруженных во время тестирования перед выпуском.
+A small number of modules usually contains most of the defects 
+discovered during pre-release testing.
+-------------------
+
+5. Парадокс пестицида.
+5. Beware of the pesticide paradox.
+
+Тесты больше не эффективны при обнаружении дефектов, так же как пестициды через 
+некоторое время больше не эффективны при борьбе с вредителями.
+Tests are no longer effective at finding defects, just as pesticides 
+are no longer effective at killing insects after a while.
+
+
+Если одни и те же тесты будут выполняться снова и снова, в конечном счете 
+эти тесты больше не будут находить новых дефектов.
+If the same tests are repeated over and over again, eventually 
+these tests no longer find any new defects.
+
+Для обнаружения новых дефектов может потребоваться изменение существующих 
+тестов и тестовых данных, а также написание новых тестов.
+To detect new defects, existing tests and test data may need changing, 
+and new tests may need to be written.
+--------------------
+
+6. Тестирование зависит от контекста.
+6. Testing is context dependent.
+
+Программное обеспечение управления производством, в котором критически 
+важна безопасность, тестируется иначе, чем мобильное приложение 
+электронной коммерции.
+Safety-critical industrial control software is tested differently 
+from an e-commerce mobile app. 
+--------------------
+
+7. Заблуждение об отсутствии ошибок.
+7. Absence-of-errors is a fallacy.
+
+Ошибочно ожидать, что простое нахождение и исправление большого 
+числа дефектов обеспечит успех системе.
+It is a fallacy (i.e., a mistaken belief) to expect that just finding 
+and fixing a large number of defects will ensure the success of a system.
+
+
+
