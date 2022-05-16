@@ -1,8 +1,80 @@
 1.4.3 Рабочие продукты тестирования - Test Work Products.
 
-1. Рабочие продукты планирования тестирования
-2. Рабочие продукты мониторинга и контроля тестирования.
-3. Рабочие продукты проектирования тестов.
-4. Рабочие продукты реализации тестов.
-5. Рабочие продукты выполнения тестов.
-6. Рабочие продукты завершения тестирования.
+Создание рабочих продуктов тестирования — это часть процесса тестирования.
+Test work products are created as part of the test process.
+
+1. Рабочие продукты планирования тестирования - Test planning work products.
+2. Рабочие продукты мониторинга и контроля тестирования - 
+   Test monitoring and control work products.
+3. Рабочие продукты анализа тестирования - Test analysis work products.
+4. Рабочие продукты проектирования тестов - Test design work products.
+5. Рабочие продукты реализации тестов - Test implementation work products.
+6. Рабочие продукты выполнения тестов - Test execution work products.
+7. Рабочие продукты завершения тестирования - Test completion work products.
+------------------
+1. Рабочие продукты планирования тестирования - Test planning work products.
+
+Рабочие продукты планирования тестирования – это один или 
+несколько планов тестирования.
+Test planning work products typically include one or more test plans. 
+------------------
+2. Рабочие продукты мониторинга и контроля тестирования - 
+   Test monitoring and control work products.
+
+  Рабочие продукты мониторинга и контроля тестирования – это обычно различные 
+типы отчетов о тестировании, включая отчеты о ходе тестирования и сводные 
+отчеты о тестировании.
+  Test monitoring and control work products typically include various 
+types of test reports, including test progress reports and test summary 
+reports.
+------------------
+3. Рабочие продукты анализа тестирования - Test analysis work products.
+
+  Рабочие продукты анализа тестирования состоят из определенных и 
+приоритизированных тестовых условий, каждое из которых в идеале 
+двунаправленно прослеживается до конкретного элемента базиса 
+тестирования, который они покрывают.
+  Test analysis work products include defined and prioritized test 
+conditions, each of which is ideally bi-directionally traceable 
+to the specific element of the test basis it covers. 
+-------------------
+4. Рабочие продукты проектирования тестов - Test design work products.
+
+  Результатом проектирования тестов являются тестовые сценарии и наборы 
+тестовых сценариев для выполнения тестовых условий, определенных в 
+анализе тестирования.
+  Test design results in test cases and sets of test cases to exercise 
+the test conditions defined in test analysis.
+--------------------
+5. Рабочие продукты реализации тестов: - Test implementation work products:
+
+- Процедуры тестирования и последовательности этих процедур тестирования.
+  Test procedures and the sequencing of those test procedures.
+- Наборы тестов - Test suites 
+- Расписания выполнения тестов - A test execution schedule.
+--------------------
+6. Рабочие продукты выполнения тестов: - Test execution work products:
+
+- Документация о состоянии отдельных тестовых сценариев или процедур 
+тестирования (например, готов к запуску, пройден, не пройден, блокирован, 
+осознанный пропуск и т.д.).
+  Documentation of the status of individual test cases or test procedures 
+(e.g., ready to run, pass, fail, blocked, deliberately skipped, etc.).
+
+- Отчеты о дефектах - Defect reports.
+
+- Документацию о том, какие элементы теста, объекты тестирования, 
+инструменты тестирования, и тестовое обеспечение были задействованы 
+в тестировании.
+  Documentation about which test item(s), test object(s), test tools, 
+  and testware were involved in the testing.  
+--------------------
+7. Рабочие продукты завершения тестирования - Test completion work products.
+
+  Рабочие продукты завершения тестирования состоят из сводных отчетов 
+тестирования, мероприятий по улучшению последующих проектов или 
+итераций, запросов на изменение или набора задач продукта, и окончательного 
+тестового обеспечения.
+  Test completion work products include test summary reports, 
+action items for improvement of subsequent projects or iterations, 
+change requests or product backlog items, and finalized testware.

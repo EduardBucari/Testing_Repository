@@ -1,0 +1,17 @@
+1.4.4 Трассируемость между базисом тестирования и 
+рабочими продуктами тестирования.
+Traceability between the Test Basis and Test Work Products.
+
+   Для осуществления эффективного мониторинга и контроля тестирования 
+важно установить и поддерживать трассируемость на протяжении всего 
+процесса тестирования между каждым элементом базиса тестирования и 
+различными рабочими продуктами тестирования, связанных с этим элементом.
+   In order to implement effective test monitoring and control, it 
+is important to establish and maintain traceability throughout the test 
+process between each element of the test basis and the various test 
+work products associated with that element, as described above.
+
+Для оценки покрытия тестирования, хорошая трассируемость поддерживает:
+For the evaluation of test coverage, good traceability supports:
+
+- 
