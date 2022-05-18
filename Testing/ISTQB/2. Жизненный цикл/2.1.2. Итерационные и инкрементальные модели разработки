@@ -37,6 +37,25 @@ correspondingly large, such as two or three groups of related features.
    Scrum: Each iteration tends to be relatively short 
 (e.g., hours, days, or a few weeks), and the feature increments are 
 correspondingly small, such as a few enhancements and/or two 
-or three new features. 
+or three new features.
 
+3. Kanban: осуществляется с использованием или без использования итераций 
+фиксированной продолжительности, по завершению которых выпускается либо 
+единственная доработка или функциональность, либо группа функциональностей, 
+объединенных вместе.
+   Kanban: Implemented with or without fixed-length iterations, which can 
+deliver either a single enhancement or feature upon completion, or can group 
+features together to release at once.
 
+4. Спиральная модель разработки (прототипирование): подразумевает создание 
+экспериментальных приращений, некоторые из которых могут быть значительно 
+переработаны или даже отвергнуты в последующей работе по разработке.
+   Spiral (or prototyping): Involves creating experimental increments, 
+some of which may be heavily re-worked or even abandoned in subsequent 
+development work.
+
+Компоненты или системы, разрабатываемые с использованием этих моделей, 
+часто подразумевают пересечение и повторение уровней тестирования на 
+протяжении процесса разработки.
+Components or systems developed using these methods often involve 
+overlapping and iterating test levels throughout development.
