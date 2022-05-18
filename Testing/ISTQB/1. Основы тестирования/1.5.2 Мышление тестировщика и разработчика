@@ -1,0 +1,58 @@
+1.5.2 Мышление тестировщика и разработчика -
+      Tester’s and Developer’s Mindsets.
+
+Разработчики и тестировщики часто думают по-разному.
+Developers and testers often think differently.
+
+Основной целью разработчика является проектирование и создание продукта.
+The primary objective of development is to design and build a product. 
+
+Как обсуждалось ранее, цели тестирования включают верификацию и 
+валидацию продукта, поиск дефектов до релиза и т. д.
+As discussed earlier, the objectives of testing include verifying and 
+validating the product, finding defects prior to release, and so forth.
+
+Это разные наборы целей, которые требуют разного образа мышления.
+These are different sets of objectives which require different mindsets.
+
+Объединение этих образов мышления вместе помогает достичь более 
+высокого уровня качества продукции.
+Bringing these mindsets together helps to achieve 
+a higher level of product quality.
+
+Образ мышления отражает предположения человека и предпочтительные методы 
+как для принятия решений, так и для решения проблем.
+A mindset reflects an individual’s assumptions and preferred methods 
+for decision making and problem-solving.
+
+Образ мышления тестировщика должен включать любопытство, 
+профессиональный пессимизм, критический взгляд, внимание к деталям и 
+мотивацию хороших и позитивных коммуникаций и отношений.
+A tester’s mindset should include curiosity, 
+professional pessimism, a critical eye, attention to detail, and a 
+motivation for good and positive communications and relationships.
+
+Образ мышления разработчика может включать в себя некоторые элементы 
+образа мышления тестировщика, но успешные разработчики чаще 
+заинтересованы в разработке и создании решений, чем в рассмотрении того, 
+что может быть неправильно в этих решениях.
+A developer’s mindset may include some of the elements of a tester’s 
+mindset, but successful developers are often more interested 
+in designing and building solutions than in contemplating what might 
+be wrong with those solutions.
+
+Кроме того, подтверждение предвзятости затрудняет поиск ошибок 
+в собственной работе.
+In addition, confirmation bias makes it difficult to find mistakes 
+in their own work.
+
+При правильном образе мышления разработчики могут протестировать свой 
+собственный код.
+With the right mindset, developers are able to test their own code. 
+
+Выполнение некоторых действий независимыми тестировщиками повышает 
+эффективность обнаружения дефектов, что особенно важно для больших, 
+сложных или критически важных для безопасности систем.
+Having some of the test activities done by independent testers increases 
+defect detection effectiveness, which is particularly important for large, 
+complex, or safety-critical systems.

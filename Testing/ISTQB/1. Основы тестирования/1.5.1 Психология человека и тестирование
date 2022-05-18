@@ -1,0 +1,71 @@
+1.5.1 Психология человека и тестирование - Human Psychology and Testing
+
+Выявление дефектов во время статического тестирования, такого как 
+рецензирование требований или сессий уточнения пользовательских историй, 
+или выявление отказов во время выполнения динамического теста может быть 
+воспринято как критика продукта и его автора.
+Identifying defects during a static test such as a requirements 
+review or user story refinement session, or identifying failures during 
+dynamic test execution, may be perceived as criticism of the product 
+and of its author. 
+
+Элемент человеческой психологии, называемый предвзятостью подтверждения, 
+может затруднить принятие информации, которая не совпадает с текущими 
+убеждениями.
+An element of human psychology called confirmation bias can make it 
+difficult to accept information that disagrees with currently 
+held beliefs.
+
+Например, поскольку разработчики ожидают, что их код будет правильным, 
+у них есть предвзятость подтверждения, которое затрудняет принятие того, 
+что код неправильный.
+For example, since developers expect their code to be correct, 
+they have a confirmation bias that makes it difficult to accept that 
+the code is incorrect. 
+
+Другие стереотипы людей могут затруднить понимание или 
+принятие информации, полученной в результате тестирования.
+Оther cognitive biases may make it difficult for people to understand or 
+accept information produced by testing.
+
+В результате этих психологических факторов некоторые люди могут воспринимать 
+тестирование как разрушительную деятельность, даже если она в значительной 
+степени способствует развитию проекта и качеству продукта.
+As a result of these psychological factors, some people may perceive 
+testing as a destructive activity, even though it contributes greatly 
+to project progress and product quality.
+
+Информацию о дефектах и отказах следует сообщать конструктивным образом.
+Information about defects and failures should be communicated in a 
+constructive way. 
+
+Таким образом, напряженность между тестировщиками и аналитиками, 
+владельцами продуктов, дизайнерами и разработчиками можно уменьшить.
+This way, tensions between the testers and the analysts, 
+product owners, designers, and developers can be reduced.
+
+Способы общения - Ways to communicate:
+
+1. Начните с сотрудничества, а не сражения. Напомните каждому об общей 
+цели улучшения качества системы.
+   Start with collaboration rather than battles. Remind everyone of 
+the common goal of better quality systems. 
+
+2. Подчеркните преимущества тестирования. Например, информация о дефектах 
+может помочь авторам улучшить свои рабочие продукты и навыки.
+   Emphasize the benefits of testing. For example, for the authors, defect 
+information can help them improve their work products and their skills.
+
+3. Сообщайте результаты тестирования и другие выводы нейтральным, 
+сфокусированном на фактах, способом, без критики автора.
+   Communicate test results and other findings in a neutral, fact-focused 
+way without criticizing the person who created the defective item.
+
+4. Попытайтесь понять, что другие люди чувствуют, и причины их 
+негативной реакции на информацию.
+   Try to understand how the other person feels and the reasons they 
+may react negatively to the information.
+
+5. Убедитесь, что другой человек понял, что вы сказали, и наоборот.
+   Confirm that the other person has understood what has been said 
+and vice versa.
