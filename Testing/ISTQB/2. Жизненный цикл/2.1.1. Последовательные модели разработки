@@ -1,0 +1,35 @@
+2.1.1. Последовательные модели разработки.
+       Sequential development models.
+
+Последовательная модель разработки описывает процесс разработки 
+программного обеспечения в качестве линейного, последовательного 
+потока активностей.
+   A sequential development model describes the software development 
+process as a linear, sequential flow of activities.
+
+Это означает, что любую фазу процесса разработки следует начинать 
+после того, как предыдущая фаза завершена.
+This means that any phase in the development process should begin 
+when the previous phase is complete.
+
+1.1. Модель «Водопад» - действия разработки (например, анализ требований, 
+дизайн, написание кода, тестирование) выполняются каждая по окончании 
+предыдущей. 
+     In the Waterfall model, the development activities 
+(e.g., requirements analysis, design, coding, testing) are completed 
+one after another.
+
+В данной модели тестирование осуществляются только после того, 
+как все действия разработки выполнены.
+In this model, test activities only occur after all other development 
+activities have been completed.
+
+1.2. V-модель интегрирует тестовый процесс на протяжении 
+процесса разработки, реализуя принцип раннего тестирования.
+     V-model integrates the test process throughout the development 
+process, implementing the principle of early testing.
+
+В этой модели выполнение тестов, связанных с каждым уровнем тестирования, 
+продолжается последовательно, но в некоторых случаях происходят пересечения.
+In this model, the execution of tests associated with each test level 
+proceeds sequentially, but in some cases overlapping occurs.

@@ -1,0 +1,42 @@
+2.1.2. Итерационные и инкрементальные модели разработки.
+       Iterative and incremental development models.
+       (incrementally - постепенно).
+
+Инкрементальная разработка подразумевает определение требований, дизайн, 
+сборку и тестирование системы по частям, это приводит к тому, 
+что функциональность ПО растет постепенно. 
+Incremental development involves establishing requirements, designing, 
+building, and testing a system in pieces, which means that the 
+software’s features grow incrementally.
+
+Итеративная разработка используется в случае, когда разрабатываемый 
+функционал должен быть определен, спроектирован, построен и протестирован 
+в течение нескольких этапов, зачастую с фиксированной продолжительностью 
+каждого из них.
+Iterative development occurs when groups of features are specified, 
+designed, built, and tested together in a series of cycles, 
+often of a fixed duration. 
+
+Итерационные и инкрементальные модели разработки:
+Iterative and incremental development models:
+
+1. RUP (Rational Unified Process) методология - каждая итерация может быть 
+относительно долгой (например, от двух до трех месяцев), а приращения 
+функциональности соответственно большими, к примеру, две или три группы 
+связанных функциональностей.
+   Rational Unified Process: Each iteration tends to be relatively 
+long (e.g., two to three months), and the feature increments are 
+correspondingly large, such as two or three groups of related features.
+(e.g. - exampleli gratia - «например»)
+(i.e. -  обозначает латинскую фразу id est - «то есть» или «другими словами»).
+
+2. Scrum: каждая итерация может быть относительно короткой 
+(например, часы, дни или несколько недель), а приращения функциональности 
+соответственно небольшими, как, например, несколько улучшений и/или две 
+или три новые функции.
+   Scrum: Each iteration tends to be relatively short 
+(e.g., hours, days, or a few weeks), and the feature increments are 
+correspondingly small, such as a few enhancements and/or two 
+or three new features. 
+
+

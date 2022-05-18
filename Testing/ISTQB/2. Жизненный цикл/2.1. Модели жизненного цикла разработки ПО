@@ -1,1 +1,31 @@
-2.1. Модели жизненного цикла разработки ПО
+2.1. Модели жизненного цикла разработки ПО.
+     Software Development Lifecycle Models.
+
+Модель жизненного цикла разработки программного обеспечения описывает 
+виды активностей, выполняемых на каждом этапе процесса разработки 
+программного обеспечения.
+A software development lifecycle model describes the types of activity 
+performed at each stage in a software development project.
+
+Независимо от того, какая модель жизненного цикла разработки выбрана, 
+активности тестирования следует начинать на ранних стадиях жизненного 
+цикла, придерживаясь принципа раннего тестирования.
+No matter which software development lifecycle model is chosen, 
+test activities should start in the early stages of the lifecycle, 
+adhering to the testing principle of early testing.
+
+Модели жизненного цикла классифицируются:
+Lifecycle Models categorizes:
+
+1. Последовательные модели разработки.
+   Sequential development models.
+
+2. Итерационные и инкрементальные модели разработки.
+   Iterative and incremental development models.
+   (incrementally - постепенно)
+-------------------------------
+
+1. 
+----------------------
+
+2. 
