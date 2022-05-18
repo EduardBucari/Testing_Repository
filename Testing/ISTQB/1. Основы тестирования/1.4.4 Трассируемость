@@ -14,4 +14,33 @@ work products associated with that element, as described above.
 Для оценки покрытия тестирования, хорошая трассируемость поддерживает:
 For the evaluation of test coverage, good traceability supports:
 
-- 
+1. Анализ влияния изменений - Analyzing the impact of changes.
+
+2. Проведение тестирования, поддающееся аудиту - Making testing auditable.
+
+3. Достижение критериев управления IТ - Meeting IT governance criteria.
+
+4. Улучшение понятности отчетов о ходе тестирования и сводных отчетов, 
+включая статус элементов базиса тестирования 
+(например, требования, для которых прошли тесты, требования, 
+для которых тесты провалились, и требования, ожидающие тестирования) -
+   Improving the understandability of test progress reports and 
+test summary reports to include the status of elements of the test basis 
+(e.g., requirements that passed their tests, requirements that 
+failed their tests, and requirements that have pending tests).
+
+5. Согласование технических аспектов тестирования с заинтересованными 
+лицами в терминах, которые они могут понять - 
+   Relating the technical aspects of testing to stakeholders 
+in terms that they can understand.
+
+6. Предоставление информации для оценки качества продукции, потенциала 
+процессов и развития проекта в соответствии с бизнес-целями - 
+   Providing information to assess product quality, process capability, 
+and project progress against business goals.
+
+Некоторые организации создают собственные системы управления для 
+организации рабочих продуктов и обеспечения требуемой трассируемости 
+информации.
+Some organizations build their own management systems to organize 
+the work products and provide the information traceability they require. 
