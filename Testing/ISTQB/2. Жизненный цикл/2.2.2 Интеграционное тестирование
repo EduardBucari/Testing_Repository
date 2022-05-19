@@ -1,0 +1,150 @@
+2.2.2 Интеграционное тестирование - Integration Testing
+
+Интеграционное тестирование фокусируется на взаимодействии между 
+компонентами или системами.
+Integration testing focuses on interactions between 
+components or systems.
+
+Цели интеграционного тестирования:
+Objectives of integration testing:
+
+1. Снижение риска - Reducing risk.
+
+2. Проверка, соответствует ли функциональное и нефункциональное 
+поведение интерфейсов установленным проектным требованиям.
+   Verifying whether the functional and non-functional 
+behaviors of the interfaces are as designed and specified.
+
+3. Повышение уверенности в качестве интерфейсов.
+   Building confidence in the quality of the interfaces.
+
+4. Обнаружение дефектов (которые могут быть в самих интерфейсах 
+или внутри компонентов или систем)
+   Finding defects (which may be in the interfaces themselves 
+or within the components or systems).
+
+5. Предотвращение пропуска дефектов на более высокие уровни тестирования.
+   Preventing defects from escaping to higher test levels.
+--------------------------
+
+Два разных уровня интеграционного тестирования:
+Two different levels of integration testing:
+
+1. Компонентное интеграционное тестирование фокусируется на взаимодействиях 
+и интерфейсах между интегрированными компонентами.
+  Component integration testing focuses on the interactions 
+and interfaces between integrated components.
+
+Оно выполняется после компонентного и, как правило, автоматизируется.
+Component integration testing is performed after component testing, 
+and is generally automated. 
+
+2. Системное интеграционное тестирование фокусируется на взаимодействиях и 
+интерфейсах между системами, пакетами и микросервисами.
+   System integration testing focuses on the interactions and 
+interfaces between systems, packages, and microservices.
+
+Системное интеграционное тестирование может быть выполнено после 
+системного тестирования или параллельно с выполняемыми активностями 
+по системному тестированию (как в последовательной разработке, так и в 
+итеративной и инкрементальной разработке).
+System integration testing may be done after 
+system testing or in parallel with ongoing 
+system test activities (in both sequential development and 
+iterative and incremental development). 
+-------------------------
+
+Базис тестирования - Test basis.
+Рабочие продукты, которые могут использоваться в качестве базиса 
+тестирования для интеграционного тестирования:
+Work products that can be used as a test basis for integration testing:
+
+● Дизайн продукта и системы - Software and system design.
+● Диаграммы последовательности - Sequence diagrams.
+● Спецификации интерфейса и протокола связи - 
+  Interface and communication protocol specifications.
+● Сценарии использования системы - Use cases.
+● Архитектура на уровне компонентов или системы - 
+  Architecture at component or system level.
+● Рабочие процессы - Workflows.
+● Спецификации, описывающие внешние интерфейсы - 
+  External interface definitions.
+-----------------------------
+
+Объекты тестирования - Test objects
+
+● Подсистемы - Subsystems
+● Базы данных - Databases
+● Инфраструктура - Infrastructure
+● Интерфейсы - Interfaces
+● Программные интерфейсы приложения (API) - APIs
+● Микросервисы - Microservices
+------------------------------
+
+Типичные дефекты и отказы при КОМПОНЕНТНОМ интеграционном тестировании:
+Typical defects and failures for component integration testing:
+
+● Некорректные данные, отсутствующие данные или неправильная 
+кодировка данных.
+  Incorrect data, missing data, or incorrect data encoding.
+
+● Неверная последовательность или временные характеристики 
+обращения к интерфейсам.
+  Incorrect sequencing or timing of interface calls.
+
+● Несовместимость интерфейсов - Interface mismatch.
+
+● Сбои связи между компонентами - 
+  Failures in communication between components.
+
+● Необработанные или неправильно обработанные сбои связи 
+между компонентами.
+  Unhandled or improperly handled communication failures 
+between components.
+
+● Неправильные предположения о назначении, единицах или 
+границах данных, передаваемых между компонентами.
+  Incorrect assumptions about the meaning, units, or 
+boundaries of the data being passed between components.
+-----------------------------
+
+Типичные дефекты и отказы для СИСТЕМНОГО интеграционного тестирования:
+Typical defects and failures for system integration testing:
+
+● Несогласованные структуры сообщений между системами - 
+  Inconsistent message structures between systems.
+
+● Некорректные данные, отсутствующие данные, или неправильная 
+кодировка данных.
+  Incorrect data, missing data, or incorrect data encoding.
+
+● Несовместимость интерфейсов - Interface mismatch.
+
+● Сбои связи между системами - Failures in communication between systems.
+
+● Необработанные или неправильно обработанные сбои связи между системами - 
+  Unhandled or improperly handled communication failures between systems.
+
+● Неправильные предположения о значении, единицах или границах данных, 
+передаваемых между системами - 
+  Incorrect assumptions about the meaning, units, or boundaries 
+of the data being passed between systems.
+
+● Несоблюдение обязательных правил безопасности - 
+  Failure to comply with mandatory security regulations.
+---------------------------------
+
+Компонентное интеграционное тестирование часто является обязанностью 
+разработчиков.
+Component integration testing is often the responsibility of developers.
+
+А системное интеграционного тестирование, как правило, обязанность 
+тестировщиков.
+System integration testing is generally the responsibility of testers. 
+  
+Чем больше объем интеграции, тем труднее становится выявлять дефекты 
+конкретного компонента или системы, что может привести к увеличению риска 
+и увеличению времени поиска неисправностей.
+The greater the scope of integration, the more difficult it becomes to 
+isolate defects to a specific component or system, which may lead to 
+increased risk and additional time for troubleshooting.
