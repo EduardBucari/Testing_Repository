@@ -1,1 +1,61 @@
-2.2. Уровни тестирования
+2.2. Уровни тестирования - Test Levels.
+
+Уровни тестирования – это группы активностей тестирования, которые 
+организуются и управляются как единое целое.
+Test levels are groups of test activities that are 
+organized and managed together.
+
+Каждый уровень тестирования — это реализация процесса тестирования, 
+состоящего из мероприятий, (описанных в разделе 1.4),
+начиная с отдельных модулей или компонентов и заканчивая целыми системами 
+или группами систем.
+Each test level is an instance of the test process, 
+consisting of the activities (described in section 1.4),
+from individual units or components to complete systems 
+or systems of systems. 
+
+(Процесс тестирования состоит из: - A test process consists of:
+1. Планирование тестирования - Test planning.
+2. Мониторинг и контроль тестирования - Test monitoring and control.
+3. Анализ тестирования - Test analysis.
+4. Проектирование тестов - Test design.
+5. Реализация тестов - Test implementation.
+6. Выполнение тестов - Test execution.
+7. Завершение тестирования - Test completion.)
+
+-----------------------------------------------------------
+Уровни тестирования - Test Levels:
+1. Компонентное тестирование - Component testing
+2. Интеграционное тестирование - Integration testing
+3. Системное тестирование - System testing 
+4. Приемочное тестирование - Acceptance testing
+------------------------------------------------------------
+
+Уровни тестирования характеризуются следующими признаками:
+Test levels are characterized by the following attributes: 
+
+● Конкретные цели - Specific objectives.
+
+● Базис тестирования, на который ссылаются для получения тестовых сценариев
+  Test basis, referenced to derive test cases.
+
+● Объект тестирования (то есть то, что будет протестировано)
+  Test object (i.e., what is being tested)
+
+● Типичные дефекты и отказы - Typical defects and failures
+
+● Специфические подходы и зоны ответственности
+  Specific approaches and responsibilities
+
+Для каждого уровня тестирования требуется подходящая среда тестирования. 
+For every test level, a suitable test environment is required.
+
+Например, при приемочном тестировании идеально использовать окружение, 
+максимально приближенное к реальному.
+In acceptance testing, for example, a production-like test environment 
+is ideal.
+
+В тоже время при компонентном тестировании разработчики обычно используют 
+собственную среду разработки.
+While in component testing the developers typically use their 
+own development environment.

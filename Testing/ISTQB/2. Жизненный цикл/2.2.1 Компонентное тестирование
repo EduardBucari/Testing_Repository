@@ -1,0 +1,64 @@
+2.2.1 Компонентное тестирование - Component Testing
+
+Цели компонентного тестирования:
+Objectives of component testing:
+
+1. Снижение риска - Reducing risk.
+
+2. Проверку, соответствует ли функциональное и нефункциональное 
+поведение компонентов установленным проектным требованиям.
+   Verifying whether the functional and non-functional 
+behaviors of the component are as designed and specified.
+
+3. Укрепление уверенности в качестве компонента.
+  Building confidence in the component’s quality.
+
+4. Обнаружение дефектов в компоненте - Finding defects in the component.
+
+5. Предотвращение пропуска дефектов на более высокие уровни тестирования.
+   Preventing defects from escaping to higher test levels.
+
+Компонентное тестирование часто выполняется изолированно от 
+остальной системы.
+Component testing is often done in isolation from the rest of the system.
+
+Базис тестирования - Test basis
+Рабочие продукты компонентного тестирования:
+Work products for component testing:
+● Детальный дизайн - Detailed design
+● Код - Code
+● Модель данных - Data model
+● Спецификации компонента - Component specifications
+
+Объекты тестирования - Test objects
+Типичными объектами для компонентного тестирования являются:
+Typical test objects for component testing include:
+● Компоненты, модули - Components, units or modules
+● Код и структуры данных - Code and data structures
+● Классы - Classes
+● Модули БД - Database modules
+
+Типичные дефекты и отказы - Typical defects and failures
+● Неправильная работа функциональности 
+(например, не так, как описано в спецификации)
+  Incorrect functionality 
+(e.g., not as described in design specifications) 
+● Проблемы с потоками данных - Data flow problems
+● Неправильные код и логика - Incorrect code and logic
+
+Компонентное тестирование обычно выполняется разработчиком, 
+который написал код, но это как минимум требует доступа 
+к тестируемому коду.
+Component testing is usually performed by the developer 
+who wrote the code, but it at least requires access 
+to the code being tested.
+
+Разработчики могут чередовать разработку компонентов с обнаружением 
+и устранением дефектов. 
+Developers may alternate component development with finding 
+and fixing defects.
+
+Разработчики часто пишут и выполняют тесты после написания 
+кода для компонента. 
+Developers will often write and execute tests after having written 
+the code for a component.
