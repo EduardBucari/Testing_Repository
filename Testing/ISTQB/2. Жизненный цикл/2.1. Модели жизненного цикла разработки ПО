@@ -23,4 +23,16 @@ Lifecycle Models categorizes:
 2. Итерационные и инкрементальные модели разработки.
    Iterative and incremental development models.
    (incrementally - постепенно)
+-----------------------
 
+Выбор модели жизненного цикла разработки в зависимости от ситуации.
+Software Development Lifecycle Models in Context.
+
+Соответствующая модель жизненного цикла разработки должна быть выбрана 
+и адаптирована на основе цели проекта, типа разрабатываемого продукта, 
+бизнес-приоритетов (например, срок вывода продукта на рынок), 
+и выявленных рисков продукта и проекта. 
+An appropriate software development lifecycle model should be selected 
+and adapted based on the project goal, the type of product being developed, 
+business priorities (e.g., time-to-market), and identified product 
+and project risks.

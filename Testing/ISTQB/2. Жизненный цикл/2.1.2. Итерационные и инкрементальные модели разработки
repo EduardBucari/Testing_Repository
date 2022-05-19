@@ -59,16 +59,3 @@ development work.
 протяжении процесса разработки.
 Components or systems developed using these methods often involve 
 overlapping and iterating test levels throughout development.
------------------------
-
-Выбор модели жизненного цикла разработки в зависимости от ситуации.
-Software Development Lifecycle Models in Context.
-
-Соответствующая модель жизненного цикла разработки должна быть выбрана 
-и адаптирована на основе цели проекта, типа разрабатываемого продукта, 
-бизнес-приоритетов (например, срок вывода продукта на рынок), 
-и выявленных рисков продукта и проекта. 
-An appropriate software development lifecycle model should be selected 
-and adapted based on the project goal, the type of product being developed, 
-business priorities (e.g., time-to-market), and identified product 
-and project risks.
