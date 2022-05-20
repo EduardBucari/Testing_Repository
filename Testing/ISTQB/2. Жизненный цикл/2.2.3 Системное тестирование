@@ -1,1 +1,91 @@
-2.2.3 Системное тестирование
+2.2.3 Системное тестирование - System Testing.
+
+Системное тестирование фокусируется на поведении и возможностях целой 
+системы или продукта, часто учитывая сквозные задачи, которые может 
+выполнять система, и нефункциональное поведение, которое она 
+демонстрирует при выполнении этих задач.
+System testing focuses on the behavior and capabilities of a whole 
+system or product, often considering the end-to-end tasks the system can 
+perform and the non-functional behaviors it exhibits while performing 
+those tasks.
+
+Цели системного тестирования - Objectives of system testing:
+
+1. Снижение риска - Reducing risk.
+
+2. Проверка, соответствует ли функциональное и нефункциональное поведение 
+системы установленным проектным требованиям, дизайну и спецификациям.
+  Verifying whether the functional and non-functional behaviors of the 
+system are as designed and specified.
+
+3. Проверка, что система реализована полностью и будет работать, 
+как ожидалось.
+   Validating that the system is complete and will work as expected.
+
+4. Повышение уверенности в качестве системы в целом.
+   Building confidence in the quality of the system as a whole. 
+
+5. Обнаружение дефектов - Finding defects.
+
+6. Предотвращение попадания дефектов на более высокие уровни тестирования 
+или в среду эксплуатации.
+   Preventing defects from escaping to higher test levels or production.
+--------------------------
+
+Базис тестирования - Test basis
+Рабочие продукты, которые могут использоваться в качестве базиса 
+тестирования для системного тестирования:
+Work products that can be used as a test basis for system testing:
+
+1. Системные требования и требования к продукту 
+(функциональные и нефункциональные).
+   System and software requirement specifications 
+(functional and non-functional).
+2. Отчеты об анализе рисков - Risk analysis reports.
+3. Сценарии использования - Use cases.
+4. Бизнес-потребности и пользовательские истории - Epics and user stories.
+5. Модели поведения системы - Models of system behavior.
+6. Диаграммы состояний - State diagrams.
+7. Системные и пользовательские руководства - System and user manuals.
+-------------------------------
+
+Объекты тестирования: - Test objects:
+● Приложения - Applications.
+● Аппаратные/программные системы - Hardware/software systems.
+● Тестируемая система - System under test (SUT).
+● Операционные системы - Operating systems.
+● Конфигурация системы и конфигурация данных - 
+  System configuration and configuration data.
+--------------------------------
+
+Типичные дефекты и отказы при системном тестировании:
+Тypical defects and failures for system testing:
+
+● Некорректные вычисления - Incorrect calculations.
+
+● Некорректное или неожиданное функциональное или нефункциональное 
+поведение системы.
+  Incorrect or unexpected system functional or non-functional behavior.
+
+● Некорректное управление и/или передача данных внутри системы - 
+  Incorrect control and/or data flows within the system.
+
+● Невозможность правильно и полностью выполнить функциональные задачи 
+конечными пользователями.
+  Failure to properly and completely carry out end-to-end functional tasks. 
+
+● Неспособность системы работать правильно в среде эксплуатации - 
+  Failure of the system to work properly in the production environment.
+
+● Неспособность системы работать так, как описано в системных и 
+пользовательских руководствах - 
+  Failure of the system to work as described in system and user manuals.
+----------------------
+Системное тестирование должно быть сосредоточено на общем 
+(как функциональном, так и нефункциональном) поведении системы с точки 
+зрения конечных пользователей.
+System testing should focus on the overall, end-to-end behavior of 
+the system as a whole, both functional and non-functional.
+
+Системное тестирование часто проводит независимая группа тестировщиков.
+Independent testers typically carry out system testing.
