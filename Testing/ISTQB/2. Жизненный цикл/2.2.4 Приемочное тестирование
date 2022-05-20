@@ -38,3 +38,92 @@ of the system are as specified.
 4. Альфа-тестирование и бета-тестирование - 
    Alpha and beta testing.
 ----------------------
+
+Базис тестирования - Test basis
+Рабочие продукты для любой формы приемочного тестирования:
+Work products for any form of acceptance testing: 
+
+1. Бизнес-процессы - Business processes.
+2. Пользовательские и бизнес-требования - User or business requirements.
+3. Нормативы, юридические контракты и стандарты - 
+  Regulations, legal contracts and standards.
+4. Сценарии использования системы - Use cases.
+5. Системные требования - System requirements.
+6. Системная или пользовательская документация - System or user documentation.
+7. Процедуры установки программного обеспечения - Installation procedures.
+8. Отчеты анализа риска - Risk analysis reports.
+----------------------
+
+Объекты тестирования: - Test objects:
+
+1. Тестируемая система - System under test.
+
+2. Конфигурация системы и конфигурационные данные - 
+   System configuration and configuration data.
+
+3. Бизнес-процессы для полностью интегрированной системы - 
+   Business processes for a fully integrated system.
+
+4. Восстановление системы и «горячего узла» 
+(для непрерывности бизнес-процессов и аварийного восстановления) - 
+   Recovery systems and hot sites 
+(for business continuity and disaster recovery testing).
+
+5. Операционные и эксплуатационные процессы - 
+   Operational and maintenance processes.
+
+6. Формы - Forms.
+
+7. Отчеты - Reports.
+
+8. Существующие и преобразованные производственные данные - 
+   Existing and converted production data.
+-------------------------
+
+Типичные дефекты для любой формы приемочного тестирования: - 
+Typical defects for any form of acceptance testing:
+
+1. Системные рабочие процессы не отвечают бизнес-требованиям или 
+требованиям пользователей.
+  System workflows do not meet business or user requirements.
+
+2. Бизнес-требования некорректно реализованы.
+  Business rules are not implemented correctly.
+
+3. Система не соответствует контрактным и/или нормативным требованиям.
+  System does not satisfy contractual or regulatory requirements.
+
+4. Нефункциональные сбои, такие как уязвимости в системе безопасности, 
+недостаточная производительность при высоких нагрузках или 
+неправильная работа на поддерживаемой платформе.
+  Non-functional failures such as security vulnerabilities, 
+inadequate performance efficiency under high loads, or 
+improper operation on a supported platform.
+--------------------------
+
+Зона ответственности - Responsibilities:
+
+Приемочное тестирование часто является обязанностью клиентов, 
+бизнес-пользователей, владельцев продуктов или операторов системы.
+Acceptance testing is often the responsibility of the customers, 
+business users, product owners, or operators of a system.
+
+Приемочное тестирование часто считается последним уровнем тестирования, 
+но оно может проводиться и в другое время, например:
+Acceptance testing is often thought of as the last test level 
+but it may also occur at other times, for example: 
+
+1. Приемочное тестирование коммерческого готового программного обеспечения 
+может проводиться, когда ПО установлено или интегрировано.
+   Acceptance testing of a COTS software product 
+may occur when it is installed or integrated.
+
+2. Приемочное тестирование нового функционального улучшения может 
+производиться перед системным тестированием.
+   Acceptance testing of a new functional enhancement may 
+occur before system testing.
+
+Приемочное тестирование может проводиться во время завершения каждой итерации, 
+либо после завершения каждой итерации, либо после серии итераций.
+Аcceptance tests may occur at the close of each iteration, 
+after the completion of each iteration, or after a series of iterations. 
