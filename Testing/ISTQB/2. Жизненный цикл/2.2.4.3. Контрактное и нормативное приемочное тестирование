@@ -1,0 +1,27 @@
+3. Контрактное и нормативное приемочное тестирование - 
+   Contractual and regulatory acceptance testing.
+
+Контрактное приемочное тестирование проводится в соответствии с 
+указанными в контракте критериями приемки специализированного программного 
+обеспечения.
+Contractual acceptance testing is performed against a contract’s 
+acceptance criteria for producing custom-developed software.
+
+Контрактное приемочное тестирование часто выполняется пользователями 
+или независимой группой тестировщиков.
+Contractual acceptance testing is often performed by users or 
+by independent testers.
+
+Нормативное приемочное тестирование проводится в соответствии с любыми 
+нормативами, которые должны соблюдаться, например, в отношении 
+правительственных или юридических норм, а также норм безопасности.
+Regulatory acceptance testing is performed against any 
+regulations that must be adhered to, such as 
+government, legal, or safety regulations.
+
+Основная цель проведения контрактного и нормативного приемочного тестирования 
+заключается в укреплении уверенности в том, что достигнуто соответствие 
+контрактным или нормативным требованиям.
+The main objective of contractual and regulatory acceptance testing 
+is building confidence that contractual or regulatory compliance 
+has been achieved.

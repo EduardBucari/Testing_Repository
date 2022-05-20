@@ -1,0 +1,50 @@
+4. Альфа-тестирование и бета-тестирование - 
+   Alpha and beta testing.
+
+Альфа-тестирование и бета-тестирование обычно используются разработчиками 
+готовых коммерческих решений, которые хотят получить обратную связь от 
+потенциальных или существующих пользователей, клиентов и/или операторов 
+до того, как программный продукт будет выставлен в коммерческую продажу.
+Alpha and beta testing are typically used by developers of commercial 
+off-the-shelf (COTS) software who want to get feedback from 
+potential or existing users, customers, and/or operators 
+before the software product is put on the market.
+
+Альфа-тестирование проводится на мощностях компании разработчика, 
+но не командой самого разработчика, а потенциальными или существующими 
+клиентами и/или операторами или независимой группой тестирования.
+Alpha testing is performed at the developing organization’s site, 
+not by the development team, but by potential or existing 
+customers, and/or operators or an independent test team.
+
+Бета-тестирование проводится потенциальными или существующими клиентами 
+и/или операторами на их собственных мощностях.
+Beta testing is performed by potential or existing customers, 
+and/or operators at their own locations.
+
+Бета-тестирование может проходить после альфа-тестирования или даже 
+без предшествующего альфа-тестирования.
+Beta testing may come after alpha testing, or may occur 
+without any preceding alpha testing having occurred. 
+-------------------------------
+
+Цель альфа- и бета-тестирования:
+Objective of alpha and beta testing:
+
+1. Получение уверенности потенциальных или существующих клиентов 
+и/или операторов в том, что они смогут использовать систему в нормальных, 
+повседневных условиях и в эксплуатационных средах для достижения 
+своих целей с минимальными трудностями, затратами и рисками.
+  Building confidence among potential or existing customers, 
+and/or operators that they can use the system under normal, 
+everyday conditions, and in the operational environment(s) to achieve 
+their objectives with minimum difficulty, cost, and risk.
+
+2. Обнаружение дефектов, связанных с условиями и средой эксплуатации, 
+в которых система будет использоваться, особенно когда команде разработчиков 
+трудно воспроизвести эти условия и среды.
+  Detection of defects related to the conditions and environment(s) 
+in which the system will be used, especially when those conditions and 
+environment(s) are difficult to replicate by the development team. 
+
+

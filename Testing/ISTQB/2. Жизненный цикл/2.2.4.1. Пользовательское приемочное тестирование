@@ -1,0 +1,22 @@
+1. Пользовательское приемочное тестирование - 
+   User acceptance testing.
+
+Приемочное тестирование системы пользователями сосредоточено 
+на проверке пригодности использования системы предполагаемыми 
+пользователями в реальной или моделируемой рабочей среде.
+The acceptance testing of the system by users is focused on 
+validating the fitness for use of the system by intended 
+users in a real or simulated operational environment.
+
+Основная цель заключается: - The main objective is:
+
+- в получении уверенности в том, что пользователи могут использовать 
+систему для удовлетворения своих потребностей.
+  building onfidence that the users can use 
+the system to meet their needs.
+
+- соответствии системы требованиям - fulfill system requirements 
+
+- способности выполнять поставленные бизнесом задачи с минимальными 
+трудностями, затратами и рисками. 
+  perform business processes with minimum difficulty, cost, and risk.
