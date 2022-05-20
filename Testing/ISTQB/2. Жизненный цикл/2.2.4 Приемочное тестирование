@@ -1,0 +1,67 @@
+2.2.4 Приемочное тестирование - Acceptance Testing.
+
+Приемочное тестирование, как и системное тестирование, фокусируется 
+на поведении и возможностях системы или продукта в целом.
+Acceptance testing, like system testing, focuses on the behavior 
+and capabilities of a whole system or product.
+
+Приемочное тестирование может дать информацию для оценки готовности 
+системы к развертыванию и использованию конечным пользователем.
+Acceptance testing may produce information to assess the system’s 
+readiness for deployment and use by the customer (end-user).
+
+Цели приемочного тестирования - Objectives of acceptance testing:
+
+1. Продемонстрировать уверенность в качестве системы в целом - 
+   Establishing confidence in the quality of the system as a whole.
+
+2. Проверить, что система завершена и будет работать как ожидалось - 
+   Validating that the system is complete and will work as expected.
+
+3. Проверить, соответствует ли функциональное и нефункциональное 
+поведение системы установленным проектным требованиям - 
+   Verifying that functional and non-functional behaviors 
+of the system are as specified.
+-------------------
+
+Формы приемочного тестирования: - Forms of acceptance testing:
+
+1. Пользовательское приемочное тестирование - 
+   User acceptance testing.
+
+2. Эксплуатационное приемочное тестирование - 
+   Operational acceptance testing.
+
+3. Контрактное и нормативное приемочное тестирование - 
+   Contractual and regulatory acceptance testing.
+
+4. Альфа-тестирование и бета-тестирование - 
+   Alpha and beta testing.
+----------------------
+
+1. Пользовательское приемочное тестирование - 
+   User acceptance testing.
+
+Приемочное тестирование системы пользователями сосредоточено 
+на проверке пригодности использования системы предполагаемыми 
+пользователями в реальной или моделируемой рабочей среде.
+The acceptance testing of the system by users is focused on 
+validating the fitness for use of the system by intended 
+users in a real or simulated operational environment.
+
+Основная цель заключается: - The main objective is:
+
+- в получении уверенности в том, что пользователи могут использовать 
+систему для удовлетворения своих потребностей.
+  building onfidence that the users can use 
+the system to meet their needs.
+
+- соответствии системы требованиям - fulfill system requirements 
+
+- способности выполнять поставленные бизнесом задачи с минимальными трудностями,
+затратами и рисками. 
+  perform business processes with minimum difficulty, cost, and risk.
+----------------------
+
+
+ 
