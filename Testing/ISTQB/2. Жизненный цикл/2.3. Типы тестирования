@@ -1,1 +1,42 @@
-2.3. Типы тестирования
+2.3. Типы тестирования - Test Types.
+
+Тип тестирования – это совокупность действий тестирования, 
+направленных на тестирование заданных характеристик системы или 
+ее части, основываясь на конкретных целях.
+A test type is a group of test activities 
+aimed at testing specific characteristics of a software system, or a 
+part of a system, based on specific test objectives.
+
+К таким целям можно отнести следующие:
+Such objectives may include:
+
+1. Оценку функциональных характеристик качества системы, таких как 
+полнота, корректность, целесообразность.
+   Evaluating functional quality characteristics, such as 
+completeness, correctness, and appropriateness.
+
+2. Оценку нефункциональных характеристик качества, таких как надежность, 
+продуктивность работы, безопасность, совместимость и удобство использования.
+   Evaluating non-functional quality characteristics, such as reliability, 
+performance efficiency, security, compatibility, and usability.
+
+3. Оценку правильности, полноты структуры или архитектуры компонента или 
+системы, их соответствие спецификации.
+   Evaluating whether the structure or architecture of the component or 
+system is correct, complete, and as specified.
+
+4. Оценку влияния изменений, например, подтверждение того, что дефекты были 
+исправлены (подтверждающее тестирование) и поиск непреднамеренных изменений 
+в поведении, вызванных изменениями в программном обеспечении или окружении 
+(регрессионное тестирование).
+   Evaluating the effects of changes, such as confirming that defects have been 
+fixed (confirmation testing) and looking for unintended changes 
+in behavior resulting from software or environment changes 
+(regression testing).
+--------------------------------
+
+Типы тестирования - Test Types:
+1. Функциональное тестирование.
+2. Нефункциональное тестирование.
+3. Тестирование методом белого ящика.
+4. Тестирование, связанное с изменениями.
