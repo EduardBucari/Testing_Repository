@@ -1,1 +1,22 @@
 2.3.3 Тестирование методом белого ящика
+      White-box Testing.
+
+Тестирование методом белого ящика основывается на внутренней 
+структуре системы или ее реализации.
+White-box testing derives tests based on the system’s internal 
+structure or implementation.
+
+Под внутренней структурой подразумевается программный код, архитектура, 
+принципы работы и/или потоки данных внутри системы.
+Internal structure may include code, architecture, 
+work flows, and/or data flows within the system.
+
+Полноту тестирования методом белого ящика оценивают с помощью 
+структурного покрытия.
+The thoroughness of white-box testing can be measured through 
+structural coverage.
+
+Структурное покрытие измеряется в процентах от общего количества 
+элементов, охваченного тестами.
+Structural coverage is expressed as a percentage of the type of 
+element being covered.
