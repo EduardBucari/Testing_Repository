@@ -1,1 +1,39 @@
 2.3.1 Функциональное тестирование
+      Functional Testing.
+
+Функциональное тестирование системы включает тесты по оценке функций, 
+которые должна выполнять система.
+Functional testing of a system involves tests that evaluate functions 
+that the system should perform.
+
+Функции системы дают ответ на вопрос «что делает система».
+The functions are “what” the system should do.
+
+Функциональные тесты должны выполняться на всех уровнях тестирования.
+Functional tests should be performed at all test levels.
+
+Функциональное тестирование рассматривает поведение системы, 
+поэтому для получения тестовых условий и тестовых сценариев могут быть 
+использованы техники тестирования методом черного ящика.
+Functional testing considers the behavior of the software, so black-box 
+techniques may be used to derive test conditions and test cases for 
+the functionality of the component or system.
+
+Оценить полноту функционального тестирования можно с использованием 
+покрытия функциональности тестами.
+The thoroughness of functional testing can be measured through 
+functional coverage.
+
+Покрытие функциональности – это мера, с которой конкретный тип 
+элемента функциональности был охвачен тестами.
+Functional coverage is the extent to which some type of functional 
+element has been exercised by tests.
+
+Уровень покрытия вычисляется в процентах от общего количества элементов.
+Еxpressed as a percentage of the type(s) of element being covered.
+
+Например, используя трассируемость можно вычислить процент требований, 
+которые покрыты тестами, и выявить пробелы в покрытии.
+For example, using traceability the percentage of these requirements 
+which are addressed by testing can be calculated, potentially 
+identifying coverage gaps.
