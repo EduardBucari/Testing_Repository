@@ -1,1 +1,34 @@
-2.3.2 Нефункциональное тестирование
+2.3.2 Нефункциональное тестирование.
+      Non-functional Testing.
+
+Нефункциональное тестирование системы выполняется для оценки таких 
+характеристик системы и программного обеспечения, как 
+удобство использования, производительность или безопасность.
+Non-functional testing of a system evaluates 
+characteristics of systems and software such as 
+usability, performance efficiency or security.
+
+Нефункциональное тестирование – это проверка того, 
+«насколько хорошо работает система».
+Non-functional testing is the testing of “how well” the system behaves.
+
+Нефункциональное тестирование может и, чаще всего, должно 
+выполняться на всех уровнях тестирования, и как можно раньше.
+Non-functional testing can and often should be performed at all test 
+levels, and done as early as possible.
+
+Несвоевременное обнаружение нефункциональных дефектов может быть 
+угрозой успеха всего проекта.
+The late discovery of non-functional defects can be extremely 
+dangerous to the success of a project.
+
+Для получения тестовых условий и тестовых сценариев в нефункциональном 
+тестировании могут использоваться техники тестирования методом 
+черного ящика.
+Black-box techniques may be used to derive test conditions and 
+test cases for non-functional testing.
+
+Aнализ граничных значений может использоваться для определения пиковых 
+нагрузок при тестировании производительности.
+Boundary value analysis can be used to define the stress conditions for 
+performance tests.
