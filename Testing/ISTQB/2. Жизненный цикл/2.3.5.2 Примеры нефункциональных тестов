@@ -1,0 +1,43 @@
+Примеры нефункциональных тестов для всех уровней тестирования:
+The examples of non-functional tests across all test levels:
+
+1 Уровень. Компонентное тестирование:
+разрабатываются тесты производительности, предназначенные для оценки 
+количества циклов ЦП, необходимых для выполнения расчета сложных 
+процентов.
+   For component testing, 
+performance tests are designed to evaluate the number of CPU cycles 
+required to perform a complex total interest calculation.
+
+2 Уровень. Тестирование интеграции компонентов:
+разрабатываются тесты на защищенность от уязвимостей при переполнении 
+буфера данными, переданными из пользовательского интерфейса в 
+модуль бизнес-логики.
+   For component integration testing, 
+security tests are designed for buffer overflow vulnerabilities 
+due to data passed from the user interface to the business logic.
+
+3 Уровень. Системное тестирование: 
+разрабатываются тесты на переносимость, предназначенные для проверки 
+того, работает ли слой представления во всех поддерживаемых 
+браузерах и мобильных устройствах.
+   For system testing, 
+portability tests are designed to check whether the presentation 
+layer works on all supported browsers and mobile devices.
+
+4. Уровень. Системное интеграционное тестирование: 
+разрабатываются тесты надежности, предназначенные для оценки 
+работоспособности системы, если микросервис кредитной 
+оценки не отвечает.
+   For system integration testing, 
+reliability tests are designed to evaluate system robustness if 
+the credit score microservice fails to respond.
+
+5. Уровень. Приемочное тестирование: 
+разрабатываются тесты практичности, предназначенные для оценки 
+доступности интерфейса обработки банковских процессов для людей с 
+ограниченными возможностями.
+   For acceptance testing, 
+usability tests are designed to evaluate the accessibility 
+of the banker’s credit processing interface for people 
+with disabilities.

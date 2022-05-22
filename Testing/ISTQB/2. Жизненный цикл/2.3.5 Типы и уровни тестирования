@@ -1,1 +1,18 @@
-2.3.5 Типы и уровни тестирования
+2.3.5 Типы и уровни тестирования.
+      Test Types and Test Levels.
+
+Любой из типов тестирования можно выполнять на любом уровне тестирования.
+It is possible to perform any of the test types mentioned above 
+at any test level. 
+
+Для иллюстрации ниже будут даны примеры функциональных, нефункциональных, 
+структурных тестов (методом белого ящика) и тестов, связанных с изменениями 
+для всех уровней тестирования банковского приложения.
+To illustrate, examples of functional, non-functional, white-box, 
+and change-related tests will be given across all test levels, for a 
+banking application
+
+Важно выполнять соответствующие типы тестов на каждом уровне, 
+особенно на самом раннем этапе.
+It is important to run applicable test types at each level, 
+especially the earliest level where the test type occurs.

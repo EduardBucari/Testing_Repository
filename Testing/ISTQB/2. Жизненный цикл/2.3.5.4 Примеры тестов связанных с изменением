@@ -1,0 +1,41 @@
+Примеры тестов связанных с изменением для всех 
+уровней тестирования:
+The examples for change-related tests across all test levels:
+
+1. Уровень. Компонентное тестирование: 
+для каждого компонента разрабатываются автоматические 
+регрессионные тесты и включаются в среду непрерывной интеграции.
+   For component testing, 
+automated regression tests are built for each component and 
+included within the continuous integration framework. 
+
+2. Уровень. Тестирование интеграции компонентов: 
+разрабатываются тесты, для подтверждения исправлений дефектов, 
+связанных со связями, по мере того как исправления проверяются 
+в репозитории кода.
+   For component integration testing, 
+tests are designed to confirm fixes to interface-related defects 
+as the fixes are checked into the code repository.
+
+3. Уровень. Системное тестирование: 
+повторно выполняются все тесты для конкретного рабочего процесса, 
+если любой из аспектов этого процесса меняется.
+   For system testing, 
+all tests for a given workflow are re-executed if any screen on 
+that workflow changes.
+
+4. Уровень. Системное интеграционное тестирование: 
+ежедневно повторяются тесты для приложения, взаимодействующего 
+с микросервисом кредитной оценки, в рамках непрерывного 
+развертывания этого микросервиса.
+   For system integration testing, 
+tests of the application interacting with the credit scoring 
+microservice are re-executed daily as part of continuous 
+deployment of that microservice.
+
+5. Уровень. Приемочное тестирование: 
+все ранее неудавшиеся тесты повторно выполняются после устранения 
+дефекта, обнаруженного при приемочных испытаниях.
+   For acceptance testing, 
+all previously-failed tests are re-executed after a defect 
+found in acceptance testing is fixed.

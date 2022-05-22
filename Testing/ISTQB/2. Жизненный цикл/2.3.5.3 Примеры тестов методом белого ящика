@@ -1,0 +1,41 @@
+Примеры тестов методом белого ящика (структурных тестов) 
+для всех уровней тестирования:
+The examples of white-box tests across all test levels:
+
+1. Уровень. Компонентное тестирование: 
+разрабатываются тесты, предназначенные для обеспечения полного 
+покрытия операторов и альтернатив для всех компонентов, которые 
+выполняют финансовые расчеты.
+   For component testing, 
+tests are designed to achieve complete statement and decision coverage 
+for all components that perform financial calculations.
+
+2. Уровень. Тестирование интеграции компонентов: 
+разрабатываются тесты, предназначенные для того, чтобы проверить, 
+как каждый экран в интерфейсе браузера передает данные на следующий 
+экран и в модуль бизнес-логики.
+   For component integration testing, 
+tests are designed to exercise how each screen in the browser 
+interface passes data to the next screen and to the business logic.
+
+3. Уровень. Системное тестирование: 
+разрабатываются тесты, предназначенные для покрытия последовательности 
+веб-страниц, которые могут возникать при работе с кредитной линией.
+   For system testing, 
+tests are designed to cover sequences of web pages that can occur 
+during a credit line application. 
+
+4. Уровень. Системное интеграционное тестирование: 
+разрабатываются тесты, предназначенные для исполнения всех возможных 
+типов запросов, отправляемых на микросервис кредитной оценки.
+   For system integration testing, 
+tests are designed to exercise all possible inquiry types sent to 
+the credit score microservice.
+
+5. Уровень. Приемочное тестирование: 
+разрабатываются тесты, предназначенные для охвата всех 
+поддерживаемых файловых структур финансовых данных и диапазонов 
+значений для банковских переводов.
+   For acceptance testing, 
+tests are designed to cover all supported financial data file 
+structures and value ranges for bank-to-bank transfers.
