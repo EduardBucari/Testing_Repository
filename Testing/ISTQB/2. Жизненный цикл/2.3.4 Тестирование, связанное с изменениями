@@ -1,1 +1,61 @@
-2.3.4 Тестирование, связанное с изменениями
+2.3.4 Тестирование, связанное с изменениями.
+      Change-related Testing.
+
+Когда в систему вносятся изменения, выполненные для исправления дефекта, 
+либо из-за новой или изменяющейся функциональности, необходимо провести 
+тестирование, чтобы подтвердить, что изменения исправили дефект или 
+что функциональность правильно реализована и изменения не вызвали 
+каких-либо непредвиденных неблагоприятных последствий.
+When changes are made to a system, either to correct a defect or because 
+of new or changing functionality, testing should be done to confirm that 
+the changes have corrected the defect or implemented the functionality 
+correctly, and have not caused any unforeseen adverse consequences.
+
+Тестирование, связанное с изменениями: - Change-related Testing:
+1. Подтверждающее тестирование - Confirmation testing.
+2. Регрессионное тестирование - Regression testing.
+------------------------------
+
+1. Подтверждающее тестирование: после того как дефект исправлен, 
+программное обеспечение может быть протестировано с использованием 
+всех тех же тестовых сценариев, которые завершились с ошибкой из-за 
+найденного дефекта.
+   Confirmation testing: After a defect is fixed, the software may be 
+tested with all test cases that failed due to the defect, which should 
+be re-executed on the new software version.
+
+Целью подтверждающего тестирования является удостоверение в том, 
+что найденный дефект был исправлен.
+The purpose of a confirmation test is to confirm whether the original 
+defect has been successfully fixed.
+
+2. Регрессионное тестирование: может случиться так, что изменение, 
+внесенное в одну часть кода, будь то исправление или что-либо другое, 
+может случайно повлиять на поведение других частей кода, 
+будь то внутри одного и того же компонента, в других компонентах 
+одной и той же системы или даже в других системах.
+   Regression testing: It is possible that a change made in one part 
+of the code, whether a fix or another type of change, may accidentally 
+affect the behavior of other parts of the code, whether within 
+the same component, in other components of the same system, 
+or even in other systems.
+
+Такие непреднамеренные побочные эффекты называются регрессиями.
+Such unintended side-effects are called regressions. 
+
+Регрессионное тестирование включает выполнение тестов для обнаружения 
+таких непреднамеренных побочных эффектов.
+Regression testing involves running tests to detect 
+such unintended side-effects.
+
+Регрессионные тесты выполняются много раз и обычно проходят медленно, 
+поэтому регрессионное тестирование - это серьезный кандидат 
+на автоматизацию.
+Regression test suites are run many times and generally evolve slowly, 
+so regression testing is a strong candidate for automation.
+Automation of these tests should start early in the project.
+
+Подтверждающее тестирование и регрессионное тестирование проводятся 
+на всех уровнях тестирования.
+Confirmation testing and regression testing are performed 
+at all test levels.
