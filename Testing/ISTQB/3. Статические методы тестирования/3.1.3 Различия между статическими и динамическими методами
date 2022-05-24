@@ -1,0 +1,85 @@
+3.1.3 Различия между статическими и динамическими методами.
+      Differences between Static and Dynamic Testing.
+
+Статическое и динамическое тестирование могут иметь одни и те же цели 
+(см. раздел 1.1.1), например, предоставление оценки качества продукта 
+и выявление дефектов как можно раньше.
+Static testing and dynamic testing can have the same objectives 
+(see section 1.1.1), such as providing an assessment of the quality 
+of the work products and identifying defects as early as possible.
+
+Статическое и динамическое тестирование дополняют друг друга, 
+обнаруживая различные типы дефектов. 
+Static and dynamic testing complement each other by 
+finding different types of defects.
+
+1. Первое основное отличие заключается в том, что статическое тестирование 
+обнаруживает дефекты в рабочих продуктах напрямую, а не идентифицирует сбои, 
+вызванные дефектами при запуске программного обеспечения.
+   First main distinction is that static testing 
+finds defects in work products directly rather than identifying failures 
+caused by defects when the software is run.
+
+Дефект может находиться в рабочем продукте очень долгое время, 
+не вызывая сбоя.
+A defect can reside in a work product for a very long time 
+without causing a failure. 
+
+Статическое тестирование может найти этот дефект гораздо 
+меньшими усилиями.
+Static testing may be able to find this defect 
+with much less effort.
+
+2. Второе отличие состоит в том, что статическое тестирование может быть 
+использовано для улучшения согласованности и внутреннего качества, 
+а динамическое тестирование обычно фокусируется на видимом поведении 
+программного обеспечения.
+   Second distinction is that static testing can be 
+used to improve the consistency and internal quality of 
+work products, while dynamic testing typically focuses on externally 
+visible behaviors. 
+-------------------------
+
+Типичные дефекты, которые легче и дешевле найти и исправить с помощью 
+статического тестирования:
+Typical defects that are easier and cheaper to find and fix through 
+static testing include: 
+
+1. Дефекты требований (например, несоответствия, неоднозначности, 
+противоречия, упущения, неточности и избыточность).
+   Requirement defects (e.g., inconsistencies, ambiguities, 
+contradictions, omissions, inaccuracies, and redundancies).
+
+2. Конструктивные дефекты (например, неэффективные алгоритмы или 
+структуры базы данных, сильные связи, низкая связность).
+   Design defects (e.g., inefficient algorithms or 
+database structures, high coupling, low cohesion).
+
+3. Дефекты кода.
+   Coding defects (e.g., variables with undefined values, variables 
+that are declared but never used, unreachable code, duplicate code).
+
+4. Отклонения от стандартов (например, несоблюдение стандартов кодирования).
+   Deviations from standards (e.g., lack of adherence to coding standards).
+
+5. Неправильные спецификации интерфейса (напр, различные единицы измерения).
+   Incorrect interface specifications (e.g., different units of measurement).
+
+6 Уязвимость системы (например, уязвимость переполнения буфера).
+  Security vulnerabilities (e.g., susceptibility to buffer overflows).
+
+7. Пробелы или неточности в отслеживаемости и охвате тестовой базы 
+(например, отсутствие тестов для критериев приемки).
+   Gaps or inaccuracies in test basis traceability or coverage 
+   (e.g., missing tests for an acceptance criterion).
+
+Более того, большинство типов дефектов ремонтопригодности можно найти только 
+при статическом тестировании 
+(например, неправильная модуляризация, плохое повторное использование 
+компонентов, код, который трудно анализировать и модифицировать, не получая 
+новые дефекты).
+Moreover, most types of maintainability defects can only be found 
+by static testing 
+(e.g., improper modularization, poor reusability of components, 
+code that is difficult to analyze and modify without introducing 
+new defects).
