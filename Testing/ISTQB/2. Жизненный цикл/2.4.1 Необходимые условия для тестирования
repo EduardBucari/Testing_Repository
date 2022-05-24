@@ -1,0 +1,52 @@
+2.4.1 Необходимые условия для тестирования 
+      в период сопровождения.
+      Triggers for Maintenance.
+
+Существует несколько причин, почему требуется сопровождение 
+программного обеспечения и, соответственно, тестирование в период 
+сопровождения как для запланированных, так и для незапланированных 
+изменений.
+There are several reasons why software maintenance, and thus 
+maintenance testing, takes place, both for planned and unplanned 
+changes. 
+
+1. Модификации, 
+- такие как запланированные улучшения (например, базирующиеся на 
+графике выпуска обновлений), 
+- корректирующие и аварийные изменения, 
+- изменения среды эксплуатации 
+(например, запланированные обновления операционной системы 
+или базы данных), 
+- обновления коммерческого готового программного обеспечения
+- исправления дефектов и уязвимостей.
+   Modification, 
+- such as planned enhancements 
+(e.g., release-based), 
+- corrective and emergency changes, 
+- changes of the operational environment 
+(such as planned operating system or database upgrades), 
+- upgrades of COTS software, 
+- patches for defects and vulnerabilities.
+
+2. Миграция, например, с одной платформы на другую, которая может 
+потребовать проведения эксплуатационных тестов новой среды, а также 
+измененного программного обеспечения или тестов преобразования данных, 
+когда данные будут перенесены в поддерживаемую систему из 
+другого приложения.
+   Migration, such as from one platform to another, which can 
+require operational tests of the new environment as well as of the 
+changed software, or tests of data conversion 
+when data from another application will be migrated into 
+the system being maintained.
+
+3. Снятие с эксплуатации, например, когда заканчивается жизненный цикл 
+приложения, если требуются длительные периоды хранения данных. 
+   Retirement, such as when an application reaches the end of its life,
+if long data-retention periods are required.
+
+Кроме того, может потребоваться регрессионное тестирование, чтобы 
+гарантировать, что все функциональные возможности, которые остаются 
+в эксплуатации, все еще работают.
+In addition regression testing may be needed to ensure that any 
+functionality that remains in service still works.
+

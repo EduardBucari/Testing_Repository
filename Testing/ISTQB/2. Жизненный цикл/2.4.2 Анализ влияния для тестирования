@@ -1,0 +1,58 @@
+2.4.2 Анализ влияния для тестирования в период сопровождения.
+      Impact Analysis for Maintenance.
+
+Анализ влияния оценивает изменения, которые были сделаны 
+- для обновленной эксплуатируемой версии 
+- для определения предполагаемых последствий, 
+- ожидаемых и возможных побочных эффектов изменения, 
+- определяет области в системе, на которые может повлиять изменение.
+Impact analysis evaluates the changes that were made for 
+- a maintenance release 
+- to identify the intended consequences 
+- expected and possible side effects of a change, 
+- to identify the areas in the system that will be affected by the change.
+
+Анализ влияния также может помочь определить воздействие изменения 
+на существующие тесты.
+Impact analysis can also help to identify the impact of a change 
+on existing tests.
+
+Побочные эффекты и затронутые области в системе необходимо проверить 
+на регрессии.
+The side effects and affected areas in the system need to be tested 
+for regressions.
+
+Анализ влияния может быть выполнен до внесения изменений, чтобы решить, 
+следует ли вносить изменения, исходя из возможных последствий в других 
+областях системы.
+Impact analysis may be done before a change is made, to help decide 
+if the change should be made, based on the potential consequences in other 
+areas of the system.
+--------------------
+
+Анализ влияния может быть затруднен если:
+Impact analysis can be difficult if:
+
+1. Спецификации (например, бизнес-требования, истории пользователей, 
+архитектура) устарели или отсутствуют.
+   Specifications (e.g., business requirements, user stories, 
+architecture) are out of date or missing.
+
+2. Тестовые сценарии не задокументированы или устарели.
+   Test cases are not documented or are out of date.
+
+3. Двунаправленная прослеживаемость между тестами и базисом тестирования 
+не поддерживалась.
+   Bi-directional traceability between tests and the test basis 
+has not been maintained.
+
+4. Инструментарий поддержки устарел или вовсе отсутствует.
+   Tool support is weak or non-existent.
+
+5. Участники процесса не имеют основополагающих знаний о системе.
+   The people involved do not have domain and system knowledge.
+
+6. Во время разработки уделялось недостаточно внимания сопровождаемости 
+программного обеспечения.
+   Insufficient attention has been paid to the software's maintainability 
+during development.

@@ -1,1 +1,51 @@
 2.4. Тестирование в период сопровождения
+     Maintenance Testing.
+
+После развертывания в эксплуатационных средах программное обеспечение 
+и системы необходимо поддерживать.
+Once deployed to production environments, software and systems need 
+to be maintained. 
+
+Сопровождение также необходимо для сохранения или улучшения 
+нефункциональных характеристик качества компонента или системы 
+в течение всего срока службы, особенно эффективности производительности, 
+совместимости, надежности, безопасности и переносимости. 
+Maintenance is also needed to preserve or improve non-functional 
+quality characteristics of the component or system
+over its lifetime, especially performance efficiency, compatibility, 
+reliability, security, compatibility, and portability.
+
+В процессе сопровождения системы после внесения в нее изменений 
+должно выполняться и тестирование как с целью оценки успеха и для 
+проверки возможных побочных эффектов
+When any changes are made as part of maintenance, maintenance testing 
+should be performed, both to evaluate the success and to 
+check for possible side-effects.
+
+Тестирование в период сопровождения фокусируется на тестировании 
+изменений в системе, а также на тестировании неизмененных частей, 
+на которые могли повлиять изменения.
+Maintenance testing focuses on testing the changes to the system, 
+as well as testing unchanged parts that might have been affected 
+by the changes.
+
+Сопровождение может включать запланированные релизы и 
+незапланированные релизы (срочные исправления).
+Maintenance can involve planned releases and 
+unplanned releases (hot fixes). 
+
+Релиз на этапе сопровождения системы может потребовать проведения 
+тестирования в период сопровождения на нескольких уровнях тестирования.
+A maintenance release may require maintenance testing at multiple test levels.
+
+Объем тестирования в период сопровождения зависит от:
+The scope of maintenance testing depends on:
+
+1. Степени риска изменения, например, степени, в которой измененная область 
+программного обеспечения взаимодействует с другими компонентами или системами.
+   The degree of risk of the change, for example, the degree to which 
+the changed area of software communicates with other components or systems.
+
+2. Размера существующей системы - The size of the existing system.
+
+3. Величины внесенных изменений - The size of the change.
