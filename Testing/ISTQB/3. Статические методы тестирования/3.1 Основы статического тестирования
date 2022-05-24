@@ -3,16 +3,15 @@
 
 В отличие от динамического тестирования, которое требует исполнения кода, 
 статическое тестирование опирается на: 
-1. выполняемую человеком экспертизу рабочих продуктов (например, 
-рецензирование) 
-2. инструментальную оценку кода или других рабочих продуктов 
-   (например, статический анализ).
+1. Рецензирование - выполняемая человеком экспертиза рабочих продуктов. 
+2. Статический анализ - инструментальная оценка кода или других рабочих 
+   продуктов.
 In contrast to dynamic testing, which requires the execution of the 
 software being tested, 
 static testing relies on 
-1. the manual examination of work products (i.e., reviews) 
-2. tool-driven evaluation of the code or other work products 
-   (i.e., static analysis).
+1. Reviews - the manual examination of work products. 
+2. Static analysis - tool-driven evaluation of the code or other work 
+   products.
 
 Оба типа статического тестирования оценивают работу тестируемого 
 продукта без фактического исполнения кода или работы тестируемого продукта.

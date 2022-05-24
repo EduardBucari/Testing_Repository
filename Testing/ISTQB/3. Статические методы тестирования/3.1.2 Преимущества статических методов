@@ -1,0 +1,62 @@
+3.1.2 Преимущества статических методов.
+      Benefits of Static Testing.
+
+При применении на ранней стадии разработки программного обеспечения 
+статическое тестирование позволяет обнаруживать дефекты до проведения 
+динамического тестирования (например, в требованиях или проектных 
+спецификациях, актуализация списка требований к продукту и т.д.).
+When applied early in the software development lifecycle, 
+static testing enables the early detection of defects before 
+dynamic testing is performed (e.g., in requirements or design 
+specifications reviews, product backlog refinement, etc.).
+
+Дефекты, обнаруженные на ранней стадии, гораздо дешевле исправить, 
+чем дефекты, обнаруженные на более поздней стадии жизненного цикла, 
+особенно в сравнении с дефектами, найденными после поставки и активного 
+использования программного обеспечения.
+Defects found early are often much cheaper to remove 
+than defects found later in the lifecycle, 
+especially compared to defects found after the software is deployed and 
+in active use.
+
+Преимущества статического тестирования:
+Benefits of static testing may include:
+
+1. Обнаружение и исправление дефектов более эффективно, до проведения 
+динамического тестирования.
+   Detecting and correcting defects more efficiently, and prior to 
+dynamic test execution.
+
+2. Идентификация дефектов, которые сложно обнаружить при динамическом 
+тестировании.
+   Identifying defects which are not easily found by dynamic testing.
+
+3. Предотвращение дефектов дизайна или кодирования путем выявления 
+несоответствий, неоднозначностей, противоречий, упущений, неточностей 
+и избыточности требований.
+   Preventing defects in design or coding by uncovering 
+inconsistencies, ambiguities, contradictions, omissions, inaccuracies, 
+and redundancies in requirements.
+
+4. Повышение производительности разработки (включая улучшение дизайна и 
+сопровождаемости кода).
+   Increasing development productivity (due to improved design, and 
+more maintainable code).
+
+5. Сокращение затрат и времени на разработку.
+   Reducing development cost and time.
+
+6. Сокращение затрат и времени на тестирование.
+   Reducing testing cost and time.
+
+7. Снижение общей стоимости качества в течение всего срока службы 
+программного обеспечения из-за меньшего количества сбоев в жизненном цикле 
+после поставки в эксплуатацию.
+   Reducing total cost of quality over the software’s lifetime, 
+due to fewer failures later in the lifecycle or 
+after delivery into operation.
+
+8. Улучшение коммуникации между членами команды в процессе 
+участия в рецензировании.
+   Improving communication between team members in the course of 
+participating in reviews.

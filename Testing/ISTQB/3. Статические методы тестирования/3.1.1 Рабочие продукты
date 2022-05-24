@@ -1,0 +1,44 @@
+3.1.1 Рабочие продукты, которые могут быть проверены с помощью 
+      статических методов.
+      Work Products that Can Be Examined by Static Testing.
+
+Практически любой продукт может быть исследован с использованием 
+статического тестирования (рецензирования и статического анализа), 
+например:
+Almost any work product can be examined using static testing 
+(reviews and static analysis), 
+for example: 
+
+1. Спецификации, включая бизнес-требования, функциональные требования 
+и требования безопасности.
+   Specifications, including business requirements, functional requirements, 
+and security requirements.
+
+2. Эпики, пользовательские истории, критерии приемки.
+   Epics, user stories, and acceptance criteria.
+
+3. Архитектура и проектные спецификации.
+   Architecture and design specifications.
+
+4. Код - Code.
+
+5. Тестовая документация, включая тест-планы, тест-кейсы, тестовые процедуры 
+и автоматизированные тестовые сценарии.
+   Testware, including test plans, test cases, test procedures, 
+and automated test scripts.
+
+6. Руководства пользователя - User guides.
+
+7. Веб-страницы - Web pages.
+
+8. Контракты, проектные планы, графики и бюджеты.
+   Contracts, project plans, schedules, and budgets.
+
+9. Модели, такие как диаграммы действий, которые могут использоваться для 
+тестирования на основе моделей.
+   Models, such as activity diagrams, which may be used for 
+Model-Based testing.
+
+Рецензирование и Статический анализ может быть применен к любому 
+рабочему продукту.
+Reviews and Static analysis can be applied to any work product.
