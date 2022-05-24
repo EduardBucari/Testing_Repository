@@ -1,1 +1,30 @@
 3.1 Основы статического тестирования
+    Static Testing Basics.
+
+В отличие от динамического тестирования, которое требует исполнения кода, 
+статическое тестирование опирается на: 
+1. выполняемую человеком экспертизу рабочих продуктов (например, 
+рецензирование) 
+2. инструментальную оценку кода или других рабочих продуктов 
+   (например, статический анализ).
+In contrast to dynamic testing, which requires the execution of the 
+software being tested, 
+static testing relies on 
+1. the manual examination of work products (i.e., reviews) 
+2. tool-driven evaluation of the code or other work products 
+   (i.e., static analysis).
+
+Оба типа статического тестирования оценивают работу тестируемого 
+продукта без фактического исполнения кода или работы тестируемого продукта.
+Both types of static testing assess the code or other work 
+product being tested without actually executing the code or work product 
+being tested.
+
+Статический анализ, безусловно, необходим для критически важных систем 
+(например, для программного обеспечения в авиации, медицине или 
+атомной энергетике).
+Static analysis is important for safety-critical computer systems 
+(e.g., aviation, medical, or nuclear software). 
+
+Статический анализ является важной частью тестирования безопасности.
+Static analysis is an important part of security testing.
