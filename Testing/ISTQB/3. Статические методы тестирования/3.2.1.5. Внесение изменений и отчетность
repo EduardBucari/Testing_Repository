@@ -1,1 +1,37 @@
-5. Внесение изменений и отчетность
+5. Внесение изменений и отчетность.
+   Fixing and reporting.
+
+1. Создание отчетов о дефектах для тех результатов, 
+которые требуют изменений.
+   Creating defect reports for those findings that require changes.
+
+2. Исправления обнаруженных при рецензировании дефектов 
+(как правило, сделанные автором).
+   Fixing defects found (typically done by the author) in the work 
+product reviewed.
+
+3. Обсуждение дефектов с соответствующим лицом или командой 
+(когда найдены в рабочем продукте, обсуждаемом на рецензировании).
+   Communicating defects to the appropriate person or team 
+(when found in a work product related to the work product reviewed).
+
+4. Регистрация обновленного состояния дефектов (в официальном 
+рецензировании), включающих соглашение автора комментария.
+   Recording updated status of defects (in formal reviews), 
+potentially including the agreement of the comment originator.
+
+5. Сбор метрик (для формальных типов рецензирования).
+   Gathering metrics (for more formal review types).
+
+6. Проверка выполнения критериев выхода 
+(для формальных типов рецензирования).
+   Checking that exit criteria are met 
+(for more formal review types).
+
+7. Принятие рабочего продукта при достижении критериев выхода.
+   Accepting the work product when the exit criteria are reached.
+
+Результаты рецензирования рабочего продукта различаются в зависимости 
+от типа и формальности, что описано в разделе 3.2.3.
+The results of a work product review vary, depending on the review type 
+and formality, as described in section 3.2.3.
