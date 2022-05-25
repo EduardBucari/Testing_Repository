@@ -1,0 +1,21 @@
+3.2.3 Типы рецензирования - Review Types.
+
+Основная рецензирования цель – выявление дефектов.
+The main objectives of Revie is to uncover defects.
+
+Четыре наиболее распространенных типа рецензирования:
+The four most common types of reviews:
+
+1. Неформальное рецензирование (например, партнерская проверка, 
+парное рецензирование);
+   Informal review (e.g., buddy check, pairing, pair review).
+
+2. Пошаговый разбор - Walkthrough.
+
+3. Техническое рецензирование - Technical review.
+
+4. Инспекция - Inspection.
+---------------------------
+
+Один рабочий продукт может быть предметом более одного типа рецензирования.
+A single work product may be the subject of more than one type of review.

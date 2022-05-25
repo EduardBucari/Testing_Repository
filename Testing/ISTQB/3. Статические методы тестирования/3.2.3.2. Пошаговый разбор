@@ -1,0 +1,34 @@
+2. Пошаговый разбор - Walkthrough.
+
+1. Основные цели: найти дефекты, улучшить программный продукт, 
+рассмотреть альтернативные варианты реализации, 
+оценить соответствие стандартам и спецификациям.
+   Main purposes: find defects, improve the software product, 
+consider alternative implementations, 
+evaluate conformance to standards and specifications.
+
+2. Возможные дополнительные цели: обмен идеями о техниках и вариантах стиля, 
+обучение участников, достижение консенсуса.
+   Possible additional purposes: exchanging ideas about techniques or style 
+variations, training of participants, achieving consensus.
+
+3. Индивидуальная подготовка перед совещанием по рассмотрению необязательна.
+   Individual preparation before the review meeting is optional.
+
+4. Обзорное собрание обычно проводится автором программного продукта.
+   Review meeting is typically led by the author of the work product.
+
+5. Секретарь обязателен - Scribe is mandatory.
+
+6. Использование чек-листов необязательно.
+   Use of checklists is optional.
+
+7. Может принимать форму сценариев, пробных прогонов или имитаций.
+   May take the form of scenarios, dry runs, or simulations.
+
+8. Могут быть получены записи потенциальных дефектов и отчеты 
+по рецензированию.
+   Potential defect logs and review reports may be produced.
+
+9. На практике варьируется от довольно неформального до очень формального.
+   May vary in practice from quite informal to very formal.
