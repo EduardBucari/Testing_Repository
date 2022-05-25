@@ -1,1 +1,56 @@
-4. Инспекция
+4. Инспекция - Inspection.
+
+1. Основные цели: выявление потенциальных дефектов, оценка качества и 
+укрепление доверия к рабочему продукту, предотвращение аналогичных 
+дефектов в будущем с помощью обучения автора и анализа основных 
+причин появления дефектов.
+   Main purposes: detecting potential defects, evaluating quality and 
+building confidence in the work product, preventing future similar 
+defects through author learning and root cause analysis.
+
+2. Возможные дальнейшие цели: мотивировать авторов, дать авторам 
+возможность улучшить рабочий продукт и процесс разработки в будущем, 
+достижение консенсуса.
+   Possible further purposes: motivating and enabling authors to 
+improve future work products and the software development process, 
+achieving consensus.
+
+3. Выполняется конкретный процесс с формальными документами 
+на основе правил и чек-листов.
+   Follows a defined process with formal documented outputs, 
+based on rules and checklists.
+
+4. Используются четко определенные роли, указанные в разделе 3.2.2. 
+Роли являются обязательными и могут включать специального чтеца 
+(который читает рабочий продукт во время обзорного собрания).
+   Uses clearly defined roles, such as those specified in section 3.2.2 
+which are mandatory, and may include a dedicated reader 
+(who reads the work product aloud during the review meeting).
+
+5. Требуется индивидуальная подготовка перед собранием по обзору.
+   Individual preparation before the review meeting is required.
+
+6. Рецензенты – специалисты той же отрасли, что и автор или эксперты 
+в других дисциплинах, имеющих отношение к рабочему продукту.
+   Reviewers are either peers of the author or experts 
+in other disciplines that are relevant to the work product.
+
+7. Указаны критерии входа и выхода. 
+   Specified entry and exit criteria are used 
+
+8. Секретарь обязателен - Scribe is mandatory.
+
+9. Совещание по рецензированию проводится специальным ведущим (не автором).
+   Review meeting is led by a trained facilitator (not the author).
+
+10. Автор не может выступать в качестве руководителя рецензирования, 
+чтеца или секретаря.
+    Author cannot act as the review leader, reader, or scribe.
+
+11. Создаются записи о дефектах и отчеты о рецензировании.
+    Potential defect logs and review report are produced.
+
+12. Собираются критерии и используются для улучшения всего процесса 
+разработки программного обеспечения, включая процесс проверки.
+    Metrics are collected and used to improve the entire software 
+development process, including the inspection process.
