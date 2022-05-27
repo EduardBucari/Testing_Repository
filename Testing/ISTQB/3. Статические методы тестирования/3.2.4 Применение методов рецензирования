@@ -1,1 +1,96 @@
 3.2.4 Применение методов рецензирования.
+      Applying Review Techniques.
+
+Существует ряд методов рецензирования, которые применяются для 
+индивидуальных проверок для выявления дефектов.
+There are a number of review techniques that can be applied during 
+the individual review activity to uncover defects.
+
+Эти методы могут использоваться во всех описанных типах рецензирования.
+These techniques can be used across the review types described 
+above. 
+
+Примеры различных методов индивидуального рецензирования:
+Examples of different individual review techniques for various review types:
+
+1. Свободное рецензирование                   - Ad hoc.
+2. Рецензирование, основанное на чек-листах   - Checklist-based.
+3. Рецензирование по сценарию и сухие прогоны - Scenarios and dry runs.
+4. Ролевое рецензирование                     - Role-based.
+5. Рецензирование на основе точки зрения      - Perspective-based.  
+------------------------------------------------------------------
+
+1. Свободное рецензирование - Ad hoc.
+При свободном рецензировании предоставляется небольшое или вообще 
+отсутствует руководство по выполнению.
+In an ad hoc review, reviewers are provided with little or no guidance 
+on how this task should be performed.
+-----------
+
+2. Рецензирование, основанное на чек-листах - Checklist-based.
+Рецензирование, основанное на чек-листах, представляет собой систематический 
+метод, при котором рецензенты обнаруживают проблемы, основанные на чек-листах, 
+распространяемых вначале рассмотрения. 
+A checklist-based review is a systematic technique, whereby the reviewers 
+detect issues based on checklists that are distributed at review initiation.
+
+Чек-лист состоит из набора вопросов, основанных на потенциальных дефектах, 
+определенных исходя их опыта.
+A review checklist consists of a set of questions based on potential defects, 
+which may be derived from experience. 
+
+Основным преимуществом методики является систематизированное покрытие 
+характерных типов дефектов.
+The main advantage is a systematic coverage of typical defect types.
+------------
+
+3. Рецензирование по сценарию и сухие прогоны - Scenarios and dry runs.
+В рецензировании по сценариям рецензентам предоставляются структурированные 
+рекомендации о том, как нужно рассматривать рабочий продукт.
+In a scenario-based review, reviewers are provided with structured 
+guidelines on how to read through the work product.
+
+Эти сценарии, в отличие от чек-листов, дают рецензентам более четкое 
+представление о том, как идентифицировать специфические типы дефектов.
+These scenarios provide reviewers with better guidelines on how to 
+identify specific defect types than simple checklist entries.
+-------------
+
+4. Ролевое рецензирование - Role-based.
+Ролевое рецензирование – это метод, в котором рецензенты оценивают 
+рабочий продукт с точки зрения отдельных ролей заинтересованных сторон.
+A role-based review is a technique in which the reviewers evaluate 
+the work product from the perspective of individual stakeholder roles.
+
+Типичные роли – это конкретные типы конечных пользователей 
+(опытные, неопытные, взрослый, ребенок и т.д.), а также конкретные роли 
+в организации (администратор, системный администратор, тестировщик 
+производительности и т.д.).
+Typical roles include specific end user types 
+(experienced, inexperienced, senior, child, etc.), and specific roles 
+in the organization (user administrator, system administrator, 
+performance tester, etc.).
+-------------
+
+5. Рецензирование на основе точки зрения - Perspective-based.
+При анализе на основе точки зрения, аналогичном ролевому анализу, 
+рецензенты берут на себя различные точки зрения заинтересованных сторон 
+при индивидуальном рассмотрении.
+In perspective-based reading, similar to a role-based review, 
+reviewers take on different stakeholder viewpoints 
+in individual reviewing.
+
+Типичные точки зрения заинтересованных сторон включают в себя конечного 
+пользователя, маркетолога, дизайнера, тестировщика или оператора. 
+Typical stakeholder viewpoints include end user, marketing, designer, 
+tester, or operations.
+
+Pецензирование на основе точки зрения является наиболее эффективным 
+общим методом рассмотрения требований к техническим продуктам.
+Perspective-based reading to be the most effective general technique for 
+reviewing requirements and technical work products.
+
+Ключевым фактором успеха является основанное на рисках рассмотрение 
+и взвешивание различных точек зрения заинтересованных сторон.
+A key success factor is including and weighing 
+different stakeholder viewpoints appropriately, based on risks.
