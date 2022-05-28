@@ -1,1 +1,16 @@
-4.1 Категории методов проектирования тестов
+4.1 Категории методов проектирования тестов.
+    Categories of Test Techniques.
+
+Цель метода проектирования тестов заключается в определении 
+тестовых условий, тестовых сценариев и тестовых данных.
+The purpose of a test technique is to help in identifying 
+test conditions, test cases, and test data. 
+
+Категории методов проектирования тестов включают:
+Categories of Test Techniques including:
+
+4.1.1 Выбор метода проектирования тестов.
+      Choosing Test Techniques.
+
+4.1.2 Категории методов проектирования.
+      Categories of Test Techniques. 
