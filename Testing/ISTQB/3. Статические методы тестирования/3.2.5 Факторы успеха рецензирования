@@ -1,1 +1,52 @@
-3.2.5 Факторы успеха рецензирования
+3.2.5 Факторы успеха рецензирования.
+      Success Factors for Reviews.
+
+1. Организационные факторы успеха.
+2. Связанные с людьми факторы успеха.
+------------------
+
+1. Организационные факторы успеха:
+
+● Каждое рецензирование имеет четкие цели, определенные при планировании 
+рецензирования, и используемые как измеримые критерии выхода.
+  Each review has clear objectives, defined during review planning, and 
+used as measurable exit criteria.
+
+● Любые используемые методы рецензирования, такие как анализ на основе 
+чек-листов или на основе ролей, пригодны для эффективной идентификации 
+дефектов в рабочем продукте, подлежащем рецензированию.
+  Any review techniques used, such as checklist-based or role-based 
+reviewing, are suitable for effective defect identification in the 
+work product to be reviewed.
+
+● Любые чек-листы учитывают основные риски и обновляются.
+  Any checklists used address the main risks and are up to date.
+
+● Большие документы пишутся и пересматриваются небольшими частями, 
+поэтому контроль качества осуществляется путем предоставления авторам 
+отзывов о дефектах на более ранней стадии и более часто.
+  Large documents are written and reviewed in small chunks, 
+so that quality control is exercised by providing authors early and 
+frequent feedback on defects.
+  
+● У участников есть достаточно времени для подготовки.
+  Participants have adequate time to prepare.
+-----------------------------
+
+2. Связанные с людьми факторы успеха.
+
+● Тестировщики рассматриваются как ценные рецензенты, вносящие свой 
+вклад в обзор и узнающие о работе продукта, что позволяет составлять 
+более эффективные тесты на более ранних стадиях.
+  Testers are seen as valued reviewers who contribute to the review 
+and learn about the work product, which enables them to prepare more 
+effective tests, and to prepare those tests earlier.
+
+● Участники уделяют достаточно времени и внимания деталям.
+  Participants dedicate adequate time and attention to detail.
+
+● Найденные дефекты признаются, оцениваются и обрабатываются объективно.
+  Defects found are acknowledged, appreciated, and handled objectively.
+
+● Повышается культура обучения и совершенствуются процессы.
+  A culture of learning and process improvement is promoted.
