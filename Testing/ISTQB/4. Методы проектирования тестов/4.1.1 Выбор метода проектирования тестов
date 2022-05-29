@@ -1,1 +1,34 @@
-4.1.1 Выбор метода проектирования тестов
+4.1.1 Выбор метода проектирования тестов.
+      Choosing Test Techniques.
+    
+Выбор конкретного метода проектирования тестов зависит от множества 
+факторов, включая:
+The choice of which test techniques to use depends on a number 
+of factors, including the following: 
+
+● Тип системы или компонента - Type of component or system.
+● Сложность системы или компонента - Component or system complexity.
+● Нормативные документы - Regulatory standards.
+● Требования пользователей или контракта - Customer or contractual requirements.
+● Уровни рисков - Risk levels.
+● Типы рисков - Risk types.
+● Задачи тестирования - Test objectives.
+● Доступную документацию - Available documentation.
+● Знания и опыт тестировщиков - Tester knowledge and skills.
+● Доступные инструменты - Available tools.
+● Ресурсы времени и бюджет - Time and budget.
+● Жизненный цикл разработки - Software development lifecycle model.
+● Ожидаемое использование системы - Expected use of the software
+● Прошлый опыт использования методов проектирования тестов для компонента или 
+системы.
+  Previous experience with using the test techniques on the component or 
+system to be tested.
+● Ожидаемые типы дефектов компонента или системы.
+  The types of defects expected in the component or system.
+
+Применение тех или иных методов на этапе анализа, дизайна и 
+реализации тестов может варьироваться от неформального 
+(минимум либо полное отсутствие документации) до строго формального.
+The use of test techniques in the test analysis, test design, and 
+test implementation activities can range from very informal 
+(little to no documentation) to very formal.
