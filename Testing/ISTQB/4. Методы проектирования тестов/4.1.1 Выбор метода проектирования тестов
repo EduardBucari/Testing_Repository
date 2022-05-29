@@ -26,6 +26,12 @@ system to be tested.
 ● Ожидаемые типы дефектов компонента или системы.
   The types of defects expected in the component or system.
 
+Обычно, тестировщики используют комбинации различных методов в 
+процессе создания тестовых сценариев для достижения наилучших результатов.
+When creating test cases, testers generally use a combination of 
+test techniques to achieve the best results from the test effort. 
+
+
 Применение тех или иных методов на этапе анализа, дизайна и 
 реализации тестов может варьироваться от неформального 
 (минимум либо полное отсутствие документации) до строго формального.
