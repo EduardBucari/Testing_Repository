@@ -1,1 +1,101 @@
 4.1.2 Категории методов проектирования тестов и их характеристики.
+      Categories of Test Techniques and Their Characteristics.
+
+Методы проектирования тестов делятся на: 
+Test techniques are classified as:
+1. Методы черного ящика - black-box,
+2. Методы белого ящика и методы - white-box,
+3. Основанные на опыте - experience-based.
+-----------------------
+
+1. Методы черного ящика (поведенческие, или методы, основанные на поведении) 
+основываются на анализе соответствующего базиса тестирования 
+(формальных требований, спецификаций, сценариев использования, 
+пользовательских историй или бизнес-процессов). 
+   Black-box test techniques (also called behavioral or behavior-based techniques) 
+are based on an analysis of the appropriate test basis 
+(e.g., formal requirements documents, specifications, use cases, 
+user stories, or business processes). 
+
+Эти методы применимы как для функционального, так и для нефункционального 
+тестирования.
+These techniques are applicable to both functional and non-functional testing.
+
+Методы черного ящика сосредотачиваются на связи входных данных и выходных 
+результатов объекта тестирования, а не на его внутренней структуре.
+Black-box test techniques concentrate on the inputs and outputs of the 
+test object without reference to its internal structure.
+
+Общие характеристики методов черного ящика:
+Common characteristics of black-box test techniques include the following:
+
+1.1 Тестовые условия, тестовые сценарии и тестовые данные получаются из базиса 
+тестирования, который может включать в себя требования, спецификации, сценарии 
+использования и пользовательские истории.
+    Test conditions, test cases, and test data are derived from a test basis 
+that may include software requirements, specifications, use cases, 
+and user stories.
+
+1.2 Тестовые сценарии могут использоваться для определения несоответствий 
+и отклонений между требованиями и реализацией.
+    Test cases may be used to detect gaps between the requirements 
+and the implementation of the requirements.
+
+1.3 Измерение покрытия основано на элементах базиса тестирования и методе 
+проектирования, применяемом к базису тестирования.
+    Coverage is measured based on the items tested in the test basis and the 
+technique applied to the test basis.
+-------------------------
+
+2. Методы белого ящика (структурные, или методы, основанные на структуре) 
+основаны на анализе архитектуры, детального проектирования, внутренней 
+структуры или кода компонента либо системы.
+ White-box test techniques (also called structural or structure-based techniques)
+are based on an analysis of the architecture, detailed design, internal 
+structure, or the code of the test object.
+
+В отличие от методов черного ящика, методы белого ящика сосредотачиваются 
+на структуре и обработке внутри объекта тестирования.
+Unlike black-box test techniques, white-box test techniques concentrate 
+on the structure and processing within the test object.
+
+Общие характеристики методов белого ящика:
+Common characteristics of white-box test techniques include the following:
+
+2.1 Тестовые условия, тестовые сценарии и тестовые данные получаются из 
+базиса тестирования, который может включать в себя код, архитектуру, 
+детальную архитектуру или любой другой источник информации о структуре 
+программного обеспечения.
+    Test conditions, test cases, and test data are derived from 
+a test basis that may include code, software architecture, 
+detailed design, or any other source of information regarding the structure 
+of the software.
+
+2.2 Измерение покрытия основано на элементах структуры 
+(коде, интерфейсах и т.д.).
+    Coverage is measured based on the items tested within a selected structure 
+(e.g., the code or interfaces).
+
+2.3 Спецификации используются как источник дополнительной информации 
+для определения ожидаемых результатов тестовых сценариев.
+    Specifications are often used as an additional source of information 
+to determine the expected outcome of test cases.
+-------------------------
+
+3. Методы, основанные на опыте, используют опыт разработчиков, тестировщиков 
+и пользователей для проектирования, реализации и выполнения тестов.
+   Experience-based test techniques leverage the experience of developers, testers 
+and users to design, implement, and execute tests. 
+
+Их часто совмещают с методами черного и белого ящиков.
+These techniques are often combined with black-box and white-box test techniques.
+
+Общие характеристики методов, основанных на опыте:
+Common characteristics of experience-based test techniques include the following: 
+
+3.1 Тестовые условия, тестовые сценарии и тестовые данные получаются из 
+базиса тестирования, который может включать в себя знания и опыт тестировщиков, 
+разработчиков, пользователей и других заинтересованных лиц.
+    Test conditions, test cases, and test data are derived from 
+a test basis that may include knowledge and experience of testers, 
+developers, users and other stakeholders.
