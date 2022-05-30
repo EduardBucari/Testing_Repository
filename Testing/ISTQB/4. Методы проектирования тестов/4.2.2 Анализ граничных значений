@@ -1,1 +1,74 @@
-4.2.2 Анализ граничных значений
+4.2.2 Анализ граничных значений - Boundary Value Analysis.
+
+Метод анализа граничных значений является продолжением метода 
+эквивалентного разбиения, но может быть применим, только если классы 
+состоят из упорядоченных числовых значений. 
+Boundary value analysis (BVA) is an extension of equivalence partitioning, 
+but can only be used when the partition is ordered, 
+consisting of numeric or sequential data.
+
+Максимальное и минимальное значение класса являются его границами.
+The minimum and maximum values (or first and last values) of a partition 
+are its boundary values.
+
+Некорректное поведение более вероятно на границах класса, чем внутри класса.
+Behavior at the boundaries of equivalence partitions is more likely to be 
+incorrect than behavior within the partitions.
+
+Анализ граничных значений может использоваться на любом уровне тестирования.
+Boundary value analysis can be applied at all test levels.
+------------------------
+Для примера, 
+предположим, что некоторое поле ввода принимает положительное 
+целое число от 0 до 9; ввод осуществляется через клавиатуру, поэтому 
+нечисловые входные значения исключены. 
+Допустимы значения от 1 до 5 включительно. 
+Таким образом, можно выделить три области эквивалентности: 
+- негативная (слишком маленькие), 
+- позитивная, 
+- негативная (слишком большие). 
+Для позитивной области эквивалентности значения 1 и 5 будут граничными. 
+Для области с негативными большими значениями границами будут значения 6 и 9. 
+Для области с негативными малыми значениями будет только одна граница – 0, 
+поскольку эта область состоит из одного элемента.
+
+For example, 
+suppose an input field accepts a single integer value as an input, 
+using a keypad to limit inputs so that non-integer inputs are impossible. 
+The valid range is from 1 to 5, inclusive. 
+So, there are three equivalence partitions: 
+- invalid (too low); 
+- valid; 
+- invalid (too high). 
+For the valid equivalence partition, the boundary values are 1 and 5. 
+For the invalid (too high) partition, the boundary values are 6 and 9. 
+For the invalid (too low) partition, there is only one boundary value, 0, 
+because this is a partition with only one member. 
+
+
+В рассмотренном выше примере мы можем определить по два граничных значения 
+на каждую из границ. 
+In the example above, we identify two boundary values per boundary.
+
+Граница между негативными малыми и позитивными значениями дает нам 
+тестовые значения 0 и 1. 
+The boundary between invalid (too low) and valid gives 
+the test values 0 and 1.
+
+Граница между позитивными и негативными большими значениями дает нам 
+тестовые значения 5 и 6. 
+The boundary between valid and invalid (too high) gives the 
+test values 5 and 6.
+
+Вариация данного метода определяет три граничных значения на каждую 
+из границ: значения перед, на и сразу после границы. 
+Some variations of this technique identify three boundary values per 
+boundary: the values before, at, and just over the boundary.
+
+Для рассматриваемого примера применение этого метода 
+даст следующие тестовые значения: 
+- для нижней границы – 0,1,2, 
+- для верхней границы – 4,5,6.
+In the previous example, using three-point boundary values, 
+- the lower boundary test values are 0,1,2, 
+- the upper boundary test values are 4,5,6.
