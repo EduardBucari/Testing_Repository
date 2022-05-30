@@ -1,5 +1,6 @@
 4.2 Методы черного ящика:
     Black-box Test Techniques:
+-------------------------------
 
 4.2.1 Эквивалентное разбиение.
       Equivalence Partitioning.
@@ -14,6 +15,4 @@
       State Transition Testing.
 
 4.2.5 Тестирование с помощью сценариев использования.
-      Use Case Testing
-      
-      
+      Use Case Testing.
