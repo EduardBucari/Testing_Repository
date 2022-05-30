@@ -1,1 +1,19 @@
-4.2 Методы черного ящика
+4.2 Методы черного ящика:
+    Black-box Test Techniques:
+
+4.2.1 Эквивалентное разбиение.
+      Equivalence Partitioning.
+
+4.2.2 Анализ граничных значений.
+      Boundary Value Analysis.
+
+4.2.3 Тестирование с помощью таблицы альтернатив.
+      Decision Table Testing.
+
+4.2.4 Тестирование с помощью таблицы переходов.
+      State Transition Testing.
+
+4.2.5 Тестирование с помощью сценариев использования.
+      Use Case Testing
+      
+      
