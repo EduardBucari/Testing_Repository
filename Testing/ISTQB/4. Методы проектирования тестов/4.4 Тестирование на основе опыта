@@ -1,1 +1,15 @@
-4.4 Тестирование на основе опыта
+4.4 Тестирование на основе опыта.
+    Experience-based Test Techniques.
+
+При использовании методов тестирования, основанных на опыте, 
+тесты создаются на основе умения, интуиции и опыта тестировщика. 
+When applying experience-based test techniques, the test cases are derived 
+from the tester’s skill and intuition, and their experience with similar 
+applications and technologies.
+
+Наиболее популярные методы:
+Commonly used experience-based techniques:
+
+1. Предположение об ошибках - Error Guessing.
+2. Исследовательское тестирование - Exploratory Testing.
+3. Тестирование на основе чек-листов - Checklist-based Testing.

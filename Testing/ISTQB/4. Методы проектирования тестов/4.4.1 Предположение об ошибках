@@ -1,0 +1,22 @@
+1. Предположение об ошибках - Error Guessing.
+
+Предположение об ошибках – это способ предотвращения ошибок, 
+дефектов и отказов, основанный на знаниях тестировщика, включающих:
+Error guessing is a technique used to anticipate the occurrence of mistakes, 
+defects, and failures, based on the tester’s knowledge, including:
+
+● Историю работы приложения в прошлом.
+  How the application has worked in the past.
+
+● Наиболее вероятные типы дефектов, допускаемых при разработке.
+  What types of mistakes the developers tend to make.
+
+● Типы дефектов, которые были обнаружены в схожих приложениях.
+  Failures that have occurred in other applications.
+
+Структурированный подход к предположению об ошибках предполагает создание 
+списка всех возможных ошибок, дефектов и отказов с последующей разработкой 
+тестов, направленных на поиск дефектов из этого списка.
+A methodical approach to the error guessing technique is to create 
+a list of possible mistakes, defects, and failures, and design 
+tests that will expose those failures and the defects that caused them. 

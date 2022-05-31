@@ -1,0 +1,40 @@
+2. Исследовательское тестирование - Exploratory Testing.
+
+- Во время исследовательского тестирования неформальные (т.е. не созданные заранее) 
+тестовые сценарии разрабатываются, выполняются, анализируются и оцениваются 
+динамически во время выполнения тестов.
+  In exploratory testing, informal (not pre-defined) tests are designed, 
+executed, logged, and evaluated dynamically during test execution.
+
+- Результаты тестирования используются для изучения компонента или системы и 
+последующей разработки тестовых сценариев для непокрытых областей.
+  The test results are used to learn more about the component or 
+system, and to create tests for the areas that may need more testing.
+
+- Исследовательское тестирование может проводиться сессиями, что позволяет 
+структурировать активность. 
+При использовании сессионного подхода, исследовательское тестирование 
+выполняется в определенном промежутке времени, при этом тестировщик использует 
+концепцию тестирования, содержащую цели, и отмечает выполненные действия и 
+обнаруженные факты. 
+  Exploratory testing is sometimes conducted using session-based testing to 
+structure the activity. 
+In session-based testing, exploratory testing is conducted within a defined 
+time-box, and the tester uses a test charter containing test objectives 
+to guide the testing. The tester may use test session sheets to document 
+the steps followed and the discoveries made.
+
+- Исследовательское тестирование лучше всего подходит в ситуациях, 
+когда документация недостаточная, либо вовсе отсутствует, в условиях очень 
+сжатых сроков и как дополнение к другим, более формальным, методам тестирования.
+  Exploratory testing is most useful when there are few or inadequate 
+specifications or significant time pressure on testing. 
+Exploratory testing is also useful to complement other more formal testing 
+techniques.
+
+- Исследовательское тестирование относится к реактивным стратегиям тестирования 
+и может включать использование различных методов черного и белого ящиков или 
+методов, основанных на опыте.
+  Exploratory testing is strongly associated with reactive test strategies 
+(see section 5.2.2). Exploratory testing can incorporate the use of other 
+black-box, white-box, and experience-based techniques.

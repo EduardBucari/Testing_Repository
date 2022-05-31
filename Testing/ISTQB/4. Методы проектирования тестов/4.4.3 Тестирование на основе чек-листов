@@ -1,0 +1,35 @@
+3. Тестирование на основе чек-листов - Checklist-based Testing.
+
+- При тестировании по чек-листам тестировщик проектирует, реализует и выполняет 
+тесты, покрывающие тестовые условия, указанные в чек-листе.
+  In checklist-based testing, testers design, implement, and execute tests 
+to cover test conditions found in a checklist.
+
+- В качестве составной части анализа тестировщики могут создавать новые или 
+расширять чек-листы, либо использовать готовые чек-листы, не меняя их.
+  As part of analysis, testers create a new checklist or 
+expand an existing checklist, but testers may also use an existing checklist 
+without modification.
+
+- Такие списки могут быть построены на опыте, на исторических данных 
+об ошибках, на информации о приоритетах для пользователей и понимании, 
+как и почему происходят отказы в программе.
+  Such checklists can be built based on experience, knowledge about what 
+is important for the user, or an understanding of why and how 
+software fails.
+
+- Чек-листы могут создаваться для поддержки разных видов тестирования, 
+включая функциональное и нефункциональное тестирование.
+  Checklists can be created to support various test types, 
+including functional and non-functional testing.
+
+- При отсутствии детальных тестовых сценариев, чек-листы помогают определить 
+направления тестирования и увеличивают согласованность тестирования.
+  In the absence of detailed test cases, checklist-based testing can provide 
+guidelines and a degree of consistency.
+
+- Поскольку чек-листы содержат общее описание, это снижает 
+повторяемость результатов.
+  As these are high-level lists, some variability in the actual testing is 
+likely to occur, resulting in potentially greater coverage but 
+less repeatability.
