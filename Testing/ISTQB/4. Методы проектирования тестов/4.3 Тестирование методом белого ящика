@@ -1,1 +1,62 @@
-4.3 Тестирование методом белого ящика
+4.3 Тестирование методом белого ящика.
+    White-box Test Techniques.
+
+Тестирование белого ящика основывается на внутренней структуре 
+объекта тестирования. 
+White-box testing is based on the internal structure of the test object.
+
+Методы могут применяться на всех этапах, однако, чаще всего 
+используются в модульном тестировании.
+White-box test techniques can be used at all test levels, but most commonly 
+used at the component test level.
+
+Методы белого ящика - White-box Test Techniques:
+1. Тестирование и покрытие операторов  - Statement Testing and Coverage.
+2. Тестирование и покрытие условий     - Decision Testing and Coverage.
+----------------------------------
+
+1. Тестирование и покрытие операторов - Statement Testing and Coverage.
+Тестирование операторов направлено на проверку исполняемых операторов в коде.
+Statement testing exercises the executable statements in the code.
+------------------
+
+2. Тестирование и покрытие условий - Decision Testing and Coverage.
+Тестирование условий направлено на проверку логических условий в коде, 
+а также кода, выполняемого в зависимости от исхода условия.
+Decision testing exercises the decisions in the code and tests the code 
+that is executed based on the decision outcomes.
+------------------
+
+Tесты следуют потокам управления, которые выходят из условия:
+- путь для выхода «истина» и для выхода «ложь»; 
+- для оператора выбора (CASE) тесты потребуются для всех возможных результатов, 
+включая выход по умолчанию.
+The test cases follow the control flows that occur from a decision point: 
+- for an IF statement, one for the true outcome and one for the false outcome; 
+- for a CASE statement, test cases would be required for all the possible outcomes, 
+including the default outcome.
+
+
+Ценность тестирования операторов и условий:
+The Value of Statement and Decision Testing:
+
+ 1. Стопроцентное покрытие операторов означает проверку всех исполняемых 
+инструкций в коде хотя бы один раз, но это не дает уверенности в проверке 
+логики условий.
+    When 100% statement coverage is achieved, it ensures that all executable 
+statements in the code have been tested at least once, but it does not ensure 
+that all decision logic has been tested.
+
+ 2. Tестирование операторов обеспечивает более слабое покрытие, 
+чем тестирование условий.
+    Statement testing may provide less coverage than decision testing. 
+
+ 3. Стопроцентное покрытие условий проверяет все ветки потока управления, 
+что включает проверку выходов «истина» и «ложь» для условных операторов.
+    When 100% decision coverage is achieved, it executes all decision outcomes, 
+which includes testing the true outcome and also the false outcome.
+
+ 4. Стопроцентное покрытие условий гарантирует стопроцентное покрытие операторов, 
+(но не наоборот).
+    Achieving 100% decision coverage guarantees 100% statement coverage, 
+(but not vice versa).
