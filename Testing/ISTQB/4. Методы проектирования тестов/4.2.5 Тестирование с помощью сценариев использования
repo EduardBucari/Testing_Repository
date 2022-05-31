@@ -1,1 +1,48 @@
-4.2.5 Тестирование с помощью сценариев использования
+4.2.5 Тестирование с помощью сценариев использования.
+      Use Case Testing.
+
+Тесты можно разработать на основе сценариев использования, которые 
+представляют собой способ описания взаимодействий с программными 
+объектами.
+Tests can be derived from use cases, which are a specific way of designing 
+interactions with software items, incorporating requirements for the 
+software functions represented by the use cases.
+
+В сценариях использования всегда присутствуют: 
+1. Участники: 
+- пользователи, 
+- внешние устройства,
+- компоненты. 
+2. Субъекты:
+- компоненты, 
+- системы 
+(к которым применяется сценарий использования).
+Use cases are associated with: 
+1. Actors: 
+- human users, 
+- external hardware, 
+- other components or systems. 
+2. Subjects: 
+- component, 
+- system 
+(to which the use case is applied).
+
+Каждый сценарий использования описывает поведение субъекта при 
+взаимодействии с участником.
+Each use case specifies some behavior that a subject can perform 
+in collaboration with one or more actors.
+
+Сценарий использования может отражать различные варианты поведения, 
+включая исключительные ситуации и обработку ошибок 
+(реакцию системы и восстановление из-за ошибок программирования, 
+приложений и связи, например, в результате чего появляется 
+сообщение об ошибке).
+A use case can include possible variations of its basic behavior, 
+including exceptional behavior and error handling 
+(system response and recovery from programming, application and communication 
+errors, e.g., resulting in an error message).
+
+Тесты разрабатываются с целью проверки различных вариантов поведения 
+(базового, исключительного, альтернативного, обработки ошибок).
+Tests are designed to exercise the defined behaviors 
+(basic, exceptional or alternative, and error handling).
