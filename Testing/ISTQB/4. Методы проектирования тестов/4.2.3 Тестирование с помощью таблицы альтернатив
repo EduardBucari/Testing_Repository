@@ -1,1 +1,89 @@
-4.2.3 Тестирование с помощью таблицы альтернатив
+4.2.3 Тестирование с помощью таблицы альтернатив.
+      Decision Table Testing.
+
+Таблицы альтернатив – хороший способ записи сложных бизнес-правил, 
+которые должны быть реализованы в системе.
+Decision tables are a good way to record complex business rules 
+that a system must implement.
+
+В процессе создания таблицы, тестировщик определяет условия (входы) 
+и результирующие действия системы (выходы).
+When creating decision tables, the tester identifies conditions (often inputs) 
+and the resulting actions (often outputs) of the system.
+
+Пары условий и действий образуют строки таблицы, при этом 
+условия указываются сверху, а действия – снизу.
+These form the rows of the table, usually with the conditions at the top 
+and the actions at the bottom.
+
+Каждый столбец представляет собой бизнес-правило с уникальной комбинацией 
+условий и действий, связанных с этим правилом.
+Each column corresponds to a decision rule that defines a unique combination 
+of conditions which results in the execution of the actions associated 
+with that rule. 
+
+Значения условий часто отображаются в виде: 
+- логических (истина или ложь) 
+- дискретных (красный, синий, зеленый) значений 
+- в виде чисел или числовых диапазонов.
+The values of the conditions and actions are usually shown as:
+- Boolean values (true or false) 
+- discrete values (e.g., red, green, blue) 
+- numbers or ranges of numbers. 
+
+В одной таблице могут сочетаться значения разных типов.
+These different types of conditions and actions might be found 
+together in the same table. 
+----------------------------------
+
+Обозначения для таблиц альтернатив:
+The notation in decision tables: 
+
+Условия - For conditions:
+● Y означает, что условие истинно (используется также обозначение Т или 1).
+  Y means the condition is true (may also be shown as T or 1)
+  
+● N означает, что условие ложно (используется также обозначение F или 0)
+  N means the condition is false (may also be shown as F or 0)
+
+● – означает, что значение условия может быть любым 
+(используется также обозначение N/A)
+  — means the value of the condition doesn’t matter 
+(may also be shown as N/A).
+-----------
+
+Действия - For actions:
+● Х означает, что действие должно быть выполнено 
+(используется также обозначение Y, Т или 1)
+  X means the action should occur 
+(may also be shown as Y or T or 1)
+
+● Пустое поле означает, что действие не должно выполняться 
+(используется также обозначение N, F или 0)
+  Blank means the action should not occur 
+(may also be shown as – or N or F or 0).
+---------------------------------------
+
+Полная таблица альтернатив содержит по столбцу на каждую комбинацию условий.
+A full decision table has enough columns to cover every combination of conditions.
+
+Стандарт покрытия для таблиц альтернатив подразумевает наличие хотя бы одного 
+теста для каждого столбца таблицы.
+The common minimum coverage standard for decision table testing is to have 
+at least one test case per decision rule in the table.
+
+Обычно это подразумевает покрытие всех комбинаций условий.
+This typically involves covering all combinations of conditions.
+
+Преимущество метода заключается в том, что он выявляет комбинации условий, 
+которые могли быть не проверены при тестировании. 
+The strength of decision table testing is that it helps to identify all 
+the important combinations of conditions, some of which might otherwise 
+be overlooked.
+
+Метод помогает определить несоответствия в требованиях, может быть применен 
+во всех ситуациях и на любом уровне, где поведение программного обеспечения 
+зависит от комбинации условий.
+It also helps in finding any gaps in the requirements, It may be applied 
+to all situations in which the behavior of the software depends on a 
+combination of conditions, at any test level.
