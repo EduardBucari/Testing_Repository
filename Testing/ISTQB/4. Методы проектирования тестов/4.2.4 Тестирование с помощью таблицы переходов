@@ -1,1 +1,40 @@
-4.2.4 Тестирование с помощью таблицы переходов
+4.2.4 Тестирование с помощью таблицы переходов.
+      State Transition Testing.
+
+Описать прошлое системы можно с помощью концепции состояний.
+The previous history can be summarized using the concept of states.
+
+Диаграмма состояний и переходов показывает начальное и конечное состояния 
+системы, а также описывает переходы между состояниями.
+A state transition diagram shows the possible software states, 
+as well as how the software enters, exits, and transitions between states.
+
+Диаграммы состояний и переходов обычно, показывают только действительные 
+переходы и исключают недействительные переходы.
+State transition diagrams normally show only the valid transitions 
+and exclude the invalid transitions. 
+
+Таблица переходов представляет собой все возможные комбинации начальных 
+и конечных состояний, включая действительные и недействительные переходы, 
+инициирующие события, защитные условия и результирующие действия.
+A state transition table shows all valid transitions and potentially invalid 
+transitions between states, as well as the events, guard conditions, 
+and resulting actions for valid transitions.
+
+Тесты создаются для: 
+- покрытия типичной последовательности состояний, 
+- покрытия каждого возможного состояния, 
+- покрытия каждого возможного перехода, 
+- проверки специфических последовательностей переходов, 
+- проверки недействительных переходов.
+Tests can be designed: 
+- to cover a typical sequence of states, 
+- to exercise all states, 
+- to exercise every transition, 
+- to exercise specific sequences of transitions, 
+- to test invalid transitions.
+
+Тестирование с помощью таблицы переходов наиболее распространено в сфере 
+встроенного ПО и при тестировании программных меню.
+State transition testing is used for menu-based applications and is widely 
+used within the embedded software industry.
