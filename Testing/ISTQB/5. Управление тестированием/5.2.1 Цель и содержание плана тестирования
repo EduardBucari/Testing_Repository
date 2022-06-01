@@ -1,0 +1,43 @@
+5.2.1 Цель и содержание плана тестирования.
+      Purpose and Content of a Test Plan.
+
+Цель Планирования тестирования - непрерывная деятельность, которая выполняется 
+в течение всего жизненного цикла продукта (включая в себя фазу сопровождения).
+Purpose of a Test Plan is a continuous activity and is performed throughout 
+the product's lifecycle (to include the maintenance phase).
+
+План тестирования включяает:
+Test planning include:
+
+1. Определение объема, целей и рисков тестирования.
+   Determining the scope, objectives, and risks of testing.
+
+2. Определение общего подхода к тестированию.
+   Defining the overall approach of testing.
+
+3. Координацию работ по тестированию и их совмещение с другими работами 
+в рамках жизненного цикла программного обеспечения.
+   Integrating and coordinating the test activities into 
+the software lifecycle activities. 
+
+4. Принятие решений о том, что тестировать, кто будет выполнять тестирование 
+и как должны выполняться работы по тестированию.
+   Making decisions about what to test, the people and other resources 
+required to perform the various test activities, and how test activities 
+will be carried out. 
+
+5. Планирование анализа, проектирования, реализации и выполнения тестов, 
+оценки результатов тестирования с указанием сроков либо итераций.
+   Scheduling of test analysis, design, implementation, execution, and 
+evaluation activities, either on particular dates or in the context of each 
+iteration.
+
+6. Выбор метрик для мониторинга и контроля тестирования.
+   Selecting metrics for test monitoring and control.
+
+7. Формирование бюджета тестирования - Budgeting for the test activities.
+
+8. Определение структуры и уровня детализации тестовой документации 
+(например, путем предоставления шаблонов или примеров документов).
+   Determining the level of detail and structure for test documentation 
+(e.g., by providing templates or example documents).
