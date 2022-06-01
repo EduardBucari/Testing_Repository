@@ -1,1 +1,54 @@
-5.2.2 Стратегия тестирования и подходы к тестированию
+5.2.2 Стратегия тестирования и подходы к тестированию.
+      Test Strategy and Test Approach.
+
+Стратегия тестирования содержит верхнеуровневое описание процесса тестирования, 
+как правило, на уровне продукта или организации.
+A test strategy provides a generalized description of the test process, 
+usually at the product or organizational level.
+
+Стратегия тестирования дает общее описание процесса тестирования, в то время как 
+подход к тестированию адаптирует стратегию к конкретному проекту или релизу.
+While the test strategy provides a generalized description of the test process, 
+the test approach tailors the test strategy for a particular project or release.
+
+Типы стратегий тестирования:
+Types of test strategies:
+
+1. Аналитический подход: Тестирование, основанное на рисках, при котором тесты 
+разрабатываются по приоритетам в зависимости от уровня риска.
+   Analytical: This type of test strategy is based on a risk analysis. 
+Risk-based tests are designed and prioritized based on the level of risk.
+
+2. Тестирование на основе моделей: Примерами являются модели бизнес-процессов, 
+модели состояния и модели роста надежности.
+   Model-Based:  Examples of such models include business process models, 
+state models, and reliability growth models. 
+
+3. Методический подход: классификация общих или вероятных типов отказов, 
+список важных характеристик качества.
+   Methodical: taxonomy of common or likely types of failures, a list of 
+important quality characteristics.
+
+4. Тестирование на основе процесса: подразумевает анализ, проектирование и 
+выполнение тестов в соответствии с внешними правилами или стандартами.
+   Process-compliant  (or standard-compliant): involves analyzing, 
+designing, and implementing tests based on external rules and standards.
+
+5. Направленный (или консультативный) подход: советы руководства или инструкции 
+заинтересованных сторон, экспертов предметной области или экспертов по технологиям.
+   Directed (or consultative): the advice, guidance, or instructions of 
+stakeholders, business domain experts, or technology experts.
+
+6. Тестирование на основе минимизации регресса: подразумевает повторное 
+использование существующего тестового обеспечения (особенно тестовых сценариев 
+и тестовых данных), обширную автоматизацию регрессионных тестов 
+и стандартные наборы тестов.
+   Regression-averse: This test strategy includes reuse of existing testware 
+(especially test cases and test data), extensive automation of regression tests, 
+and standard test suites.
+
+7. Реактивный подход: (не является спланированным заранее).
+Исследовательское тестирование является распространенной методикой, 
+применяемой в реактивных стратегиях.
+Reactive: Exploratory testing is a common technique employed 
+in reactive strategies.
