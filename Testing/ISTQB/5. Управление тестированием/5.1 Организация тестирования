@@ -3,5 +3,14 @@
 5.1.1 Независимость тестирования. 
       Independent Testing.
 
-5.1.2 Задачи руководителя тестирования и тестировщика.
-      Tasks of a Test Manager and Tester.
+      Уровни независимости тестирования.
+      Degrees of independence in testing.
+
+ 5.1.1.1 Преимущества и недостатки независимого тестирования.
+         Benefits and drawbacks of test independence.     
+
+5.1.2 Задачи руководителя тестирования.
+      Tasks of a Test Manager.
+
+5.1.3 Задачи тестировщика.
+      Tasks of a Tester.
