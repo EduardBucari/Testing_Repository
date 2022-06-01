@@ -1,0 +1,54 @@
+5.1.1 Независимость тестированияm - Independent Testing.
+
+Уровни независимости тестирования
+(от низкого уровня до высокого уровня независимости):
+Degrees of independence in testing 
+(from low level of independence to high level):
+
+1. Нет независимых тестировщиков; разработчики тестируют собственный код, 
+других форм тестирования нет.
+   No independent testers; the only form of testing available is developers 
+testing their own code.
+   
+2. Независимые разработчики или тестировщики в команде разработки 
+или в команде проекта; 
+это могут быть разработчики, тестирующие продукты своих коллег.
+   Independent developers or testers within the development teams 
+or the project team; 
+this could be developers testing their colleagues’ products.
+
+3. Независимая команда или группа тестирования внутри организации, 
+отчитывающаяся перед руководством проекта или руководством организации.
+   Independent test team or group within the organization, 
+reporting to project management or executive management.
+
+4. Независимые тестировщики из организации заказчика или сообщества 
+пользователей. 
+Могут специализироваться на отдельных типах тестирования, таких как: 
+- тестирование практичности, 
+- тестирование безопасности, 
+- тестирование производительности, 
+- тестирование на соответствие нормативным документам, 
+- тестирование переносимости.
+   Independent testers from the business organization or user community, 
+or with specializations in specific test types such as: 
+- usability, 
+- security, 
+- performance, 
+- regulatory/compliance, 
+- portability.
+
+5. Независимые тестировщики, внешние по отношению к организации, работающие 
+либона территории компании (инсорсинг), либо вне ее (аутсорсинг).
+   Independent testers external to the organization, either working 
+on-site (insourcing) or off-site (outsourcing).
+-----------------------------------------------
+
+Для большинства проектов лучше иметь несколько уровней тестирования, 
+часть из которых выполняется независимыми тестировщиками.
+For most types of projects, it is usually best to have multiple test levels, 
+with some of these levels handled by independent testers.
+
+Способ организации независимого тестирования зависит от модели жизненного цикла.
+The way in which independence of testing is implemented varies depending on 
+the software development lifecycle model.

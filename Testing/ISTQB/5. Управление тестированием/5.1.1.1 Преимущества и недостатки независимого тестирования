@@ -1,0 +1,43 @@
+5.1.1.1 Преимущества и недостатки независимого тестирования.
+        Benefits and drawbacks of test independence.
+
+● Преимущества независимого тестирования:
+  Benefits of test independence:
+
+1. Эффективное распознавание различных видов отказов 
+по сравнению с разработчиками из-за разницы подходов, 
+технических перспектив и предубеждений.
+   Independent testers are likely to recognize different kinds of failures 
+compared to developers because of their different backgrounds, 
+technical perspectives, and biases.
+
+2. Возможность независимого тестировщика проверять, оспаривать или 
+опровергать допущения, сделанные заинтересованными сторонами во время 
+проектирования и внедрения системы.
+   An independent tester can verify, challenge, or 
+disprove assumptions made by stakeholders during 
+specification and implementation of the system. 
+-----------------------------------------------
+
+● Hедостатки независимого тестирования:
+  Drawbacks of test independence:
+
+1. Изоляция от команды разработчиков, что приводит к отсутствию сотрудничества, 
+задержкам с предоставлением обратной связи команде разработчиков или 
+соперничеству с командой разработчиков.
+   Isolation from the development team, leading to a lack of collaboration, 
+delays in providing feedback to the development team, or 
+an adversarial relationship with the development team.
+
+2. Потеря разработчиками чувства ответственности за качество.
+   Developers may lose a sense of responsibility for quality.
+
+3. Восприятие независимых тестировщиков как «узкого места» или обвинения 
+в задержках релиза.
+   Independent testers may be seen as a "bottleneck" or blamed 
+for delays in release.
+
+4. Недостаточность у независимых тестировщиков какой-либо важной информации 
+(например, об объекте тестирования).
+   Independent testers may lack some important information 
+(e.g., about the test object).
