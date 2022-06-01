@@ -1,2 +1,49 @@
-5.1.3 Задачи тестировщика.
-      Tasks of a Tester.
+5.1.3 Задачи тестировщика:
+      Tasks of a Tester:
+
+1. Рецензирование и разработка планов тестирования.
+   Review and contribute to test plans.
+
+2. Анализ, рецензирование и оценка требований, пользовательских историй 
+и критериев приемки, спецификаций и моделей на предмет тестируемости.
+   Analyze, review, and assess requirements, user stories 
+and acceptance criteria, specifications, and models for testability.
+
+3. Определение и документирование тестовых условий, установление связей 
+между тестовыми сценариями, тестовыми условиями и базисом тестирования.
+   Identify and document test conditions, and capture traceability 
+between test cases, test conditions, and the test basis.
+
+4. Проектирование, настройка и проверка тестовой среды, зачастую вместе с 
+системным администрированием и управлением сетью.
+   Design, set up, and verify test environment, often coordinating with 
+system administration and network management.
+
+5. Проектирование и разработка тестовых сценариев и процедур тестирования.
+   Design and implement test cases and test procedures.
+
+6. Подготовка и получение тестовых данных - Prepare and acquire test data.
+
+7. Создание подробного расписания выполнения тестов.
+   Create the detailed test execution schedule.
+
+8. Выполнение тестирования, оценка результатов и документирование отклонений 
+от ожидаемых результатов.
+   Execute tests, evaluate the results, and document deviations 
+from expected results.
+
+9. Использование соответствующих инструментов поддержки процесса тестирования.
+   Use appropriate tools to facilitate the test process.
+
+10. Автоматизация процесса тестирования по мере необходимости 
+(может поддерживаться разработчиком или экспертом по автоматизации тестирования).
+   Automate tests as needed 
+(may be supported by a developer or a test automation expert).
+
+11. Оценка нефункциональных характеристик, таких как производительность, 
+надежность, практичность, безопасность, совместимость и переносимость.
+    Evaluate non-functional characteristics such as performance efficiency, 
+reliability, usability, security, compatibility, and portability.
+
+12. Рецензирование тестов, разработанных другими тестировщиками.
+    Review tests developed by others.
