@@ -1,3 +1,100 @@
-5.1.2 Задачи руководителя тестирования.
-      Tasks of a Test Manager.
-      
+5.1.2 Задачи руководителя тестирования:
+      Tasks of a Test Manager:
+
+1. Разработку или рецензирование тестовой политики и стратегии тестирования 
+для организации.
+   Develop or review a test policy and test strategy for the organization.
+
+2. Планирование тестирования, с учетом контекста и понимания целей и рисков 
+тестирования: 
+- выбор тестовых подходов, 
+- оценку времени тестирования, 
+- трудозатрат и стоимости, 
+- привлечение ресурсов, 
+- определение уровней тестирования,
+  - циклов тестирования, 
+  - планирование управления дефектами.
+
+   Plan the test activities by considering the context, and understanding 
+the test objectives and risks: 
+- selecting test approaches, 
+- estimating test time, 
+- effort and cost, 
+- acquiring resources, 
+- defining test levels, 
+  - test cycles, 
+  - planning defect management.
+
+3. Составление и обновление планов тестирования.
+    Write and update the test plan(s).
+
+4. Согласование планов тестирования с руководителями проектов, 
+владельцами продуктов и другими участниками.
+   Coordinate the test plan(s) with project managers, 
+product owners, and others.
+
+5. Координацию активностей тестирования с другими проектами, 
+такими как планирование интеграции.
+   Share testing perspectives with other project activities, 
+such as integration planning.
+
+6. Инициирование анализа, разработки, реализации и выполнения тестов, 
+отслеживание прогресса и результатов тестирования, контроль выполнения 
+критериев выхода (или критериев готовности).
+   Initiate the analysis, design, implementation, and execution of tests, 
+monitor test progress and results, and check the status 
+of exit criteria (or definition of done). 
+
+7. Подготовку и предоставление отчетов о статусе тестирования и 
+сводных отчетов о тестировании на основе собранной информации.
+   Prepare and deliver test progress reports and 
+test summary reports based on the information gathered.
+
+8. Адаптацию планов в зависимости от прогресса и результатов тестирования 
+и выполнение действий, необходимых для контроля тестирования.
+   Adapt planning based on test results and progress  
+and take any actions necessary for test control. 
+
+9. Поддержку настройки системы управления дефектами и конфигурацией 
+тестового обеспечения.
+   Support setting up the defect management system and adequate 
+configuration management of testware.
+
+10. Выбор подходящих метрик для измерения результатов тестирования и 
+оценки качества процесса тестирования и продукта.
+    Introduce suitable metrics for measuring test progress and 
+evaluating the quality of the testing and the product. 
+
+11. Выбор и внедрение инструментов поддержки процесса тестирования, включая: 
+- рекомендации по выбору инструментария, 
+- выделение времени и трудозатрат для пилотных проектов, 
+- обеспечение постоянной поддержки в использовании инструментов.
+   Support the selection and implementation of tools to support 
+the test process, including:
+- recommending the budget for tool selection, 
+- allocating time and effort for pilot projects, 
+- providing continuing support in the use of the tool(s).
+
+12. Решения о создании тестовой среды.
+    Decide about the implementation of test environments.
+
+13. Демонстрацию ценности тестировщиков, группы тестирования и профессии 
+тестировщика в организации.
+    Promote and advocate the testers, the test team, and the test profession 
+within the organization.
+
+14. Развитие навыков и карьеры тестировщиков (например, посредством планов 
+обучения, оценки эффективности, коучинга и т.д.)
+   Develop the skills and careers of testers (e.g., through training plans, 
+performance evaluations, coaching, etc.) 
+
+
+Руководитель тестирования отвечает за процесс тестирования и 
+успешное руководство активностями тестирования.
+The test manager is tasked with overall responsibility for the test process and 
+successful leadership of the test activities.
+
+Реализация роли руководителя тестирования зависит от используемой модели 
+жизненного цикла разработки.
+The way in which the test manager role is carried out varies depending 
+on the software development lifecycle.
