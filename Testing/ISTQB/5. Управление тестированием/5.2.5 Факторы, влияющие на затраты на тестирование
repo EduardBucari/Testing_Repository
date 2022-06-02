@@ -1,1 +1,51 @@
-5.2.5 Факторы, влияющие на затраты на тестирование.
+5.2.5 Факторы, влияющие на затраты на тестирование:
+      Factors Influencing the Test Effort:
+
+1. Характеристики продукта - Product characteristics.
+2. Характеристики процесса разработки - Development process characteristics.
+3. Характеристики людей - People characteristics.
+4. Результаты тестирования - Test results.
+------------------------------------------
+
+1. Характеристики продукта - Product characteristics:
+
+● Риски, связанные с продуктом.
+  The risks associated with the product.
+● Качество базиса тестирования - The quality of the test basis.
+● Размер продукта - The size of the product.
+● Сложность предметной области продукта - The complexity of the product domain.
+● Требования к характеристикам качества (например, безопасности, надежности).
+  The requirements for quality characteristics (e.g., security, reliability).
+● Требуемый уровень детализации тестовой документации.
+  The required level of detail for test documentation.
+● Требования к юридическому и нормативному соответствию.
+  Requirements for legal and regulatory compliance.
+------------------------
+
+2. Характеристики процесса разработки - Development process characteristics.
+
+● Стабильность и зрелость организации. 
+  The stability and maturity of the organization;
+● Используемую модель разработки - The development model in use.
+● Подход к тестированию - The test approach.
+● Используемые инструменты - The tools used.
+● Процесс тестирования - The test process.
+● Сжатость сроков - Time pressure.
+------------------------
+
+3. Характеристики людей - People characteristics.
+
+● Навыки и опыт, особенно в аналогичных проектах и продуктах 
+(например, знание предметной области).
+  The skills and experience of the people involved, especially with similar 
+projects and products (e.g., domain knowledge).
+
+● Командная сплоченность и лидерство - Team cohesion and leadership.
+------------------------
+
+4. Результаты тестирования - Test results.
+
+● Количество и критичность выявленных дефектов.
+  The number and severity of defects found.
+
+● Объем требуемых доработок - The amount of rework required.
