@@ -1,0 +1,60 @@
+5.3.1 Метрики тестирования - Metrics Used in Testing.
+
+Метрики могут собираться во время и по завершении тестирования, 
+чтобы оценить:
+Metrics can be collected during and at the end of test activities in order 
+to assess:
+
+● Прогресс относительно запланированного графика и бюджета.
+  Progress against the planned schedule and budget.
+
+● Текущее качество объекта тестирования - Current quality of the test object.
+
+● Адекватность подхода к тестированию - Adequacy of the test approach.
+
+● Эффективность активностей тестирования по достижению целей тестирования.
+  Effectiveness of the test activities with respect to the objectives.
+---------------------------
+
+ Mетрики тестирования включают:
+ Test metrics include: 
+
+1. Процент выполненных работ по подготовке тестовых сценариев 
+(или процент разработанных тестовых сценариев).
+   Percentage of planned work done in test case preparation 
+(or percentage of planned test cases implemented). 
+
+2. Процент выполненных работ по подготовке тестовой среды.
+   Percentage of planned work done in test environment preparation.
+
+3. Метрики выполнения тестов: 
+- количество выполненных/невыполненных тестовых сценариев, 
+- количество тестовых условий или сценариев, выполненных успешно/неуспешно.
+   Test case execution: 
+- number of test cases run/not run, 
+- test cases passed/failed, and/or test conditions passed/failed.
+
+4. Информацию о дефектах: 
+- плотность дефектов, 
+- количество обнаруженных и исправленных дефектов, 
+- частоту отказов, 
+- результаты подтверждающих тестов.
+   Defect information: 
+- defect density, 
+- defects found and fixed, 
+- failure rate, 
+- confirmation test results. 
+
+5. Покрытие тестами требований, пользовательских историй, 
+критериев приемки, рисков или кода.
+   Test coverage of requirements, user stories, 
+acceptance criteria, risks, or code.
+
+6. Информацию о выполнении задач, распределении и использовании ресурсов, 
+трудозатратах.
+   Task completion, resource allocation and usage, and effort.
+
+7. Стоимость тестирования, включая сравнение стоимости с выгодой от нахождения 
+следующего дефекта или от выполнения следующего теста.
+   Cost of testing, including the cost compared to the benefit of finding 
+the next defect or the cost compared to the benefit of running the next test.

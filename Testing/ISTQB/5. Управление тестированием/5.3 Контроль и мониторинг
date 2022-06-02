@@ -1,1 +1,29 @@
-5.3 Контроль и мониторинг
+5.3 Контроль и мониторинг тестирования - Test Monitoring and Control.
+
+Цель мониторинга тестирования заключается в сборе информации и обеспечении 
+обратной связи о состоянии тестирования.
+The purpose of test monitoring is to gather information and provide 
+feedback and visibility about test activities.
+
+Контроль тестирования представляет собой любые корректирующие действия, 
+предпринятые на основании полученной информации или метрик.
+Test control describes any guiding or corrective actions taken as a result 
+of information and metrics gathered and (possibly) reported.
+
+Примеры контроля тестирования:
+Examples of test control:
+
+1. Повторная приоритизация тестов при реализации риска 
+(например, нарушения сроков поставки программного обеспечения).
+   Re-prioritizing tests when an identified risk occurs 
+(e.g., software delivered late).
+
+2. Изменение графика тестирования из-за доступности или недоступности 
+тестовой среды или других ресурсов.
+   Changing the test schedule due to availability or unavailability 
+of a test environment or other resources.
+
+3. Повторная проверка выполнения критериев входа или выхода для элемента 
+тестирования, который дорабатывался.
+   Re-evaluating whether a test item meets an entry or exit criterion 
+due to rework.
