@@ -1,0 +1,88 @@
+5.3.2 Цели, содержание и аудитория отчетов о тестировании.
+      Purposes, Contents, and Audiences for Test Reports.
+
+Цель отчетности - состоит в обобщении и предоставлении информации 
+по итогам и во время тестирования.
+The purpose of test reporting is - to summarize and communicate test activity 
+information, both during and at the end of a test activity.
+------------------------
+
+Отчет подготовленный во время тестирования - называется отчетом о ходе 
+тестирования.
+The test report prepared during a test - activity may be referred to as 
+a test progress report.
+
+Oтчет подготовленный по итогам - называется итоговым отчетом о тестировании.
+Test report prepared at the end of a test activity may be referred 
+to as a test summary report. 
+--------------------------
+
+Во время мониторинга и контроля тестирования руководитель тестирования 
+регулярно публикует для заинтересованных сторон отчеты о ходе тестирования.
+During test monitoring and control, the test manager regularly issues 
+test progress reports for stakeholders.
+
+Oтчет о ходе тестирования включает:
+Test progress reports include:
+
+1. Статус активностей тестирования и прогресс по сравнению с планом тестирования.
+   The status of the test activities and progress against the test plan.
+
+2. Факторы, препятствующие прогрессу - Factors impeding progress.
+
+3. Тестирование, запланированное на следующий отчетный период.
+   Testing planned for the next reporting period.
+
+4. Качество объекта тестирования - The quality of the test object.
+--------------------------
+
+Когда критерии выхода выполнены, руководитель тестирования готовит 
+итоговый отчет о тестировании (на основе последнего отчета о ходе тестирования 
+и другой информации).
+When exit criteria are reached, the test manager issues 
+the test summary report (based on the latest test progress report 
+and any other relevant information). 
+
+Итоговые отчеты и отчеты о ходе тестирования включают:
+Test progress reports and test summary reports include:
+
+1. Резюме проведенного тестирования - Summary of testing performed.
+
+2. Информацию о том, что произошло во время тестирования.
+   Information on what occurred during a test period.
+
+3. Информацию об отклонениях от плана, включая отклонения в расписании, 
+длительности выполнения или затратах.
+   Deviations from plan, including deviations in schedule, 
+duration, or effort of test activities.
+
+4. Информацию о качестве тестирования и качестве продукта с точки зрения 
+критериев выхода или критериев завершения.
+   Status of testing and product quality with respect 
+to the exit criteria or definition of done.
+
+5. Информацию о факторах, которые блокировали или продолжают блокировать 
+тестирование.
+   Factors that have blocked or continue to block progress. 
+
+6. Метрики дефектов, тестовых сценариев, покрытия, прогресса тестирования 
+и использования ресурсов.
+   Metrics of defects, test cases, test coverage, activity progress, 
+and resource consumption.
+
+7. Информацию об остаточных рисках - Residual risks.
+
+8. Перечень тестовых артефактов, которые можно повторно использовать.
+   Reusable test work products produced.
+-----------------------------
+
+Помимо контекста проекта, при подготовке отчетности нужно учитывать 
+особенности аудитории. 
+In addition to tailoring test reports based on the context of the project, 
+test reports should be tailored based on the report’s audience.
+
+Тип и объем информации для технических специалистов или 
+группы тестирования, будут отличаться от информации в отчете для менеджмента.
+The type and amount of information for a technical audience or 
+a test team may be different from what would be included in an executive 
+summary report.
