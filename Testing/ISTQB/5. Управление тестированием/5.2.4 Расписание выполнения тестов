@@ -1,1 +1,23 @@
 5.2.4 Расписание выполнения тестов.
+      Test Execution Schedule.
+
+После того, как тестовые сценарии и процедуры (в том числе автоматизированные) 
+разработаны, их объединяют в наборы тестов.
+Once the various test cases and test procedures are produced (with some test 
+procedures potentially automated) and assembled into test suites.
+
+Эти наборы располагаются в соответствии с расписанием тестирования, 
+которое задает последовательность их выполнения.
+The test suites can be arranged in a test execution schedule 
+that defines the order in which they are to be run.
+
+Расписание должно учитывать такие факторы как: 
+- приоритет, 
+- зависимости между тестами и/или тестируемыми функциями, 
+- необходимость выполнения подтверждающих тестов и регрессионных тестов,
+- наиболее эффективную последовательность выполнения тестов.
+The test execution schedule should take into account such factors as: 
+- prioritization, 
+- dependencies, 
+- confirmation tests, regression tests, 
+- the most efficient sequence for executing the tests.
