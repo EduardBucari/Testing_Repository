@@ -1,1 +1,53 @@
-5.2.3 Критерии входа и выхода (критерии готовности и критерии завершения)
+5.2.3 Критерии входа и выхода 
+(критерии готовности и критерии завершения)
+      Entry Criteria and Exit Criteria 
+(Definition of Ready and Definition of Done)
+
+● Критерии входа (или критерии готовности в гибкой разработке) 
+определяют условия, которые должны быть выполнены до начала работ. 
+   Entry criteria (more typically called definition of ready in Agile development) 
+define the preconditions for undertaking a given test activity. 
+
+1. Доступность тестируемых требований, пользовательских историй и/или моделей 
+(например, при использовании стратегии тестирования на основе моделей).
+   Availability of testable requirements, user stories, and/or models 
+(e.g., when following a model-based testing strategy). 
+
+2. Наличие элементов тестирования, которые удовлетворяют критериям выхода 
+для предыдущих уровней тестирования.
+   Availability of test items that have met the exit criteria 
+for any prior test levels.
+
+3. Доступность тестовой среды - Availability of test environment.
+
+4. Наличие необходимых инструментов тестирования. 
+   Availability of necessary test tools.
+
+5. Наличие тестовых данных и других необходимых ресурсов.
+   Availability of test data and other necessary resources.
+-----------------------
+
+● Критерии выхода (или критерии завершения в гибкой разработке) 
+определяют, какие условия должны быть выполнены, чтобы завершить уровень 
+тестирования или набор тестов.
+  Exit criteria (more typically called definition of done in Agile development) 
+define what conditions must be achieved in order to declare a test level 
+or a set of tests completed.
+
+1. Выполнение запланированных тестов - Planned tests have been executed.
+
+2. Достижение определенного уровня покрытия 
+(например, требований, пользовательских историй, критериев приемки, рисков, кода).
+   A defined level of coverage has been achieved
+(e.g., of requirements, user stories, acceptance criteria, risks, code). 
+
+3. Количество открытых дефектов ниже оговоренного порогового значения.
+   The number of unresolved defects is within an agreed limit.
+
+4. Низкая оценка количества еще не обнаруженных дефектов.
+   The number of estimated remaining defects is sufficiently low.
+
+5. Соответствие требуемым значениям оценок надежности, производительности, 
+практичности, безопасности и других характеристик качества.
+   The evaluated levels of reliability, performance efficiency, 
+usability, security, and other relevant quality characteristics are sufficient.
