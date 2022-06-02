@@ -1,1 +1,12 @@
-5.2.6 Методы оценки затрат на тестирование.
+5.2.6 Методы оценки затрат на тестирование:
+      Test Estimation Techniques:
+
+1. Метод, основанный на метриках: оценка затрат, использующая метрики 
+ранее выполненных проектов или типовые значения.
+   The metrics-based technique: estimating the test effort based on metrics 
+of former similar projects, or based on typical values.
+
+2. Метод экспертной оценки: оценка затрат на основе опыта владельцев задач 
+тестирования или экспертов.
+   The expert-based technique: estimating the test effort based on the 
+experience of the owners of the testing tasks or by experts.
