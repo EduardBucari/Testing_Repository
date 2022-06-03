@@ -1,1 +1,114 @@
-5.5.2 Риски продукта
+5.5.2 Риски проекта - Project risks.
+
+Риски проекта связаны с событиями, препятствующими достижению целей проекта.
+Project risk involves situations that, should they occur, may have a negative 
+effect on a project's ability to achieve its objectives.
+
+Проектные риски могут влиять как на разработку, так и на тестирование.
+Project risks may affect both development activities and test activities.
+
+● Pуководители проектов несут ответственность за управление всеми 
+проектными рисками.
+  Project managers are responsible for handling all project risks.
+
+● Pуководители тестирования отвечают за управление рисками, связанными с 
+тестированием проекта.
+Test managers to have responsibility for test-related project risks. 
+------------------------------------------
+
+Примеры рисков проекта - Examples of project risks include:
+
+1. Проектные проблемы - Project issues.
+2. Организационные проблемы - Organizational issues.
+3. Политические проблемы - Political issues.
+4. Технические проблемы - Technical issues.
+5. Проблемы с поставщиками - Supplier issues.
+---------------------------------------------
+
+1. Проектные проблемы - Project issues:
+
+1.1 Задержки поставки, выполнения задач, выполнения критериев выхода или 
+критериев готовности.
+    Delays may occur in delivery, task completion, or satisfaction of exit 
+criteria or definition of done.
+
+1.2 Неточные оценки, перераспределение средств на проекты с более высоким 
+приоритетом или общие сокращения затрат по всей организации могут привести 
+к неадекватному финансированию.
+    Inaccurate estimates, reallocation of funds to higher priority projects, 
+or general cost-cutting across the organization may result 
+in inadequate funding. 
+
+1.3 Поздние изменения могут привести к существенным доработкам.
+    Late changes may result in substantial re-work.
+---------------------------
+
+2. Организационные проблемы - Organizational issues:
+ 
+2.1 Недостаток навыков, обучения или численности персонала.
+    Skills, training, and staff may not be sufficient.
+
+2.2 Проблемы с персоналом могут вызвать конфликты и серьезные трудности.
+    Personnel issues may cause conflict and problems.
+ 
+2.3 Пользователи, бизнес-пользователи или эксперты предметной области могут 
+быть заняты другими работами.
+    Users, business staff, or subject matter experts may not be available 
+due to conflicting business priorities.
+----------------------------
+
+3. Политические проблемы - Political issues:
+
+3.1 Тестировщики не могут адекватно сообщать о своих потребностях и/или 
+результатах тестирования.
+    Testers may not communicate their needs and/or the test results adequately.
+
+3.2 Разработчики и/или тестировщики не могут отслеживать информацию, 
+полученную при тестировании и рецензировании (не стремясь улучшить методы 
+разработки и тестирования).
+    Developers and/or testers may fail to follow up on information found 
+in testing and reviews (not improving development and testing practices).
+
+3.3 Может быть неправильное отношение или ожидания от тестирования 
+(недооценивается важность обнаружения дефектов во время тестирования).
+    There may be an improper attitude toward, or expectations of, testing 
+(not appreciating the value of finding defects during testing).
+-------------------------------
+
+4. Технические проблемы - Technical issues:
+
+4.1 Требования могут быть определены недостаточно хорошо.
+    Requirements may not be defined well enough.
+
+4.2 Требования могут быть невыполнимыми в текущих условиях.
+    The requirements may not be met, given existing constraints.
+
+4.3 Тестовая среда может быть не готова вовремя.
+    The test environment may not be ready on time.
+
+4.4 Преобразование данных, планирование миграции и их инструментальная 
+поддержка могут быть не готовы вовремя.
+    Data conversion, migration planning, and their tool support may be late.
+
+4.5 Слабые стороны процесса разработки могут влиять на согласованность или 
+качество артефактов проекта, таких как дизайн, код, конфигурация, 
+тестовые данные и тестовые сценарии.
+    Weaknesses in the development process may impact the consistency or 
+quality of project work products such as design, code, configuration, 
+test data, and test cases.
+
+4.6 Проблемы управления дефектами могут привести к накоплению дефектов 
+и росту технического долга.
+    Poor defect management and similar problems may result in accumulated defects 
+and other technical debt.
+-----------------------------------
+
+5. Проблемы с поставщиками - Supplier issues:
+
+5.1 Третья сторона может не предоставить необходимый продукт или услугу, 
+или обанкротиться.
+    A third party may fail to deliver a necessary product or service, 
+or go bankrupt.
+
+5.2 Контрактные проблемы могут вызвать серьезные трудности для проекта.
+    Contractual issues may cause problems to the project.
