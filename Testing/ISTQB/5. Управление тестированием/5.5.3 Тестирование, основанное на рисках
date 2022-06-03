@@ -1,0 +1,55 @@
+5.5.3 Тестирование, основанное на рисках, и качество продукта.
+      Risk-based Testing and Product Quality.
+
+  Риски используются для принятия решения о том, где и когда начинать 
+тестирование, и для выявления областей, требующих большего внимания.
+  Risks is used to decide where and when to start testing and to identify 
+areas that need more attention. 
+
+Тестирование используется как деятельность по снижению риска и для обеспечения 
+обратной связи, как по выявленным рискам, так и по остаточным 
+(нерешенным) рискам.
+Testing is used as a risk mitigation activity, to provide 
+feedback about identified risks, as well as providing feedback on residual 
+(unresolved) risks.
+
+Тестирование, основанное на рисках, обеспечивает возможность заранее снизить 
+уровень риска продукта.
+A risk-based approach to testing provides proactive opportunities to reduce 
+the levels of product risk. 
+
+Оно включает: 
+- анализ рисков продукта,
+- идентификацию рисков, 
+- оценку вероятности, последствий от их наступления.
+It involves: 
+- product risk analysis, 
+- the identification of product risks, 
+- the assessment of each risk’s likelihood and impact. 
+
+Ранний анализ рисков продукта способствует успеху проекта.
+Analyzing product risks early contributes to the success of a project.
+-----------------------------
+
+Результаты анализа рисков продукта могут быть использованы для:
+The results of product risk analysis are used to:
+
+1. Выбора методов тестирования - Determine the test techniques to be employed. 
+
+2. Выбора уровней и типов тестирования, которые необходимо выполнить 
+(например, тестирования безопасности, тестирования доступности).
+   Determine the particular levels and types of testing to be performed 
+(e.g., security testing, accessibility testing).
+
+3. Определения объема тестирования. 
+   Determine the extent of testing to be carried out.
+
+4. Приоритезации тестирования с целью найти критические дефекты 
+как можно раньше.
+   Prioritize testing in an attempt to find the critical defects 
+as early as possible.
+
+5. Выявления дополнительных мер, помимо тестирования, которые могут 
+снизить риски (например, обучения менее опытных проектировщиков).
+   Determine whether any activities in addition to testing could be employed 
+to reduce risk (e.g., providing training to inexperienced designers).
