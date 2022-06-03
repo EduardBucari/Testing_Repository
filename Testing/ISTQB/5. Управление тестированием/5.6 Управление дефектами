@@ -1,1 +1,58 @@
-5.6 Управление дефектами
+5.6 Управление дефектами - Defect Management.
+
+Поскольку одной из целей тестирования является обнаружение дефектов, 
+необходимо регистрировать дефекты, обнаруженные во время тестирования.
+Since one of the objectives of testing is to find defects, 
+defects found during testing should be logged.
+
+Любые выявленные дефекты должны быть изучены и отслеживаться от момента 
+обнаружения и классификации до принятия решения по ним.
+Any defects identified should be investigated and should be tracked from 
+discovery and classification to their resolution.
+
+Чтобы управлять дефектами до принятия решения по ним, в организации должен 
+существовать процесс управления дефектами, который включает в себя 
+жизненный цикл и правила классификации дефектов.
+In order to manage all defects to resolution, an organization should 
+establish a defect management process which includes a workflow 
+and rules for classification.
+
+Дефекты могут быть обнаружены во время - Defects may be reported during: 
+- кодирования - coding, 
+- статического анализа - static analysis, 
+- рецензирования - reviews, 
+- динамического тестирования - dynamic testing, 
+- эксплуатации программного продукта - use of a software product.
+
+Дефекты могут сообщать о проблемах - Defects may be reported for issues: 
+- в коде или эксплуатируемых системах - in code or working systems, 
+- в документации любого типа - in any type of documentation: 
+    - требования - requirements, 
+    - пользовательские истории - user stories, 
+    - критерии приемки - acceptance criteria, 
+    - документацию разработки - development documents, 
+    - документацию тестирования - test documents, 
+    - руководства пользователя - user manuals, 
+    - руководства по установке - installation guides.
+------------------------------ 
+
+Oтчеты о дефектах имеют цели - defect reports have the objectives:
+
+1. Предоставлять разработчикам и другим сторонам информацию о произошедших 
+негативных событиях: 
+- чтобы они могли определить побочные эффекты, 
+- изолировать проблему с минимальными затратами на воспроизведение, 
+- исправить потенциальные дефекты по мере необходимости.
+Provide developers and other parties with information about any adverse event 
+that occurred: 
+- to enable them to identify specific effects, 
+- to isolate the problem with a minimal reproducing test, 
+- to correct the potential defects, as needed.
+
+2. Обеспечить руководителей тестирования инструментами отслеживания качества 
+продукта и влияния на тестирование.
+   Provide test managers a means of tracking the quality of the work 
+product and the impact on the testing.
+
+3. Предоставить идеи для совершенствования процессов тестирования и разработки.
+   Provide ideas for development and test process improvement.

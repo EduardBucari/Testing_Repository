@@ -1,0 +1,75 @@
+5.6.1 Сообщение о дефекте - A defect repor.
+
+● Сообщение о дефекте, созданное во время динамического тестирования, включает:
+  A defect report filed during dynamic testing typical includes: 
+
+1. Идентификатор дефекта - An identifier.
+
+2. Заголовок и краткое описание найденного дефекта.
+   A title and a short summary of the defect being reported.
+
+3. Дату сообщения о дефекте, информацию об авторе сообщения.
+   Date of the defect report, issuing organization, and author.
+
+4. Идентификацию элемента тестирования и среды.
+   Identification of the test item and environment. 
+
+5. Фазу жизненного цикла разработки, в которой обнаружен дефект.
+   The development lifecycle phase in which the defect was observed.
+
+6. Описание дефекта, достаточное для его воспроизведения и принятия решения, 
+включая:
+   A description of the defect to enable reproduction and resolution, including: 
+- системные журналы - logs, 
+- скриншоты - screenshots, 
+- дампы базы данных - database dumps.
+- записи созданые во время выполнения теста - recordings during test execution.
+
+7. Ожидаемые и фактические результаты - Expected and actual results.
+
+8. Область или степень влияния дефекта на интересы заинтересованной стороны 
+(критичность).
+   Scope or degree of impact of the defect on the interests of stakeholder
+(severity).
+
+9. Срочность для исправления (приоритет) - Urgency to fix (priority).
+
+10. Статус дефекта - State of the defect report:
+- открыт - open, 
+- отложен - deferred, 
+- дубликат - duplicate, 
+- ожидает исправления - waiting to be fixed, 
+- ожидает проверки - awaiting confirmation testing, 
+- повторно открыт - re-opened, 
+- закрыт - closed.
+
+11. Выводы, рекомендации и согласования.
+    Conclusions, recommendations and approvals.
+
+12 Глобальные проблемы, например, области, которые будут затронуты 
+исправлением дефекта.
+   Global issues, such as other areas that may be affected by a change 
+resulting from the defect.
+
+13. История изменений, например: 
+- последовательность действий членов команды проекта, чтобы 
+изолировать дефект, 
+- исправить и подтвердить исправление дефекта.
+   Change history, such as: 
+- the sequence of actions taken by project team members with respect to 
+the defect to isolate, 
+- repair, and confirm it as fixed.
+
+14. Ссылки, включая ссылку на тестовый сценарий, который обнаружил дефект.
+    References, including the test case that revealed the problem.
+-----------------------------------
+
+● Дефекты, обнаруженные при статическом тестировании, в частности, 
+при рецензировании, как правило, документируются по-другому, 
+например, в примечаниях к протоколу совещания.
+   Defects found during static testing, particularly 
+reviews, will normally be documented in a different way, 
+e.g., in review meeting notes.
+
+Cообщения о дефектах так же называются сообщениями об инцидентах.
+Refers to defect reports as incident reports.
