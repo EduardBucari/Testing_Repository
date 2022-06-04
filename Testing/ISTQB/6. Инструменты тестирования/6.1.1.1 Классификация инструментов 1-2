@@ -1,0 +1,32 @@
+6.1.1.1 Классификация инструментов 1-2; Tool Classification 1-2:
+
+1. Инструменты управления тестированием и тестовым окружением:
+   Tool support for management of testing and testware:
+
+Инструменты управления применяются к любым активностям тестирования 
+на протяжении всего жизненного цикла программного продукта.
+Management tools apply to any test activities 
+over the entire software development lifecycle.
+
+1.1 Инструменты управления тестированием и инструменты управления 
+жизненным циклом приложения (ALM - application lifecycle management).
+    Test management tools and application lifecycle management tools (ALM).
+
+1.2 Инструменты управления требованиями 
+(например, трассируемость объектов тестирования).
+    Requirements management tools 
+(e.g., traceability to test objects).
+
+1.3 Инструменты управления дефектами - Defect management tools.
+
+1.4 Инструменты управления конфигурацией - Configuration management tools.
+
+1.5 Инструменты непрерывной интеграции - Continuous integration tools.
+--------------------------------------
+
+2. Инструменты статического тестирования: 
+   Tool support for static testing:
+
+2.1 Инструменты рецензирования - Tools that support reviews.
+
+2.2 Инструменты статического анализа - Static analysis tools.

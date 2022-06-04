@@ -1,0 +1,34 @@
+6.1.1.2 Классификация инструментов 3-4; Tool Classification 3-4:
+
+3. Инструменты проектирования и реализации тестов:
+   Tool support for test design and implementation:
+
+3.1 Инструменты проектирования тестов - Test design tools.
+
+3.2 Инструменты тестирования на основе модели - Model-Based testing tools.
+
+3.3 Инструменты подготовки тестовых данных - Test data preparation tools.
+
+3.4 Инструменты разработки тестов через приемочное тестирование 
+(ATDD – acceptance test driven development) 
+и на основе поведения (BDD - behavior driven development).
+    Acceptance test driven development (ATDD) 
+and behavior driven development (BDD) tools.
+
+3.5 Инструменты разработки через тестирование.
+    Test driven development (TDD) tools.
+----------------------------------------------
+
+4. Инструменты выполнения тестов и протоколирования:
+   Tool support for test execution and logging:
+
+4.1 Инструменты выполнения тестов (например, запуск регрессионных тестов).
+    Test execution tools (e.g., to run regression tests).
+
+4.2 Инструменты покрытия (например, покрытие требований, покрытие кода).
+    Coverage tools (e.g., requirements coverage, code coverage).
+
+4.3 Тестовые обвязки - Test harnesses.
+
+4.4 Интегрированные среды компонентного тестирования.
+    Unit test framework tools.

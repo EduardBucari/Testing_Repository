@@ -1,0 +1,40 @@
+6.1.1 Классификация инструментов тестирования.
+      Test Tool Classification.
+
+Классификация инструментов может быть разной, 
+в зависимости от нескольких критериев: 
+- цели, 
+- цены, 
+- предоставляемой лицензии 
+(например, коммерческий продукт или с открытым исходным кодом), 
+- используемой технологии,
+- в соответствии с видом деятельности. 
+
+Tools can be classified based on several criteria such as: 
+- purpose, 
+- pricing, 
+- licensing model (e.g., commercial or open source), 
+- technology used,
+- test activities.
+------------------------------
+
+Классификация инструментов тестирования в соответствии с видом деятельности:
+Tools are classified to the test activities: 
+
+1. Инструменты управления тестированием и тестовым окружением.
+   Tool support for management of testing and testware.
+
+2. Инструменты статического тестирования. 
+   Tool support for static testing.
+
+3. Инструменты проектирования и реализации тестов.
+   Tool support for test design and implementation.
+
+4. Инструменты выполнения тестов и протоколирования.
+   Tool support for test execution and logging.
+
+5. Инструменты динамического анализа и тестирования производительности.
+   Tool support for performance measurement and dynamic analysis.
+
+6. Инструменты для специализированных нужд тестирования.
+   Tool support for specialized testing needs.

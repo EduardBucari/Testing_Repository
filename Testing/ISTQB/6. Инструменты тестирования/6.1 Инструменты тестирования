@@ -1,0 +1,58 @@
+6.1 Инструменты тестирования - Test Tool Considerations.
+
+Инструменты тестирования используются для одной и более активностей 
+тестирования. Это могут быть:
+Test tools used to support one or more testing activities. 
+Such tools include: 
+
+1. Инструменты, которые напрямую используются в тестировании, например: 
+- инструменты выполняющие тесты, 
+- инструменты подготавливающие тестовые данные.
+   Tools that are directly used in testing, such as: 
+- test execution tools, 
+- test data preparation tools.
+
+2. Инструменты помогающие управлять - Tools that help to manage: 
+- требованиями - requirements, 
+- тестовыми сценариями - test cases, 
+- тестовыми процедурами - test procedures, 
+- автоматизированными тестовыми скриптами - automated test scripts, 
+- результатами тестирования - test results, 
+- тестовыми данными - test data, 
+- дефектами - defects, 
+- инструменты создания отчетов - reporting, 
+- мониторинга выполнения тестов - monitoring test execution.
+
+3. Инструменты, используемые для исследования и оценки.
+   Tools that are used for investigation and evaluation.
+
+4. Любые инструменты, которые используется при тестировании 
+(электронная таблица -это тоже инструмент тестирования).
+   Any tool that assists in testing 
+(a spreadsheet is also a test tool in this meaning).
+----------------------------------------------------
+
+Цели инструментов тестирования - Test tools purposes:
+
+1. Повысить эффективность тестирования за счет автоматизации повторяющихся 
+действий или задач (регрессионное тестирование).
+   Improve the efficiency of test activities by automating repetitive 
+tasks (regression testing).
+
+2. Повысить эффективность за счет поддержки ручного тестирования.
+   Improve the efficiency of test activities by supporting manual test activities.
+
+3. Повысить качество тестирования, предоставляя более высокий уровень 
+воспроизводимости дефектов.
+   Improve the quality of test activities by allowing a higher level of 
+defect reproducibility.
+
+4. Автоматизировать действия, которые невозможно выполнить вручную 
+(например, масштабное тестирование производительности).
+   Automate activities that cannot be executed manually 
+(e.g., large scale performance testing).
+
+5. Увеличить надежность тестирования (например, путем автоматизации сравнения 
+большого объема данных или моделирования поведения).
+   Increase reliability of testing (e.g., by automating 
+large data comparisons or simulating behavior).

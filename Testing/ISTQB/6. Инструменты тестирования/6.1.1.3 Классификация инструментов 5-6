@@ -1,0 +1,38 @@
+6.1.1.3 Классификация инструментов 5-6; Tool Classification 5-6:
+
+5. Инструменты динамического анализа и тестирования производительности:
+   Tool support for performance measurement and dynamic analysis:
+
+Без инструментов динамического анализа и инструментов, предназначенных 
+для измерения производительности, вручную невозможно эффективно выполнить 
+тестирование производительности и нагрузки.
+Performance measurement and dynamic analysis tools are essential in 
+supporting performance and load testing activities, as these activities 
+cannot effectively be done manually.
+
+5.1 Инструменты тестирования производительности - Performance testing tools.
+
+5.2 Инструменты мониторинга - Monitoring tools.
+
+5.3 Инструменты динамического анализа - Dynamic analysis tools.
+--------------------------------------
+
+6. Инструменты для специализированных нужд тестирования:
+   Tool support for specialized testing needs:
+
+6.1 Оценку качества данных - Data quality assessment.
+
+6.2 Преобразование и перенос данных - Data conversion and migration.
+
+6.3 Тестирование практичности - Usability testing.
+
+6.4 Тестирование доступности - Accessibility testing.
+
+6.5 Тестирование локализации - Localization testing.
+
+6.6 Тестирование безопасности - Security testing.
+
+6.7 Тестирование переносимости (например, тестирование программного 
+продукта на нескольких поддерживаемых платформах).
+    Portability testing (e.g., testing software across multiple 
+supported platforms).
