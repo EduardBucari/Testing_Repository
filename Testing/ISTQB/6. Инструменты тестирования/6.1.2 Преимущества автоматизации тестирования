@@ -1,0 +1,43 @@
+6.1.2 Преимущества автоматизации тестирования.
+      Benefits of Test Automation.
+
+Преимущества использования инструментов, сопровождающих выполнение тестирования:
+Potential benefits of using tools to support test execution include:
+
+1. Уменьшение повторяющихся действий, выполняемых вручную
+например: 
+- выполнение регрессионных тестов, 
+- задачи по развертыванию/свертыванию окружения, 
+- повторный ввод одних и тех же тестовых данных, 
+- проверка на соответствие стандартам оформления кода,
+- и за счет этого экономия времени.
+   Reduction in repetitive manual work:
+- running regression tests, 
+- environment set up/tear down tasks, 
+- re-entering the same test data, 
+- checking against coding standards, 
+- thus saving time.
+
+2. Увеличение целостности и стабильности 
+например: 
+- последовательно связанные тестовые данные, 
+- тесты, выполняемые инструментом в одном и том же порядке и с 
+одинаковой частотой, 
+- тесты, полученные из требований.
+   Greater consistency and repeatability: 
+- test data is created in a coherent manner, 
+- tests are executed by a tool in the same order with the same frequency, 
+- tests are consistently derived from requirements. 
+
+3. Более объективная оценка 
+(например, статические измерения, покрытие).
+   More objective assessment 
+(e.g., static measures, coverage) 
+
+4. Улучшение доступности информации о тестировании 
+например: 
+- статистика и графики процесса тестирования, 
+- доля дефектов и информация о тестировании производительности.
+   Easier access to information about testing:
+- statistics and graphs about test progress, 
+- defect rates and performance.

@@ -1,0 +1,59 @@
+6.1.4 Особенности использования инструментов выполнения и управления тестами.
+      Special Considerations for Test Execution and Test Management Tools.
+
+Факторы успешной реализации тестов:
+Factors for smooth and successful test implementation:
+
+1. Инструменты выполнения тестов - Test execution tools.
+2. Инструменты управления тестированием - Test management tools.
+---------------------------------------
+
+1. Инструменты выполнения тестов - Test execution tools.
+
+Инструменты выполнения тестов исполняют тестовые скрипты.
+Test execution tools execute test objects using automated test scripts.
+
+Cкрипт – это линейная последовательность конкретных действий с конкретными 
+данными.
+Script is a linear representation with specific data and actions as part 
+of each script.
+
+1.1 Tестированиe на основе данных (data-driven testing approach) -
+Выбираются входные данные и ожидаемый результат, обычно сформированные в виде 
+таблицы, и используется единый скрипт, который, считывая входные данные из 
+таблицы, выполняется с разным набором данных.
+    A data-driven testing approach -
+Separates out the test inputs and expected results, usually into a 
+spreadsheet, and uses a more generic test script that can read the input data and 
+execute the same test script with different data.
+
+1.2 Tестировании на основе ключевых слов (keyword driven testing) -  
+Eдиный скрипт обрабатывает ключевые слова, описывающие действия, 
+которые нужно предпринять (так называемые слова-действия), затем по ключевым 
+словам вызываются скрипты для обработки соответствующих тестовых данных.
+    Keyword-driven testing approach -  
+A generic script processes keywords describing the actions to be 
+taken (also called action words), which then calls keyword scripts to process 
+the associated test data. 
+--------------------------
+
+2. Инструменты управления тестированием - Test management tools.
+
+Инструменты управления тестированием зачастую должны быть интегрируемы с другими 
+инструментами или электронными таблицами по ряду различных причин:
+Test management tools often need to interface with other tools or spreadsheets 
+for various reasons, including: 
+
+2.1 Для получения необходимой информации в удобном для организации формате.
+    To produce useful information in a format that fits the needs 
+of the organization.
+
+2.2 Для обеспечения постоянной трассируемости требований в инструменте 
+управления требованиями.
+    To maintain consistent traceability to requirements in a requirements 
+management tool.
+
+2.3 Для обеспечения связи между версиями объекта тестирования в инструменте 
+управления конфигурацией.
+    To link with test object version information in the configuration 
+management tool.
