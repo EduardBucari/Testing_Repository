@@ -1,2 +1,41 @@
 6.2.2 Пилотный проект для оценки инструмента.
       Pilot Projects for Introducing a Tool into an Organization.
+
+  После выбора инструмента и успешного доказательства правильности концепции 
+внедрение инструмента в организации обычно начинается с выбора пилотного проекта, 
+целями которого являются:
+  After completing the tool selection and a successful proof-of-concept, 
+introducing the selected tool into an organization generally starts 
+with a pilot project, which has the following objectives:
+
+
+1. Получить глубокие знания об инструменте, поняв его слабые 
+и сильные стороны.
+   Gaining in-depth knowledge about the tool, understanding both its strengths 
+and weaknesses.
+
+2. Оценить, насколько инструмент соответствует существующему процессу и 
+практикам применения, и определить, что необходимо изменить.
+   Evaluating how the tool fits with existing processes and practices, and 
+determining what would need to change.
+
+3. Выбрать пути использования, управления, хранения и поддержки инструмента и 
+тестов, например: 
+- определить правила именования файлов и тестов, 
+- выбрать стандарт программирования, 
+- создать библиотеки, 
+- определить модульность тестовых наборов.
+   Deciding on standard ways of using, managing, storing, and maintaining 
+the tool and the test assets e.g.: 
+- deciding on naming conventions for files and tests, 
+- selecting coding standards, 
+- creating libraries, 
+- defining the modularity of test suites.
+
+4. Оценить, будет ли выгода оправдывать цену.
+   Assessing whether the benefits will be achieved at reasonable cost.
+
+5. Определить метрики, которые необходимо собирать и включать в отчет, 
+и настроить инструмент соответствующим образом.
+   Understanding the metrics that you wish the tool to collect and report, 
+and configuring the tool to ensure these metrics can be captured and reported.
