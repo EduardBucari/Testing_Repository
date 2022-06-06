@@ -1,2 +1,55 @@
-6.2.1 Основные принципы выбора инструментов.
-      Main Principles for Tool Selection.
+6.2.1 Основные принципы выбора инструментов:
+      Main Principles for Tool Selection:
+
+1. Оценка зрелости организации, ее сильных и слабых сторон.
+   Assessment of the maturity of the organization, its strengths and weaknesses. 
+
+2. Определение возможностей улучшения процесса тестирования, поддерживаемых 
+инструментами.
+   Identification of opportunities for an improved test process supported 
+by tools.
+
+3. Понимание технологий, используемых объектом тестирования для выбора 
+совместимого с технологией инструмента.
+   Understanding of the technologies used by the test objects, in order to 
+select a tool that is compatible with that technology.
+
+4. Инструменты сборки и непрерывной интеграции, используемые в организации, 
+для обеспечения совместимости и интеграции инструментов.
+   The build and continuous integration tools already in use within the 
+organization, in order to ensure tool compatibility and integration.
+
+5. Оценка инструментов на соответствие предъявляемым требованиям и 
+объективности критериев.
+   Evaluation of the tool against clear requirements and objective criteria.
+
+6. Наличие бесплатного пробного периода использования 
+(если есть, то на какой срок).
+   Consideration of whether or not the tool is available for a free 
+trial period (and for how long).
+
+7. Оценка надежности производителя (включая обучение, поддержку и коммерческие 
+аспекты) или поддержка некоммерческих инструментов (например, с открытым 
+исходным кодом).
+   Evaluation of the vendor (including training, support and commercial 
+aspects) or support for non-commercial (e.g., open source) tools.
+
+8. Определение внутренних требований передачи знаний и опыта по использованию 
+инструментов.
+   Identification of internal requirements for coaching and mentoring in the use 
+of the tool.
+
+9. Оценка необходимости обучения с учетом имеющихся навыков тестирования 
+(и автоматизации тестирования) тех, кто напрямую будет работать с инструментами.
+   Evaluation of training needs, considering the testing (and test automation) 
+skills of those who will be working directly with the tool.
+
+10. Определение достоинств и недостатков различных вариантов лицензирования 
+продуктов (например, коммерческих или с открытым исходным кодом).
+    Consideration of pros and cons of various licensing models 
+(e.g., commercial or open source).
+
+11. Оценка соотношения затрат и выгоды применительно к конкретному 
+бизнес-сценарию (если необходимо).
+    Estimation of a cost-benefit ratio based on a concrete 
+business case (if required).
