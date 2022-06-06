@@ -53,3 +53,12 @@ skills of those who will be working directly with the tool.
 бизнес-сценарию (если необходимо).
     Estimation of a cost-benefit ratio based on a concrete 
 business case (if required).
+
+12. Oценка правильности концепции, чтобы оценить, будет ли инструмент эффективен.
+    A  proof-of-concept evaluation should be done to establish whether the tool 
+performs effectively.
+
+13. Oпределить объем изменений инфраструктуры для эффективного использования 
+инструмента.
+    to identify changes needed to that infrastructure to use the tool 
+effectively.
