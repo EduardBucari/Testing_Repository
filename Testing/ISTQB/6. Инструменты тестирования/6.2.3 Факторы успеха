@@ -1,3 +1,39 @@
 6.2.3 Факторы успеха.
       Success Factors for Tools.
 
+ Факторами успеха для оценки, внедрения, развертывания и постоянной поддержки 
+инструмента в организации являются:
+ Success factors for evaluation, implementation, deployment, and on-going support 
+of tools within an organization include:
+
+1. Постепенное внедрение инструмента в масштабах организации.
+   Rolling out the tool to the rest of the organization incrementally.
+
+2. Адаптация и улучшение процессов в соответствии с использованием инструмента.
+   Adapting and improving processes to fit with the use of the tool.
+
+3. Проведение обучения для тех, кто пользуется инструментом.
+   Providing training, coaching, and mentoring for tool users.
+
+4. Определение правил использования инструмента (например, внутренних стандартов 
+автоматизации).
+   Defining guidelines for the use of the tool (e.g., internal standards 
+for automation).
+
+5. Реализация способа сбора информации о фактическом использовании инструмента.
+   Implementing a way to gather usage information from the actual use of the tool.
+
+6. Мониторинг использования инструмента и выгоды.
+   Monitoring tool use and benefits.
+
+7. Обеспечение поддержки инструмента для команды тестирования.
+   Providing support to the users of a given tool.
+
+8. Накопление извлеченного опыта от всех пользователей.
+   Gathering lessons learned from all users.
+--------------------------------------------
+
+ Также важно обеспечить техническую и организационную интеграцию инструмента 
+в жизненный цикл разработки программного обеспечения.
+ It is also important to ensure that the tool is technically and organizationally 
+integrated into the software development lifecycle.
