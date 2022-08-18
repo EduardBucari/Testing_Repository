@@ -35,7 +35,7 @@ Errors may occur for many reasons:
    are large in number.
 
 7. Новые, незнакомые технологии - New, unfamiliar technologies.
-
+------
 
 Может возникнуть и обратная ситуация, когда подобные ошибки или дефекты 
 приводят к ошибочным негативным тестам. 
@@ -49,7 +49,4 @@ should have detected;
 
 Ошибочные позитивные тесты – это тесты, которые обнаружили 
 дефекты, не являющиеся реальными дефектами.
-False positives are reported as defects, but aren’t actually defects. 
-
-
-
+False positives are reported as defects, but aren’t actually defects.
