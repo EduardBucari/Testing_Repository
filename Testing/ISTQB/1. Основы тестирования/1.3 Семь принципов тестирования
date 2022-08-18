@@ -1,4 +1,4 @@
-1.3 Семь принципов тестирования - Seven Testing Principles
+1.3 Семь принципов тестирования - Seven Testing Principles.
 
 Семь принципов тестирования являются общим руководством 
 для тестирования в целом.
@@ -47,7 +47,7 @@ Early testing is sometimes referred to as "shift left".
 4. Кластеризация дефектов.
 4. Defects cluster together.
 
-Обычно небольшое количество модулей содержит большинство дефектов , 
+Обычно небольшое количество модулей содержит большинство дефектов, 
 обнаруженных во время тестирования перед выпуском.
 A small number of modules usually contains most of the defects 
 discovered during pre-release testing.
@@ -95,6 +95,3 @@ possible defects, but this is impossible.
 числа дефектов обеспечит успех системе.
 It is a fallacy (i.e., a mistaken belief) to expect that just finding 
 and fixing a large number of defects will ensure the success of a system.
-
-
-
