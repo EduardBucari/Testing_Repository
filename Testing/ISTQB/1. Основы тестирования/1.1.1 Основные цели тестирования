@@ -1,13 +1,13 @@
 1.1.1 Основные цели тестирования - Typical Objectives of Testing.
 
-1. Оценку рабочих продуктов, таких как требования, пользовательские истории, 
+1. Оценка рабочих продуктов, таких как требования, пользовательские истории, 
 проектирование и код.
 To evaluate work products such as requirements, user stories, design, and code.
 
-2. Проверку, все ли указанные требования выполнены.
+2. Проверка, все ли указанные требования выполнены.
 To verify whether all specified requirements have been fulfilled. 
 
-3. Проверку, завершен ли объект тестирования и работает, как ожидают пользователи и 
+3. Проверка, завершен ли объект тестирования и работает, как ожидают пользователи и 
 заинтересованные лица.
 To validate whether the test object is complete and works as the users 
 and other stakeholders expect.
