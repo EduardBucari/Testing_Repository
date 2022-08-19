@@ -28,6 +28,7 @@ Test analysis includes:
             The implementation of the component or system itself:
               - код - code;
               - метаданные - metadata; 
+Метаданные (от др.-греч. μετά «за, после, рядом») — информация о другой информации о содержимом или объекте.
               - запросы базы данных - database queries; 
               - интерфейсы - interfaces;
 
