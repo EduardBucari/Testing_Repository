@@ -22,11 +22,11 @@ The tests focus on operational aspects, and include:
 
 ● Тестирование производительности - Performance testing.
 
-Основная цель эксплуатационного приемочного тестирования – получение 
+  Основная цель эксплуатационного приемочного тестирования – получение 
 уверенности в том, что операторы или системные администраторы смогут 
 поддерживать работоспособность системы для пользователей в среде 
 эксплуатации, даже в исключительных или сложных условиях.
-The main objective of operational acceptance testing is building 
+  The main objective of operational acceptance testing is building 
 confidence that the operators or system administrators can 
 keep the system working properly for the users in the operational 
 environment, even under exceptional or difficult conditions.
