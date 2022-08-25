@@ -32,7 +32,7 @@ system are as designed and specified.
    Preventing defects from escaping to higher test levels or production.
 --------------------------
 
-Базис тестирования - Test basis
+Базис тестирования - Test basis.
 Рабочие продукты, которые могут использоваться в качестве базиса 
 тестирования для системного тестирования:
 Work products that can be used as a test basis for system testing:
