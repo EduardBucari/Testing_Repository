@@ -1,12 +1,12 @@
 2.3.4 Тестирование, связанное с изменениями.
       Change-related Testing.
 
-Когда в систему вносятся изменения, выполненные для исправления дефекта, 
+  Когда в систему вносятся изменения, выполненные для исправления дефекта, 
 либо из-за новой или изменяющейся функциональности, необходимо провести 
 тестирование, чтобы подтвердить, что изменения исправили дефект или 
 что функциональность правильно реализована и изменения не вызвали 
 каких-либо непредвиденных неблагоприятных последствий.
-When changes are made to a system, either to correct a defect or because 
+  When changes are made to a system, either to correct a defect or because 
 of new or changing functionality, testing should be done to confirm that 
 the changes have corrected the defect or implemented the functionality 
 correctly, and have not caused any unforeseen adverse consequences.
@@ -24,9 +24,9 @@ correctly, and have not caused any unforeseen adverse consequences.
 tested with all test cases that failed due to the defect, which should 
 be re-executed on the new software version.
 
-Целью подтверждающего тестирования является удостоверение в том, 
+  Целью подтверждающего тестирования является удостоверение в том, 
 что найденный дефект был исправлен.
-The purpose of a confirmation test is to confirm whether the original 
+  The purpose of a confirmation test is to confirm whether the original 
 defect has been successfully fixed.
 
 2. Регрессионное тестирование: может случиться так, что изменение, 
@@ -43,19 +43,19 @@ or even in other systems.
 Такие непреднамеренные побочные эффекты называются регрессиями.
 Such unintended side-effects are called regressions. 
 
-Регрессионное тестирование включает выполнение тестов для обнаружения 
+  Регрессионное тестирование включает выполнение тестов для обнаружения 
 таких непреднамеренных побочных эффектов.
-Regression testing involves running tests to detect 
+  Regression testing involves running tests to detect 
 such unintended side-effects.
 
-Регрессионные тесты выполняются много раз и обычно проходят медленно, 
+  Регрессионные тесты выполняются много раз и обычно проходят медленно, 
 поэтому регрессионное тестирование - это серьезный кандидат 
 на автоматизацию.
-Regression test suites are run many times and generally evolve slowly, 
+  Regression test suites are run many times and generally evolve slowly, 
 so regression testing is a strong candidate for automation.
 Automation of these tests should start early in the project.
 
-Подтверждающее тестирование и регрессионное тестирование проводятся 
+  Подтверждающее тестирование и регрессионное тестирование проводятся 
 на всех уровнях тестирования.
-Confirmation testing and regression testing are performed 
+  Confirmation testing and regression testing are performed 
 at all test levels.
