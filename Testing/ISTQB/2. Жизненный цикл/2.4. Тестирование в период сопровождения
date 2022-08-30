@@ -17,7 +17,7 @@ reliability, security, compatibility, and portability.
 
 В процессе сопровождения системы после внесения в нее изменений 
 должно выполняться и тестирование как с целью оценки успеха и для 
-проверки возможных побочных эффектов
+проверки возможных побочных эффектов.
 When any changes are made as part of maintenance, maintenance testing 
 should be performed, both to evaluate the success and to 
 check for possible side-effects.
