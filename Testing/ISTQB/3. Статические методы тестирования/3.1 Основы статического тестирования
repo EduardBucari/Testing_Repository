@@ -7,8 +7,7 @@
 2. Статический анализ - инструментальная оценка кода или других рабочих 
    продуктов.
 In contrast to dynamic testing, which requires the execution of the 
-software being tested, 
-static testing relies on 
+software being tested, static testing relies on:
 1. Reviews - the manual examination of work products. 
 2. Static analysis - tool-driven evaluation of the code or other work 
    products.
