@@ -1,12 +1,12 @@
 2.4.2 Анализ влияния для тестирования в период сопровождения.
       Impact Analysis for Maintenance.
 
-Анализ влияния оценивает изменения, которые были сделаны 
+Анализ влияния оценивает изменения, которые были сделаны: 
 - для обновленной эксплуатируемой версии 
 - для определения предполагаемых последствий, 
 - ожидаемых и возможных побочных эффектов изменения, 
 - определяет области в системе, на которые может повлиять изменение.
-Impact analysis evaluates the changes that were made for 
+Impact analysis evaluates the changes that were made for:
 - a maintenance release 
 - to identify the intended consequences 
 - expected and possible side effects of a change, 
