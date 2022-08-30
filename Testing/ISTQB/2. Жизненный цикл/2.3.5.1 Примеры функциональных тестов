@@ -37,4 +37,4 @@ microservice to check an account holder’s credit score.
 или отклонение заявки на получение кредита.
    For acceptance testing, 
 tests are designed based on how the banker handles approving 
-or declining a credit application..
+or declining a credit application.
