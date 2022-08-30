@@ -18,7 +18,7 @@ at the user interface is passed to the business logic.
 
 3 Уровень. Системное тестирование: 
 тесты разрабатываются на основе того, как владельцы счетов 
-могут подать заявку на кредитную линию на своих расчетных счетах
+могут подать заявку на кредитную линию на своих расчетных счетах.
    For system testing, 
 tests are designed based on how account holders can apply for a line of 
 credit on their checking accounts.
@@ -27,7 +27,7 @@ credit on their checking accounts.
 тесты разрабатываются на основе того, как система использует внешний 
 микросервис для проверки кредитного рейтинга владельца счета.
 (микросервисы позволяют поддерживать слабую связанность сервисов в 
-процессе работы над системой)
+процессе работы над системой).
    For system integration testing, 
 tests are designed based on how the system uses an external 
 microservice to check an account holder’s credit score.
