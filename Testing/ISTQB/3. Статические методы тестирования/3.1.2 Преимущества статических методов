@@ -1,20 +1,20 @@
 3.1.2 Преимущества статических методов.
       Benefits of Static Testing.
 
-При применении на ранней стадии разработки программного обеспечения 
+  При применении на ранней стадии разработки программного обеспечения 
 статическое тестирование позволяет обнаруживать дефекты до проведения 
 динамического тестирования (например, в требованиях или проектных 
 спецификациях, актуализация списка требований к продукту и т.д.).
-When applied early in the software development lifecycle, 
+  When applied early in the software development lifecycle, 
 static testing enables the early detection of defects before 
 dynamic testing is performed (e.g., in requirements or design 
 specifications reviews, product backlog refinement, etc.).
 
-Дефекты, обнаруженные на ранней стадии, гораздо дешевле исправить, 
+  Дефекты, обнаруженные на ранней стадии, гораздо дешевле исправить, 
 чем дефекты, обнаруженные на более поздней стадии жизненного цикла, 
 особенно в сравнении с дефектами, найденными после поставки и активного 
 использования программного обеспечения.
-Defects found early are often much cheaper to remove 
+  Defects found early are often much cheaper to remove 
 than defects found later in the lifecycle, 
 especially compared to defects found after the software is deployed and 
 in active use.
