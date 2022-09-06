@@ -3,6 +3,7 @@
 
 Методы проектирования тестов делятся на: 
 Test techniques are classified as:
+
 1. Методы черного ящика - black-box,
 2. Методы белого ящика - white-box,
 3. Методы основанные на опыте - experience-based.
