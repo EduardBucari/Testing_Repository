@@ -1,8 +1,8 @@
 4.2.1 Эквивалентное разбиение - Equivalence Partitioning.
 
-Эквивалентное разбиение делит данные на группы (классы эквивалентности), 
+  Эквивалентное разбиение делит данные на группы (классы эквивалентности), 
 которые, как предполагается, обрабатываются схожим образом.
-Equivalence partitioning divides data into partitions (also known as 
+  Equivalence partitioning divides data into partitions (also known as 
 equivalence classes) in such a way that all the members of a given partition 
 are expected to be processed in the same way. 
 
@@ -56,10 +56,10 @@ Failures can be masked when several failures occur at the same time but
 only one is visible, causing the other failures to be undetected.
 ----------------------------
 
-Для достижения 100% покрытия с помощью этого метода, тестовые сценарии 
+  Для достижения 100% покрытия с помощью этого метода, тестовые сценарии 
 должны покрывать все позитивные и негативные классы, проверяя хотя бы одно 
 значение из каждого класса.
-To achieve 100% coverage with this technique, test cases must cover all 
+  To achieve 100% coverage with this technique, test cases must cover all 
 identified partitions (including invalid partitions) by using a minimum of one 
 value from each partition.
  
