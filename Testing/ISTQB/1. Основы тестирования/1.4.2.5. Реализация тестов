@@ -17,10 +17,10 @@ test design answers the question “how to test?”,
 while test implementation answers the question 
 “do we now have everything in place to run the tests?” 
 
-Реализация тестов – это активность, во время которой процедуры или 
+  Реализация тестов – это активность, во время которой процедуры или 
 сценарии тестирования выстраиваются в определенном порядке, чтобы 
 облегчить выполнение тестов.
-Test implementation - is the activity during which test procedures or 
+  Test implementation - is the activity during which test procedures or 
 test scripts are arranged in a certain order to make it easier to run tests.
 
 Реализация тестов состоит из:
