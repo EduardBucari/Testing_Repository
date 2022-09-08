@@ -54,8 +54,8 @@ features together to release at once.
 some of which may be heavily re-worked or even abandoned in subsequent 
 development work.
 
-Компоненты или системы, разрабатываемые с использованием этих моделей, 
+  Компоненты или системы, разрабатываемые с использованием этих моделей, 
 часто подразумевают пересечение и повторение уровней тестирования на 
 протяжении процесса разработки.
-Components or systems developed using these methods often involve 
+  Components or systems developed using these methods often involve 
 overlapping and iterating test levels throughout development.
