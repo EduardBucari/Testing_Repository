@@ -1,0 +1,73 @@
+Urok pervii.
+
+Zatushevskaia Tatiana (Elite testing)
+zagruzka  zadania v mystat
+
+ Teli testirovania:
+ - sootvetsvie teliam producta
+ - to cito nujno zakazciku.
+ - izbavitsia ot bolishenstva defectov
+ - predotvrashenie defectov
+ - proverka terbovanii
+ - opravdivaet ojidania polizovatelei
+ - nahojdenie defectov
+ - umenishenie riska
+ - informirovanie zainteresovanih litam
+ - zakonosti deistvii.
+ 
+ Cito takoe kacestvo:
+ priamie(zadokumentirovanie v jire) i kosvennie (sootvetstvia ojidaniam potrebitelei) 
+ trebovania (hotel moloko a polucil horoshuiu smetanu ili sir).
+ 
+ otributi kacestva:
+ - funktionalinosti (telefon dlia zvonkov)
+ - nadejnosti
+ - udubstvo ispolizovania
+ - efektivnosti (skorosti obrabotki)
+ - podderjivaemosti
+ - vostanavlivaemosti
+ - perenosimosti
+ 
+ Osnovnaia terminalogia:
+ Error - oshibka - 2+2=5
+ Mistake - oshibka orfograficeskaia
+ Fault - neispravnosti - sistema ne spravliaetsia s zadaciami
+ Bug - oshibka prilojenia ne kriticeskaia
+ Failure - vihod iz stroia sistemi
+ 
+ pervopricina defektov:
+ - analiz trebovanii (komunikatia v kollektive)
+ - slojnosti koda
+ - nedostatok kvalifikatii
+ - novie tehnoliogii
+ - uslovia okrujaiushei sredi.
+ - samo testirovani pravoditsia ne pravilino (inogda sboi ne sviazan s bagom)
+ 
+ defekt, pervopricina i efkt (rascet protentov po viplatam)
+ 
+ 
+ 7 printipov testirovania: (otmazki dlia testirovshkov).
+ - testirovanie pokazivaet nalicie defektov, a ne ih nalicie.
+    testirovanie ne iavliaetsia garantiei otsutstvia bagov
+ - testirovanie ne mojet biti iscerpivaiushim.
+ - cem ranishe tem deshvle (lucishe predotvratiti cem potom iskati)
+ - Klasterizatia - 20% komponentov soderjit 80% oshibok (gde odin grib tam esti i drugie)
+ - paradoks pestitidov.
+ - testirovanie zavisit ot konteksta (igra na telefone ili medetinskoe oborudovanie).
+ - lojnii vivod ob otsutstvii oshibok. 
+ 
+ Etapi razrabotki
+ Etapi testirovania 
+ roli na proekte 
+ (product owner - manager proekta podderjivaiushii sviazi s zakazcikom).
+ 
+ Kontroli, Obespecenie kacestva, 
+ 
+ 
+ Domashee zadanie: 
+ izuciti slaidi.
+ poiskati bagi na dvuh saitah
+ zanesti bug v jiru
+ 
+ your first jira project (zaloginitsia) - create 
+ vibrati 

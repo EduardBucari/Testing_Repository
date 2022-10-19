@@ -1,0 +1,121 @@
+ Urork 3
+ 
+ Tipi testirovania (dli vseh urovnei):
+ 
+ 1. Functionalinoe ( cito delaet prilojenie)
+ teli - sistema imeet vse nujnie functii
+ i rabotaet ot naciala do konta.
+ (ficha - opredelennii functional).
+ 
+ Preimushestva:
+ simuliatia realinogo ispolizovania.
+ vipolnenie v ruchinom rejime.
+  Nedostatki:
+ Logiceskie oshibki
+ Izbitocinoe i mnogokratnoe testirovanie.
+ 
+ 
+ 2. Ne functionalinoe (kak rabotaet PO)
+ Nadejnosti, efectivniosti, iuzabiliti,
+ podderjivaemosti, perenosimosti.
+ Testirovanie dokumentatii, 
+ 
+ Baseline testirovanie - testirovanie trebovanii i dokumentatii.
+ Compliance testing - sobliudenie standartov.
+ 
+ Vidi documentatii:  test keis, bug report, test plan, test report.
+ 
+ Maintainability testing - ispravliaesh bag i poluciaesh eshe mnogo drugiv bagov,
+ zadacia blije k programirovaniu.
+ 
+ Usability testing - otdelinii protess:
+ - Legkosti ispolizovania prilojenia.
+ - bisrtrota rezulitata
+ - zapominaemosti,
+ - poniatnii interfeis,
+ - udovletvorenosti (nravitsia ili net)
+ 
+ Portability testing - rabota na raznih operationnih sistemah.
+ (cross-browser and cross-platform) osobenno dlia mobilinih ustroistv.
+ 
+ Configurationnaia sistema - dlia SOVMESTIMOSTI raznih PO.
+ - Conversion - perehod na drugui bazu dannih,
+ - cross-browser and cross-platform.
+ 
+ Performance testing - testirovanie proizvoditelinosti
+ stress testing, load testing
+ 
+ Mashtabiruemosti - vozmojnosti uvelicenie polizovatelei
+ Obiemnoe testirovanie - vozmojnoti hraniti mnogo dannih
+ Endurance testing - dlitelinaia nagruzka.
+ Ramp testing - vinoslivosti na vremia i uvelicenie.
+ 
+ LOAD TESTING - emitatia ojidaemoi nagruzki do maximuma
+ STRESS TEST - za predeli dopustimogo.
+ RECOVERY TEST - pri kakoi nagruzki lomaetsia i kak dolgo vostanavlivaemosti.
+ (izcez internet).
+ 
+ Reliability testing - dlitelinaia rabota bez sboev.
+ 
+ Security testing - otdelinaia tema (net dostupa drugim)
+ Penetration - Simuliatia ataki (eticinii haking)
+ Vulnerability - poisk uiazvimih mest v programe.
+---------
+
+ 3. Structurnoe testirovanie (belii iashik) na vseh urovniah.
+ proverka koda na oshibki i realizatiu functii.
+
+Preimushestva i nedostatki:
+Optimizatia koda i ocistka ot mertvogo koda.
+Dorogo, 
+-------------
+ 
+ 4. Testirovanie sviazanoe s izmeneniiami (90 % vremeni raboti testirovshika)
+ 
+ 4.1 Smoke testing (pered perehodom k detalinomu testirovaniu)
+ (bilid verification)- sborka zasluzivaet cito na nee nujno 
+ tratiti dalishe vremia i denigi (proverka osnovnogo functionala).
+ - test zavisit ot slojnosti
+ - pozitivnoe testirovanie
+ - bolishoi ohvat programi no gluboko ne kapaem.
+Primer: protestirovati vse nujnie functii:
+login, paroli, dobaviti, meniati i udaliati zapisi.
+- ciasto avtomatiziruetsia, pomogaet proveriati integratiu komponentov,
+nahodit starie defekti i ekonomit vremia. 
+
+Nedostatki:
+Ne detalinoe i ogranicennoe testirovanie,
+net negativnih stenariev.
+teli opredeliti stabilnosti.
+(vizit k obshemu vraciu)
+
+4.2 Sanity testeng - sanitarnoe testirovanie (zdravomislie)
+novaia zborka bila sozdana ne zria.
+Teli - opredeliti cito novaia sborka imeet novie i rabocie dopolnenie i izmenenia.
+Bolee glubokoe cem SMOKE testirovanie i bolee uzkoe testirovanie.
++ Ekonomit vremia, provoditsia pered osnovnim testirovaniem, 
+mojet podrobno ne dokumentirovatisia, najodit propushennie oshibki.
+Teli - opredeliti rationalinosti. Vipolniaetsia toliko testirovshikami.
+(vizit k konkrtnomu vraciu)
+
+4.3 Regresionnoe testirovanie.
+Teli - sistema ne stala huje posle vnesenia izmenenii.
+Testirovanie vseh funktii sistemi.
+Nacinaetsia s izmenenoi sistemi i zatem proverka proishodit po vsei
+sisteme ili vibrannimi ciastiami.
+----------------
+
+Urovni testirovania:
+1. Unit testing (vipolniaiutsia programistami).
+2. Component testing (Modulinoe)
+3. Integrationnoe testirovanie (Komponentnoe i sistemnoe).
+4. Sistemnoe testirovanie.
+5. Priemocinoe testirovanie (vse tebovania bili vipolneni)
+   (alfa, beta - no ne fakt).
+
+podhodi k vipolneniu testov:
+- cernii iashik (sistemnoe testirovanie, priemocinoe)
+- serii iasahik (komponentnoe i integrationnoe testirovanie)
+- belii iashik. (unit test)
+
+DZ. Sdelati chek list (nefunktionalinoe testirovanie)
