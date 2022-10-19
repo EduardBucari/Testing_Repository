@@ -2,7 +2,7 @@ Urork 3
  
  Tipi testirovania (dli vseh urovnei):
  
- 1. Functionalinoe ( cito delaet prilojenie)
+ 1. Functionalinoe ( cito delaet PO)
  teli - sistema imeet vse nujnie functii
  i rabotaet ot naciala do konta.
  (ficha - opredelennii functional).
@@ -13,8 +13,8 @@ Urork 3
   Nedostatki:
  Logiceskie oshibki
  Izbitocinoe i mnogokratnoe testirovanie.
- 
- 
+---
+
  2. Ne functionalinoe (kak rabotaet PO)
  Nadejnosti, efectivniosti, iuzabiliti,
  podderjivaemosti, perenosimosti.
@@ -28,7 +28,7 @@ Urork 3
  Maintainability testing - ispravliaesh bag i poluciaesh eshe mnogo drugiv bagov,
  zadacia blije k programirovaniu.
  
- Usability testing - otdelinii protess:
+ Usability testing - otdelinii protes:
  - Legkosti ispolizovania prilojenia.
  - bisrtrota rezulitata
  - zapominaemosti,
@@ -49,9 +49,10 @@ Urork 3
  Obiemnoe testirovanie - vozmojnoti hraniti mnogo dannih
  Endurance testing - dlitelinaia nagruzka.
  Ramp testing - vinoslivosti na vremia i uvelicenie.
- 
+
+ ++++
  LOAD TESTING - emitatia ojidaemoi nagruzki do maximuma
- STRESS TEST - za predeli dopustimogo.
+ STRESS TEST - testirovanie nagruzki za predeli dopustimogo.
  RECOVERY TEST - pri kakoi nagruzki lomaetsia i kak dolgo vostanavlivaemosti.
  (izcez internet).
  
@@ -76,21 +77,22 @@ Dorogo,
  (bilid verification)- sborka zasluzivaet cito na nee nujno 
  tratiti dalishe vremia i denigi (proverka osnovnogo functionala).
  - test zavisit ot slojnosti
- - pozitivnoe testirovanie
+ - toliko pozitivnoe testirovanie.
  - bolishoi ohvat programi no gluboko ne kapaem.
 Primer: protestirovati vse nujnie functii:
 login, paroli, dobaviti, meniati i udaliati zapisi.
 - ciasto avtomatiziruetsia, pomogaet proveriati integratiu komponentov,
 nahodit starie defekti i ekonomit vremia. 
+Vipolnietsia kak programistami tak i testirovshikami.
 
 Nedostatki:
 Ne detalinoe i ogranicennoe testirovanie,
 net negativnih stenariev.
 teli opredeliti stabilnosti.
-(vizit k obshemu vraciu)
+(sravnenie - vizit k obshemu vraciu)
 
 4.2 Sanity testeng - sanitarnoe testirovanie (zdravomislie)
-novaia zborka bila sozdana ne zria.
+(proveriti cito novaia zborka bila sozdana ne zria.)
 Teli - opredeliti cito novaia sborka imeet novie i rabocie dopolnenie i izmenenia.
 Bolee glubokoe cem SMOKE testirovanie i bolee uzkoe testirovanie.
 + Ekonomit vremia, provoditsia pered osnovnim testirovaniem, 
@@ -103,6 +105,8 @@ Teli - sistema ne stala huje posle vnesenia izmenenii.
 Testirovanie vseh funktii sistemi.
 Nacinaetsia s izmenenoi sistemi i zatem proverka proishodit po vsei
 sisteme ili vibrannimi ciastiami.
+
+4.4. Podtverjdaiushee.
 ----------------
 
 Urovni testirovania:
