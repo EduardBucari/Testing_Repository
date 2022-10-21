@@ -115,13 +115,15 @@ Urovni testirovania:
 2. Component testing (Modulinoe)
 3. Integrationnoe testirovanie (Komponentnoe i sistemnoe).
 4. Sistemnoe testirovanie.
-5. Priemocinoe testirovanie (vse tebovania bili vipolneni)
+5. Priemocinoe testirovanie (vse li trebovania bili vipolneni)
    (alfa, beta - no ne fakt).
 
 podhodi k vipolneniu testov:
-- cernii iashik (sistemnoe testirovanie, priemocinoe)
-- serii iasahik (komponentnoe i integrationnoe testirovanie)
 - belii iashik. (unit test)
+- serii iasahik (komponentnoe i integrationnoe testirovanie)
+- cernii iashik (sistemnoe i priemocinoe testirovanie)
+
+
 
 DZ. Sdelati chek list (nefunktionalinoe testirovanie)
 ===================================================================
