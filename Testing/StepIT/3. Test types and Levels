@@ -80,14 +80,14 @@ Dorogo,
  - toliko pozitivnoe testirovanie.
  - bolishoi ohvat programi no gluboko ne kapaem.
 Primer: protestirovati vse nujnie functii:
-login, paroli, dobaviti, meniati i udaliati zapisi.
++++++ login, paroli, dobaviti, meniati i udaliati zapisi.
 - ciasto avtomatiziruetsia, pomogaet proveriati integratiu komponentov,
 nahodit starie defekti i ekonomit vremia. 
 Vipolnietsia kak programistami tak i testirovshikami.
 
 Nedostatki:
 Ne detalinoe i ogranicennoe testirovanie,
-net negativnih stenariev.
+Toliko positivnoe testirovanie, net negativnih stenariev.
 teli opredeliti stabilnosti.
 (sravnenie - vizit k obshemu vraciu)
 
@@ -97,8 +97,9 @@ Teli - opredeliti cito novaia sborka imeet novie i rabocie dopolnenie i izmeneni
 Bolee glubokoe cem SMOKE testirovanie i bolee uzkoe testirovanie.
 + Ekonomit vremia, provoditsia pered osnovnim testirovaniem, 
 mojet podrobno ne dokumentirovatisia, najodit propushennie oshibki.
-Teli - opredeliti rationalinosti. Vipolniaetsia toliko testirovshikami.
-(vizit k konkrtnomu vraciu)
+Teli - opredeliti rationalinosti vnesennih izmenenii. 
+Vipolniaetsia toliko testirovshikami.
+(sravnenie - vizit k konkretnomu vraciu)
 
 4.3 Regresionnoe testirovanie.
 Teli - sistema ne stala huje posle vnesenia izmenenii.
