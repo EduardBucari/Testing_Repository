@@ -1,14 +1,14 @@
 UROK 2.
  
  Sferi deiatelinosti (roli proecta):
- 1.Product ouner - postoiano na sviazi s zakazcikom, preobrazuet strategiu v konkretnie zadaci, izuciaet rinok, 
+ 1.Product ouner - manadger proekta, kotorii najoditsia postoiano na sviazi s zakazcikom, 
+ preobrazuet strategiu v konkretnie zadaci, izuciaet rinok, 
  promejutocinoe zveno mejdu razrabotcikom i zakazcikom.
  2. Project manager - organizuet i planiruet deiatelinosti razrabotki.
  Stoimosti, biudjet proecta, analiz, upravlenie riskami.
  3. Arjitector - visokourovnevaia i arjitecturnaia razrabotka proekta, bez melocei.
  Guru v code.
- 4. Razrabotcik - detalinoe proectirovanie i razrabotka PO, tak je testiruet svoi cod.
- refactoring.
+ 4. Razrabotcik - detalinoe proectirovanie i razrabotka PO, tak je testiruet svoi cod (refactoring).
  5. Dezainer.
  6. Biznes analitic - analiz producta i biznes trebovanii, takje upravliaet biudjetom
  i podderjivaet zviazi s zakazcikom.
@@ -19,11 +19,12 @@ UROK 2.
  11. test arjitector.
  12. Test manager sobiraet informatiu o jode deiatelinosti razrabotke.
  
+ +++++++++
  QC - sposob najoditi defecti.  
  QA - predotvrashenie defectov. 
  
  Vereficatia - proverka kajdogo etapa razrabotki. Sootvetstvie documentam razrabotki.
- Validatia - proverka finalinogo razulitata.
+ Validatia - proverka finalinogo razulitata (nravitsia product potrebiteliam ili net).
  
  documentatia v protese testirovania:
  
@@ -36,7 +37,7 @@ UROK 2.
  - minimizatia regresii
  - reactivnii podjod
  
- Test plan - CITO TESTIRUEM.
+ Test plan: - (opredeliaem CITO TESTIRUEM).
  Strategia
  identificator
  teli
@@ -45,7 +46,7 @@ UROK 2.
  rezulitat
  riski i sposobi ih preodalenia.
  
- Kriterii vhoda i vihoda (nacilao i konet testirovania) uslovia kontrakta.
+ Kriterii vhoda i vihoda (nacilo i konet testirovania) v usloviah kontrakta.
  Kriterii zamarozki testirovania.
  
  
@@ -89,17 +90,18 @@ testovaia sreda
 nomer sborki produkta.
 popitki vosproizvedenia,
 
-severiti - stepeni urona,
-prioreti - oceredi vipolnenia.
+++++++++
+severiti - serioznosti ili stepeni urona,
+prioreti - prioritet ili ocerednosti vipolnenia.
 
 vajno vosproizvesti defect i pri kakih usloviah.
 
 opredeliti v ciom istinnaia pricina defecta.
 
 test keis vnutrennia dokumentatia s poniatnim opisaniem.
-test keis nacinaetsia iz opisania s zapuska programmi,
-u test keiasda pishetsia posle kajdogo shaga
-step to reproduci - toliko dlia konkretnogo shaga
+test keis nacinaetsia s zapuska programmi i iz opisania,
+u test keias pishetsia posle kajdogo shaga
+step to reproduce - toliko dlia konkretnogo shaga
  
  DOM ZADANIE:
  VIBRATI TIP BAG 
