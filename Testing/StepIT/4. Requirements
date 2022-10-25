@@ -11,7 +11,7 @@ Tipi trebovanii:
 Urovni trebovanii napriamuiu sviazani s urovniami testirovania:
 unit, componentnoe, integrationnoe, sistemnoe i priemocinoe testirovanie.
 
-e2e (end to end test)- vesi protes prohojdenia poizovatelem puti (ot registratii do pokupki).
+e2e (end to end test)- vesi protes prohojdenia polizovatelem puti (ot registratii do pokupki).
 
 +++++++
 Metodi ili podhodi testirovania:
@@ -60,26 +60,28 @@ viiti na rinok.
 Realizatia trebovanii:
 
  - User story (gibkaia metodologia razrabotki) etap razrabotki gde esti nabor protesov ili artefactov,
-opredelennioe sroki. Eto polizovateliskaia istoria ispolizuetsia dlia togo cito napisati trebovania
-poniatnie dlia vseh. Opsanie trebovanii vedetsia s tociki zrenia polizovatelia.
+opredelennie sroki. Eto polizovateliskaia istoria ispolizuetsia dlia togo cito napisati trebovania
+poniatnie dlia vseh. Opisanie trebovanii vedetsia s tociki zrenia polizovatelia.
 
 Polizovateliskaia istoria opisivaet: tip polizovatelia, cito nujno etomu polizovateliu i dlia 
 cego eto nujno polizovateliu. Eto prostoi sposob napisati trebovania s tociki zrenia polizovatelia.
 
 Teli polizovateliskoi istorii - pokazati polizovateliu cito konkretno on viigraet.
 
-User story eto ne odno i toje cito use case i tehniceskaia dokumentatia.
+User story eto ne odno i toje cito use-case ili tehniceskaia dokumentatia.
 Use case - eto konkretnii sluciai ispolizovania.
 
-User story pishetsia produkt-ounerom ili biznes-analitikom.
+User-story pishetsia produkt-ounerom ili biznes-analitikom.
 
 Haracteristiki ili Format user story:
 Kto - tip polizovatelia.
 Cito - kakoe deistvie budet vipolniatsia.
 Pocemu - kakuiu polizu eto prineset polizovateliu.
-(As a <who>, I want <what> so that <why>) 
+ - As a <who>, 
+ - I want to <what> 
+ - so that <why>
 
-Slojnosti user story meriaetsia zavisit ot komandi.
+Slojnosti user-story meriaetsia vzavisiti ot komandi.
 
 User story sostoit iz:
 1. id,
@@ -93,15 +95,15 @@ a zadacia testirovshika vnimatelino izuciti etot user-story i
 zadati vse voprosi daje samie ocevidnie. Neobhodimo ubeditsia 
 cito v user-story opisano absoliutno vse.
 
-Epic - krupnii functional, obiediniaiushii mnogo melkih trebovanii (user-story).
-Epic obiediniaet neskoliko user-story (mnogo melkih trebovanii) 
+Epic - krupnii functional, obiediniaiushii mnogo user-story.
+a user-story sostoit iz mnogih melkih trebovanii. 
 
 
 Preimushestva napisania trebovanii v formate user-story:
 - Lucishee predstavlenie o tom cito mi sozdaem.
 - Actent idet na polizovatelia, i reshenie polizovatelem realinih zadaci.
 (Poetomyu neobhodimo zadavati kak mojno bolishe voprosov)
-- Lucishee vzaimodeistvie s komandoi i polizovateliami.
+- Lucishee vzaimodeistvie s komandoi i s polizovateliami.
 - Rabota s trebovaniami na samih rannih etapah.
 - Lucishee kachestvo gotovogo produkta.
 
@@ -109,8 +111,8 @@ Preimushestva napisania trebovanii v formate user-story:
 Nabor kacestv dlia user-story (I N V E S T)
 Independent - user-story doljni biti nezavisimi drug ot druga.
 Negotiable - obsujdaemie.
-Valuable - tennosti t.e. poniatno dlia cego realizovivati eto trebovanie.
-Estimatable - ottenivaemosti, t.e. komanda dolna ponimati skoliko usilii doljno biti potraceno.
+Valuable - tennosti t.e. poniatno dlia chego realizovivati eto trebovanie.
+Estimatable - ottenivaemosti, t.e. komanda doljna ponimati skoliko usilii doljno biti potraceno.
 Sized - chetkii razmer trebovanii.
 Testable - proveriaemosti, t.e. vozmojnoti vipolniti testirovanie po dannomu trebovaniu.
 (Naprimer: hociu cito bi sistema bila krasivoi- eto obshie trebovania, kotorie nelizia protestirovati).
