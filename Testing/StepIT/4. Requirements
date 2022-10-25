@@ -1,0 +1,133 @@
+Urok 4
+Requirements.
+Trebovania - zadocumentirovannoe uslovie kotoroe doljna soderjati programma dlia dostijenia svoei teli.
+
+Tipi i urovni trebovanii:
+
+Tipi trebovanii:
+- functionalinie (urovni - biznes, polizovateliskie i functionalinie trebovania)
+- ne functionalinie (trebovania k proizvoditelinosti, k documentatii, sreda razrabotki, kacestvo)
+
+Urovni trebovanii napriamuiu sviazani s urovniami testirovania:
+unit, componentnoe, integrationnoe, sistemnoe i priemocinoe testirovanie.
+
+e2e (end to end test)- vesi protes prohojdenia poizovatelem puti (ot registratii do pokupki).
+
++++++++
+Metodi ili podhodi testirovania:
+White box, Black box, Grey box.
+
+Black box - podhod k testirovaniu s tociki zrenia polizovatelia (emitatia ot razumnogo do absurdnogo 
+varianta ispolizovania).
+Black box ottalkivaetsia iskliucitelino ot trebovanii.
+
+White box - testirovshik pishet testi dlia proverki koda, i ne meniaet nicego v kode.
+White box ottalkivaetsia ot tehniceskih trebovanii
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Kogda i kak vipolniaiutsia raznie vidi testirovania:
+
+- Unit Test Level (White box testing) vipolniaetsia vsiakii raz kogda kod meniaetsia,
+dlias togo citobi udostoveritsia cito izmenenia i dopolnenia rabotaiut korrekno, 
+(soglasno functionalinim tebovaniam).
+
+- Komponentnoe (modulinoe) testirovanie (Grey box testing) vipolniaetsia kogda telii komponen gotov,
+dlia togo citobi ubeditsia cito kajdii otdelinii moduli rabotaet soglasno trebovaniam.
+(soglasno functionalinim tebovaniam).
+
+- Integrationnoe testirovanie (Black box, Gray box testing) vipolniaetsia kogda neskoliko
+komponentov gotovi, provoditsia dlia togo cito bi protestirovati vzaimodeistvie dannih gotovih komponentov.
+(soglasno polizovateliskim tebovaniam).
+
+- Sistemnoe testirovanie (Black box tetsing) vipolniaetsia kogda vse moduli gotovi i soedeneni 
+v sistemu, dlia togo togo cito otteniti rabotu sistemi v telom.(soglasno polizovateliskim tebovaniam)
+
+- Priemocinoe testirovanie (Black box) vipolniaetsia kogda produkt polnostiu gotov i protestirovan,
+dlia proverki sistemi (soglasno biznes trebovaniam). Na etom etape proveriaetsia gotovnosti produkta 
+viiti na rinok.
+     - User acceptance testing (UAT).
+	 - Business acceptance testing (BAT).
+	 - Contract acceptance testing (CAT).
+	 - Regulation acceptance testing (RAT).
+	 - Operational acceptance testing (OAT).
+	 - Alfa testing - preduprejdaem polizovatelei cito programma mojet rabotati ne korrektno
+	   i polizovateli pri jelanii mogut ee poprobivati - na moshnostiah razrabotcika.
+	 - Beta testing - na moshnostiah zakazcika.
+	 (alfa i beta vsegda idut vmeste - dlia obratnoi sviazi).
+---------------------------
+
+Realizatia trebovanii:
+
+ - User story (gibkaia metodologia razrabotki) etap razrabotki gde esti nabor protesov ili artefactov,
+opredelennioe sroki. Eto polizovateliskaia istoria ispolizuetsia dlia togo cito napisati trebovania
+poniatnie dlia vseh. Opsanie trebovanii vedetsia s tociki zrenia polizovatelia.
+
+Polizovateliskaia istoria opisivaet: tip polizovatelia, cito nujno etomu polizovateliu i dlia 
+cego eto nujno polizovateliu. Eto prostoi sposob napisati trebovania s tociki zrenia polizovatelia.
+
+Teli polizovateliskoi istorii - pokazati polizovateliu cito konkretno on viigraet.
+
+User story eto ne odno i toje cito use case i tehniceskaia dokumentatia.
+Use case - eto konkretnii sluciai ispolizovania.
+
+User story pishetsia produkt-ounerom ili biznes-analitikom.
+
+Haracteristiki ili Format user story:
+Kto - tip polizovatelia.
+Cito - kakoe deistvie budet vipolniatsia.
+Pocemu - kakuiu polizu eto prineset polizovateliu.
+(As a <who>, I want <what> so that <why>) 
+
+Slojnosti user story meriaetsia zavisit ot komandi.
+
+User story sostoit iz:
+1. id,
+2. Urovnia slojnosti.
+3. Kriterii priemki.
+
+Kriterii priemki: 
+User-story sostoit iz neskolikih criteriev priemki.
+Zadacia product-ouner proveriti cito vse kriterii bili uciteni,
+a zadacia testirovshika vnimatelino izuciti etot user-story i 
+zadati vse voprosi daje samie ocevidnie. Neobhodimo ubeditsia 
+cito v user-story opisano absoliutno vse.
+
+Epic - krupnii functional, obiediniaiushii mnogo melkih trebovanii (user-story).
+Epic obiediniaet neskoliko user-story (mnogo melkih trebovanii) 
+
+
+Preimushestva napisania trebovanii v formate user-story:
+- Lucishee predstavlenie o tom cito mi sozdaem.
+- Actent idet na polizovatelia, i reshenie polizovatelem realinih zadaci.
+(Poetomyu neobhodimo zadavati kak mojno bolishe voprosov)
+- Lucishee vzaimodeistvie s komandoi i polizovateliami.
+- Rabota s trebovaniami na samih rannih etapah.
+- Lucishee kachestvo gotovogo produkta.
+
+
+Nabor kacestv dlia user-story (I N V E S T)
+Independent - user-story doljni biti nezavisimi drug ot druga.
+Negotiable - obsujdaemie.
+Valuable - tennosti t.e. poniatno dlia cego realizovivati eto trebovanie.
+Estimatable - ottenivaemosti, t.e. komanda dolna ponimati skoliko usilii doljno biti potraceno.
+Sized - chetkii razmer trebovanii.
+Testable - proveriaemosti, t.e. vozmojnoti vipolniti testirovanie po dannomu trebovaniu.
+(Naprimer: hociu cito bi sistema bila krasivoi- eto obshie trebovania, kotorie nelizia protestirovati).
+
+
+Harakteristiki Horoshih Trebovanii:
+- Necessary - neobhodimosti sviazati trebovanie s konkretnoi biznes zadacei.
+- Complete - telostnosti, t.e. doljna biti vsia neobhodimaia informatia dlia realizatii trebovania.
+- Consistent - Posledovatelinosti, t.e. Documentatia ili abriviatura vezde doljna nazivatisia odinakovo.
+- Unambiguous - nedvuhsmislennosti (krasivo ili bistro eto dvusmislennoe poniatie - dolja biti chetkosti). 
+- Verifiable - proveriaemosti.
+
+++++++++++
+Ne nado soglashatisia rabotati nad user-story poka u vas net polnoi informatii.
+
+Epik eto oceni bolishaia user-story, kotoruiu nelizia vikatiti za odin sprint.
+
+Bug - eto nesootvestvie user-story.
+
+Backlog - eto papka ili hranilishe gde otabrajeni vse zadachi nad kotorimi mi rabotaem.
