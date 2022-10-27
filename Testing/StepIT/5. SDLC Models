@@ -1,0 +1,127 @@
+Urok 5.
+Modeli razrabotki PO (Posledovatelinie i Gibkie).
+
+1. Posledovatelinie (Glavnaia tennosti eto dokumentatia, no net rabocego PO do poslednego momenta):
+- vaterfol (trebovania, proectirovanie, razrabotka, testirovanie, vipusk, podderjka)
+- v modelei (kajdii etap razrabotki imeet svoi etap proektirovania testirovania)
+- Iterativnaia model
+- Spiralinaia modeli
+- Inkrementalinaia modeli.
+
++ Horoshaia dokumentatia, Prozracinosti, Prostota i bistrota.
+- Rabochee PO vipuskaetsia toliko v konte, ne gibkaia (net izmenenii i vozvrata)
+-----
+
+2. Gibkaia metodologia - Agile (Sposobnosti vnositi izmenenia na vseh etapah razrabotki) 
+Glavnaia tennosti eto rabotaiushee PO.
+(+ otkaz ot ierahii i bolishaia nezavisimosti uciastnikov komandi).
+(- zavisimosti ot opita i lichinosti, slojnosti esli komanda bolishaia)
+
+Agile Manifest:
+1. Individuals and interaction over Processes and Tools.
+2. Working product over Comprehensive Documentation.
+3. Customer Collaboration over Contract Negotiation.
+4. Responding to change over Follwing a plan.
+
+1. Люди и взаимодействие важнее процессов и инструментов.
+2. Работающий продукт важнее исчерпывающей документации.
+3. Сотрудничество с заказчиком важнее согласования условий контракта.
+4. Готовность к изменениям важнее следования первоначальному плану.
+
+ (12 Printipov Agile)
+
+Gibkie modeli razrabotki:
+  - Scrum
+  - Kanban
+  - Scramban
+  - Nexus, Less, etc.
+  
+Scrum - eto iterativnaia i inkrementnaia modeli razrabotki PO s chetkimi srokami.
+Scrum — это методика, помогающая командам вести совместную работу. 
+(scrum — англ. «схватка», элемент игры в регби),
+  
+  Scrum roli:
+  - The Product Owner - postoianno podderjivaet sviazi s klientom, vladeliti backloga 
+  (hranilishe vseh zadachi iz kotorih formiruetsia sprint). 
+  Perevodiat nujdi zakazchika v konkretnie zadachi.
+  - The Scrum Master - razrabotchik kotorii otvechaet za proizvoditelinosti i efektivnosti vsei komandi.
+  - The Development Team - vse uchastniki razrabotki (5-9 chelovek).
+  
+  
+  Osnovnie artifacti Scrum:
+  Product Vision (obshie opisanie), Sprint goal, Product backlog (rezerv, hranilishe), Sprint backlog,
+  Definition of ready (nabor kriteriev dlia story)
+  Defeniotion of done (nabor kriteriev kogda PO gotovo k relizu),
+  Burn-Down Chart - demonsratia umenishenia zadachi.
+  Increment (otlicie novoi versii ot staroi 2-4 nedeli).
+  
+  Scrum ceremonies (meetingi)
+  - Sprint Planning - v nachale novogo sprinta (planirovanie na 2 nedeli),
+  - Daily Scrum - ejednevnii miting (planirovanie na odin deni),
+  - Sprint Review - v konte sprinta,
+  - Sprint Retrospective (tablita pliusov i minusov proshlogo sprinta)
+  
+  - Grooming - obsujdenie komandi s zakazchikom.
+  - Estimation - ottenka zadachi dlia vsei komandi.
+  - Forecast - raspredelenie zadach sredi komandi.
+  - Demo - demonstratia novogo functionala dlia zakazchika.
+ 
+ Planning poker (Scrum poker) - metod ottenki slojnosti zadachi.
+ 
+ Story Point stepeni slojnosti i neponiatnosti zadach:
+ T-short size deck: S-, S, S+, M-, M, M+, L-, L, L+.
+ Koloda igralinih kart: tuz, 2, 3, ... dama, koroli.
+ 
+ STORY POINT (ottenka stepeni slojnosti obsujdaetsia vsei komandoi) sosotoit iz:
+ - Effort - usilia po vremeni 
+ - Complexity - slojnosti i vliianie oshibki na vsiu sistemu.
+ - Uncertanty - neuverenosti (v pervii raz vipolniaem dannuiu zadachiu).
+ 
+ Posle analiza STORY POINT mojno predskazivati vremia i zatrati na vipolnenie vseh zadach.
+ ++++++++++++++++
+ Samaia bolishaia tennosti mitingov eto to, cito vse razrabotchiki obsujdaia vmeste, luchshe ponimaiut 
+ nad chem oni rabotaiut. 
+ 
+ 
+ Vesi scrum protess:
+ 1.Product owner poluciaet zadaciu ot zakazchika, polizovatelia ili komandi, zatem on preobrazuet zadachi 
+ v nutri back loga (hranilisha) 
+ 2.V protesse sprint planinga dostaiutsia zadachi iz backloga po prioritetu i pomeshaiutsia v back log 
+ sprinta.
+ 3. Dalee etot back log raspredeliaetsia po kamandam.
+ 4. Vo vremia sprinta proizvoditsia "product back log Refirement" t.e. mojno vnositi izmemnenia v product 
+ ili v sam sprint.
+ 5. Scrum master sledit za sprintom, v protesse scrum meetingov viiavliaiutsia 
+ vse problemi na putik realizatii sprint gola.
+ 6. V konte na demo meetinge pered relizom provoditsia obzor sprinta dlia zakazchika.
+ 7. Vikativaetsia novaia versia, provoditsia retrospektiva.
+ Ретроспекция — форма выражения информации, отсылающая слушателей к предшествующим событиям,
+ обзор чего-либо, что было создано в прошлом.
+ ----------------
+ 
+ 
+ Kanban - metodika v kotoroi net teli vikativati novuiu versiu cherez opredelennii period.
+ Deiatelinosti reguliruesia kolichestvom zadach v statuse WIP "Work In Progress", 
+ ih ne doljnobiti bolishe opredelennogo kollichestva. 
+ A dalishe oni mogut vihoditi s raznoi pereodichnostiu, 
+ no mi ne nabiraem sverh normi esli ne zakonchili rabotu nad kakim-to functionalom.
+ Eto metodika bolee gibkaia chem Scrum s drugoi propusknoi sposobnostiu i drugimi teliami.
+ Oceni vajno dlia komandi biti horosho organizovannoi, tak kak net priviazannosti k konkretnim 
+ srokam.
+ 
+ Sravnenie Kanban i Scrum:
+1. Kanban eto postoianni ili konveernii potok, mi ne priviazani k sroku, kogda gotovo,
+togda mi vikativaem.
+    Scrum - fiksirovannaia dlina sprinta.
+2. V Scrum reliz v konte kajdogo sprinta, v Kanban kogda gotovo, togda mi vikativaem reliz.
+3. V Kanban net fiksirovannih rolei kak v Scrum.
+4. V Skram - metrikami iavliaiutsia Velocity - eto story point iz sprinta.
+   V Kanban - metriki eto vremia tikla t.e. vremia ot naciala raboti nad funktionalom do ego reliza,
+   takje WIP - skoliko zadaci nahodiatsia v protesse.
+5. Izmenenia v Kanban mogut proishoditi voobshe v liuboe vremia.
+   V scrum vnositi izmenenia v sprint nelizia.
+-------------------
+
+Scrumban - simbios odnogo s drugim. 
+Esti doska iz Kanban, ogaranicenia po odnovremennim zadachiam, Zadachi vipolniaiutsia v poriadke 
+prioriteta. Esti meetingi i chetkie sprinti.
