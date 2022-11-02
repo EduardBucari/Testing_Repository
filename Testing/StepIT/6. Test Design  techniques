@@ -1,0 +1,87 @@
+Urok 6.
+Test suit - sposob organizatii po functionalu.
+t.e. obiedinennie vseh test keisov, kotorie otnosiatsia k odnomu komponentu.
+Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test keisa 
+(to cito mojno podgotoviti za neskoliko dnei do nachala testirovania: 
+(podgotoviti faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
+poluchiti login i paroli).
+
+
+
+Tehniki test dezaina (2 osnovnie gruppi).
+1. Staticheske.
+2. Dinamicheskie.
+
+Staticheskie:
+1.1 Review (Proverka documentatii).
+1.2 Staticheskii analiz (Proverka coda).
+
+Dinamicheskie:
+2.1 Stucture based (Osnovannie na strukture) White box (unit testi)
+2.2 Expirience based (Osnovannie na opite polizovatelia ili testirovshka, bez konkretnih trebovanii). 
+    - Error Guessing (Ugadivanie ili telenapravlennii poisk naibolee veroiatnih oshibok), 
+	- Exploratory (issledovateliskii sbor informatii dlia testirovania) - ne po test keisam 
+    - Ad-hoc testing (intuitivnii poisk defektov) - ne po test keisam.
+2.3 Requirement based (Osnovannie na trebovaniah) Black box - osnovnie tehniki testirovshika.
+    - Equivalence Partitioning.
+	- Boundary value analysis.
+	- Pairwise testing
+	- Decision tables.
+	- State transition.
+	- Use case testing.
+	
+
+Requirement based technique:
+
+1. Equivalent Class Partitioning - Участие классов эквивалентности.
+Esti konkretnii keis i polia vvoda. Mi razdeliaem vse kolichestvo znachenii, kotoroe mi mojem
+v eto pole vvesti, na gruppi. Citobi v ramkah etoi gruppi vse uchastniki veli sebia odinakovo,
+t.e. vizivali bi odin i tot je otvet u sistemi. 
+Teli - izbavitsia ot neobhodimosti perebirati vse znachenia i sekonomiti vremia.
+
+2. Boundary value analysis - аналаз граничных значений.
+Tehniki "Equivalence Partitioning" i "Boundary value analysis" vsegda rabotaiut vmeste.
+
+
+3. Pairwise testing - попарное тестирование.
+Ispolizuetsia dlia kombinatii s bolishim kollichestvom znachenii.
+Naprimer kombinatia: 
+Brauzera (Opera, FireFox), 
+Operationnoi sistemi (Win, Linux), 
+iazika sistemi(Ru, En)
+Vsego poluciaetsia 8 testcasov (2 x 2 x 2).
+No soglasno etoi tehnike mi mojem sokratiti do 4 takom obrazon, citobi sochetanie liubih 
+znachenii i dvuh parametrov hoti raz vstrechalosi mejdu saboi:
+brauzer - os.
+os - iazik.
+brauzer - iazik.
+
+   1. Opera   win   ru.
+   2. Firefox Linux ru.
+   3. Opera   Linux en.
+   4. Firefox win   en.
+
+Dannaia tehnika dostatochno opasnaia tak esti bolishaia veroiatnosti propustiti bag.
+Ona primeniaetsia v tom sluchae kogda nabor sochetanii ocenni bolishoi i cto bi 
+sokratiti vremia testirovania.
+Pairwise Pict Online - online prilojenie kotoroe avtomaticheski formiruiet dannie 
+sochetania znachenii.
+
+4. Decision tables - таблица решений.
+Pohojaia tehnika na poparnoe testirovanie i Primeniaetsia kogda esti neskoliko parametrov 
+so znacheniami YES i NO.
+
+5. State transition - tablita perehoda sostoianii.
+Polizovateli svoimi deistviami perevodit sistemu iz odnogo sostoiania v drugoe.
+Dannaia tehnika tak je pozvoliaet vizualizirovati protes testirovania cito bi nichego ne upustiti.
+
+Pozvoliet rassmotreti raznie varianti razvitia sobitii - primer polizovateli bancomata vvodit
+pin kod (3 popitki - ot uspeshnogo vhoda do zablokirovania - 4 test keisa). 
+Vizualizatia v vide diagrammi.
+
+6. Use case testing.
+Testirovshik igraet roli polizovatelia.
+(As a user i want ....., so that ......)
+Tehnika pohoja na tehniku tabliti perehoda sostoianii (primer - polizovateli bancomata vvodit
+pin kod).
+Vizualizatia v vide tabliti.
