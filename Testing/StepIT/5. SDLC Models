@@ -120,7 +120,15 @@ togda mi vikativaem.
    takje WIP - skoliko zadaci nahodiatsia v protesse.
 5. Izmenenia v Kanban mogut proishoditi voobshe v liuboe vremia.
    V scrum vnositi izmenenia v sprint nelizia.
--------------
+----------
+
+Test suit - sposob organizatii po functionalu.
+t.e. obiedinennie vseh test keisov, kotorie otnosiatsia k odnomu komponentu.
+Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test keisa 
+(to cito mojno podgotoviti za neskoliko dnei do nachala testirovania: 
+(podgotoviti faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
+poluchiti login i paroli).
+-----------
 
 Scrumban - simbios odnogo s drugim. 
 Esti doska iz Kanban, ogaranicenia po odnovremennim zadachiam, Zadachi vipolniaiutsia v poriadke 
