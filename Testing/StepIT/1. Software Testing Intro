@@ -47,12 +47,12 @@ zagruzka  zadania v mystat
  defekt, pervopricina i efekt (rascet protentov po viplatam)
  
  
- 7 printipov testirovania: (otmazki dlia testirovshkov).
- 1. Testirovanie pokazivaet nalicie defektov, a ne ih nalicie.
+ 7 printipov testirovania: (otmazki dlia testirovshkov):
+ 1. Testirovanie pokazivaet nalichie defektov, a ne ih otsutstvie.
    (testirovanie ne iavliaetsia garantiei otsutstvia bagov)
- 2. Testirovanie ne mojet biti iscerpivaiushim.
+ 2. Testirovanie ne mojet biti ischerpivaiushim.
  3. Chem ranishe tem deshevle (lucishe predotvratiti, cem potom iskati)
- 4. Klasterizatia - 20% komponentov soderjit 80% oshibok (gde odin grib tam esti i drugie)
+ 4. Klasterizatia - 20% komponentov, soderjit 80% oshibok (gde odin grib tam esti i drugie)
  5. Paradoks pestitidov.
  6. Testirovanie zavisit ot konteksta (igra na telefone ili medetinskoe oborudovanie).
  7. Lojnii vivod ob otsutstvii oshibok. 
