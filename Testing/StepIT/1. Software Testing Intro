@@ -44,31 +44,23 @@ zagruzka  zadania v mystat
  - uslovia okrujaiushei sredi.
  - samo testirovani pravoditsia ne pravilino (inogda sboi ne sviazan s bagom)
  
- defekt, pervopricina i efkt (rascet protentov po viplatam)
+ defekt, pervopricina i efekt (rascet protentov po viplatam)
  
  
  7 printipov testirovania: (otmazki dlia testirovshkov).
- - testirovanie pokazivaet nalicie defektov, a ne ih nalicie.
-    testirovanie ne iavliaetsia garantiei otsutstvia bagov
- - testirovanie ne mojet biti iscerpivaiushim.
- - cem ranishe tem deshvle (lucishe predotvratiti cem potom iskati)
- - Klasterizatia - 20% komponentov soderjit 80% oshibok (gde odin grib tam esti i drugie)
- - paradoks pestitidov.
- - testirovanie zavisit ot konteksta (igra na telefone ili medetinskoe oborudovanie).
- - lojnii vivod ob otsutstvii oshibok. 
+ 1. Testirovanie pokazivaet nalicie defektov, a ne ih nalicie.
+   (testirovanie ne iavliaetsia garantiei otsutstvia bagov)
+ 2. Testirovanie ne mojet biti iscerpivaiushim.
+ 3. Chem ranishe tem deshevle (lucishe predotvratiti, cem potom iskati)
+ 4. Klasterizatia - 20% komponentov soderjit 80% oshibok (gde odin grib tam esti i drugie)
+ 5. Paradoks pestitidov.
+ 6. Testirovanie zavisit ot konteksta (igra na telefone ili medetinskoe oborudovanie).
+ 7. Lojnii vivod ob otsutstvii oshibok. 
  
- Etapi razrabotki
- Etapi testirovania 
- roli na proekte 
+ Etapi razrabotki.
+ Etapi testirovania.
+ roli na proekte. 
  (product owner - manager proekta podderjivaiushii sviazi s zakazcikom).
  
- Kontroli, Obespecenie kacestva, 
- 
- 
- Domashee zadanie: 
- izuciti slaidi.
- poiskati bagi na dvuh saitah
- zanesti bug v jiru
- 
- your first jira project (zaloginitsia) - create 
- vibrati 
+ Kontroli Kachestva - provoditsia kogda produkt gotov. 
+ Obespecenie kacestva - provoditsia na raznih etapah, kogda produkt razrabativaetsia. 
