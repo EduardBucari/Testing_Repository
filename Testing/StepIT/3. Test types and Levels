@@ -1,7 +1,12 @@
 Urork 3
  
  Tipi testirovania (deistvuiut na vseh urovniah testirovania):
- 
+ 1. Functionalinoe ( cito delaet PO).
+ 2. Ne functionalinoe (kak rabotaet PO).
+ 3. Structurnoe testirovanie (belii iashik) na vseh urovniah.
+ 4. Testirovanie sviazanoe s izmeneniiami.
+ -----------
+
  1. Functionalinoe ( cito delaet PO)
  teli - sistema imeet vse nujnie functii
  i rabotaet ot naciala do konta.
@@ -42,7 +47,7 @@ Urork 3
  - Conversion - perehod na drugui bazu dannih,
  - cross-browser and cross-platform.
  
- Performance testing - testirovanie proizvoditelinosti
+ Performance testing - testirovanie proizvoditelinosti:
  stress testing, load testing
  
  Mashtabiruemosti - vozmojnosti uvelicenie polizovatelei
@@ -71,7 +76,10 @@ Optimizatia koda i ocistka ot mertvogo koda.
 Dorogo, 
 -------------
  
- 4. Testirovanie sviazanoe s izmeneniiami (90 % vremeni raboti testirovshika)
+ 4. Testirovanie sviazanoe s izmeneniiami (90 % vremeni raboti testirovshika):
+     4.1 Smoke testing.
+     4.2 Sanity testeng.
+     4.3 Regresionnoe i podtverjdaiushee testirovanie.
  
  4.1 Smoke testing (pered perehodom k detalinomu testirovaniu)
  (bilid verification)- sborka zasluzivaet cito na nee nujno 
@@ -80,7 +88,7 @@ Dorogo,
  - toliko pozitivnoe testirovanie.
  - bolishoi ohvat programi no gluboko ne kapaem.
 Primer: protestirovati vse nujnie functii:
-+++++ login, paroli, dobaviti, meniati i udaliati zapisi.
++++++ login, paroli, dobaviti, meniati, udaliati i sohraniti zapisi.
 - ciasto avtomatiziruetsia, pomogaet proveriati integratiu komponentov,
 nahodit starie defekti i ekonomit vremia. 
 Vipolnietsia kak programistami tak i testirovshikami.
