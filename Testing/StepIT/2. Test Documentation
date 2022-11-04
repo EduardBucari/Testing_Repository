@@ -103,16 +103,3 @@ test keis nacinaetsia s zapuska programmi i iz opisania,
 u test keias pishetsia posle kajdogo shaga
 step to reproduce - toliko dlia konkretnogo shaga.
 ==============
- 
- DOM ZADANIE:
- VIBRATI TIP BAG 
- STATUS BAGA 
- NAPISATI SUMMERY I DESKRIPTION (NAPISATI STEPS TO REPRODUCE) shagi vosproizvedenia baga
- EXPECTED REZULT
- UKAZATI INVAIRAMENT (GOOGLE CHROM ALL VERSION)
- ASIGN na samogo sebia.
- Select sprint - 14 days
- Reporter - avtor
- Atachment - scrinshot
- 
- Naiti bug, opisati problemu, sreda, skrinshot.
