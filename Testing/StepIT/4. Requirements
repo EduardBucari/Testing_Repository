@@ -29,23 +29,25 @@ White box ottalkivaetsia ot tehniceskih trebovanii
 Kogda i kak vipolniaiutsia raznie vidi testirovania:
 
 - Unit Test Level (White box testing) vipolniaetsia vsiakii raz kogda kod meniaetsia,
-dlias togo citobi udostoveritsia cito izmenenia i dopolnenia rabotaiut korrekno, 
-(soglasno functionalinim tebovaniam).
+dlia togo citobi udostoveritsia cito izmenenia ili dopolnenia rabotaiut korrektno, 
+(soglasno functionalinim trebovaniam).
 
-- Komponentnoe (modulinoe) testirovanie (Grey box testing) vipolniaetsia kogda telii komponen gotov,
+- Komponentnoe (modulinoe) testirovanie (Grey box testing) vipolniaetsia kogda telii komponent gotov,
 dlia togo citobi ubeditsia cito kajdii otdelinii moduli rabotaet soglasno trebovaniam.
-(soglasno functionalinim tebovaniam).
+(soglasno functionalinim trebovaniam).
 
 - Integrationnoe testirovanie (Black box, Gray box testing) vipolniaetsia kogda neskoliko
 komponentov gotovi, provoditsia dlia togo cito bi protestirovati vzaimodeistvie dannih gotovih komponentov.
-(soglasno polizovateliskim tebovaniam).
+(soglasno polizovateliskim trebovaniam).
 
-- Sistemnoe testirovanie (Black box tetsing) vipolniaetsia kogda vse moduli gotovi i soedeneni 
-v sistemu, dlia togo togo cito otteniti rabotu sistemi v telom.(soglasno polizovateliskim tebovaniam)
+- Sistemnoe testirovanie (Black box testing) vipolniaetsia kogda vse moduli gotovi i soedeneni 
+v sistemu, provoditsia dlia togo cito otteniti rabotu sistemi v telom.
+(soglasno polizovateliskim trebovaniam).
 
-- Priemocinoe testirovanie (Black box) vipolniaetsia kogda produkt polnostiu gotov i protestirovan,
-dlia proverki sistemi (soglasno biznes trebovaniam). Na etom etape proveriaetsia gotovnosti produkta 
-viiti na rinok.
+- Priemochinoe testirovanie (Black box) vipolniaetsia kogda produkt polnostiu gotov i protestirovan,
+provoditsia dlia demonstratii raboti vseh sistem kak odno teloe.
+(soglasno biznes trebovaniam). 
+Na etom etape proveriaetsia gotovnosti produkta viiti na rinok.
      - User acceptance testing (UAT).
 	 - Business acceptance testing (BAT).
 	 - Contract acceptance testing (CAT).
@@ -54,7 +56,7 @@ viiti na rinok.
 	 - Alfa testing - preduprejdaem polizovatelei cito programma mojet rabotati ne korrektno
 	   i polizovateli pri jelanii mogut ee poprobivati - na moshnostiah razrabotcika.
 	 - Beta testing - na moshnostiah zakazcika.
-	 (alfa i beta vsegda idut vmeste - dlia obratnoi sviazi).
+	 (alfa i beta vsegda idut vmeste - dlia poluchenia obratnoi sviazi).
 ---------------------------
 
 Realizatia trebovanii:
@@ -69,7 +71,7 @@ cego eto nujno polizovateliu. Eto prostoi sposob napisati trebovania s tociki zr
 Teli polizovateliskoi istorii - pokazati polizovateliu cito konkretno on viigraet.
 
 User story eto ne odno i toje cito use-case ili tehniceskaia dokumentatia.
-Use case - eto konkretnii sluciai ispolizovania.
+Use case - eto konkretnii sluchiai ispolizovania.
 
 User-story pishetsia produkt-ounerom ili biznes-analitikom.
 
