@@ -61,8 +61,8 @@ Na etom etape proveriaetsia gotovnosti produkta viiti na rinok.
 
 Realizatia trebovanii:
 
- - User story (gibkaia metodologia razrabotki) etap razrabotki gde esti nabor protesov, artefactov i
-opredelennie sroki. Eto polizovateliskaia istoria ispolizuetsia dlia togo cito napisati trebovania
+ - User story (gibkaia metodologia razrabotki - eto etap razrabotki gde esti nabor protesov, artefactov i
+opredelennie sroki). Eto polizovateliskaia istoria ispolizuetsia dlia togo cito napisati trebovania
 poniatnie dlia vseh. Opisanie trebovanii vedetsia s tociki zrenia polizovatelia.
 
 Polizovateliskaia istoria opisivaet: tip polizovatelia, cito nujno etomu polizovateliu i dlia 
@@ -92,7 +92,7 @@ User story sostoit iz:
 
 Kriterii priemki: 
 User-story sostoit iz neskolikih criteriev priemki.
-Zadacia product-ouner proveriti cito vse kriterii bili uciteni,
+Zadacia product-ounera proveriti cito vse kriterii bili uciteni,
 a zadacia testirovshika vnimatelino izuciti etot user-story i 
 zadati vse voprosi daje samie ocevidnie. Neobhodimo ubeditsia 
 cito v user-story opisano absoliutno vse.
@@ -110,7 +110,7 @@ Preimushestva napisania trebovanii v formate user-story:
 - Lucishee kachestvo gotovogo produkta.
 
 
-Nabor kacestv dlia user-story (I N V E S T)
+Nabor kachestv dlia user-story (I N V E S T):
 Independent - user-story doljni biti nezavisimi drug ot druga.
 Negotiable - obsujdaemie.
 Valuable - tennosti t.e. poniatno dlia chego realizovivati eto trebovanie.
