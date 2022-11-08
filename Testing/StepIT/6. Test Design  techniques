@@ -1,10 +1,11 @@
 Urok 6.
 -----
-Test suit - sposob organizatii po functionalu.
-t.e. obiedinennie vseh test keisov, kotorie otnosiatsia k odnomu komponentu.
-Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test keisa 
+Test-suit - sposob organizatii po functionalu.
+t.e. obiedinennie vseh test-keisov, kotorie otnosiatsia k odnomu komponentu.
+
+Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test-keisa 
 (to cito mojno podgotoviti za neskoliko dnei do nachala testirovania: 
-(podgotoviti faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
+(podgotoviti printer, faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
 poluchiti login i paroli).
 -----
 
