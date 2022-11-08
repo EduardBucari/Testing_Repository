@@ -52,28 +52,29 @@ Scrum — это методика, помогающая командам вес�
   Product Vision (obshie opisanie), Sprint goal, Product backlog (rezerv, hranilishe), Sprint backlog,
   Definition of ready (nabor kriteriev dlia story)
   Defeniotion of done (nabor kriteriev kogda PO gotovo k relizu),
-  Burn-Down Chart - demonsratia umenishenia zadachi.
-  Increment (otlicie novoi versii ot staroi 2-4 nedeli).
+  Burn-Down Chart - demonstratia umenishenia zadachi.
+  Increment (otlicie novoi versii ot staroi cherez 2-4 nedeli).
   
-  Scrum ceremonies (meetingi)
+  Scrum ceremonies (meetingi):
+  Osnovnie:
   - Sprint Planning - v nachale novogo sprinta (planirovanie na 2 nedeli),
   - Daily Scrum - ejednevnii miting (planirovanie na odin deni),
   - Sprint Review - v konte sprinta,
-  - Sprint Retrospective (tablita pliusov i minusov proshlogo sprinta)
-  
+  - Sprint Retrospective (tablita pliusov i minusov proshlogo sprinta).
+  Dopolnitelinie:
   - Grooming - obsujdenie komandi s zakazchikom.
-  - Estimation - ottenka zadachi dlia vsei komandi.
+  - Estimation - ottenka slojnosti zadachi dlia vsei komandi.
   - Forecast - raspredelenie zadach sredi komandi.
   - Demo - demonstratia novogo functionala dlia zakazchika.
  
  Planning poker (Scrum poker) - metod ottenki slojnosti zadachi.
  
- Story Point stepeni slojnosti i neponiatnosti zadach:
+ Story Point - stepeni slojnosti i neponiatnosti zadach:
  T-short size deck: S-, S, S+, M-, M, M+, L-, L, L+.
  Koloda igralinih kart: tuz, 2, 3, ... dama, koroli.
  
- STORY POINT (ottenka stepeni slojnosti obsujdaetsia vsei komandoi) sosotoit iz:
- - Effort - usilia po vremeni 
+ STORY POINT (ottenka stepeni slojnosti, obsujdaetsia vsei komandoi) sostoit iz:
+ - Effort - usilia po vremeni.
  - Complexity - slojnosti i vliianie oshibki na vsiu sistemu.
  - Uncertanty - neuverenosti (v pervii raz vipolniaem dannuiu zadachiu).
  
@@ -84,16 +85,16 @@ Scrum — это методика, помогающая командам вес�
  
  
  Vesi scrum protess:
- 1.Product owner poluciaet zadaciu ot zakazchika, polizovatelia ili komandi, zatem on preobrazuet zadachi 
- v nutri back loga (hranilisha) 
- 2.V protesse sprint planinga dostaiutsia zadachi iz backloga po prioritetu i pomeshaiutsia v back log 
+ 1. Product owner poluciaet zadaciu ot zakazchika, polizovatelia ili komandi, zatem on preobrazuet zadachi 
+ v nutri back loga (hranilisha).
+ 2. V protesse sprint-planinga dostaiutsia zadachi iz backloga po prioritetu i pomeshaiutsia v back-log 
  sprinta.
- 3. Dalee etot back log raspredeliaetsia po kamandam.
- 4. Vo vremia sprinta proizvoditsia "product back log Refirement" t.e. mojno vnositi izmemnenia v product 
+ 3. Dalee etot back-log raspredeliaetsia po kamandam.
+ 4. Vo vremia sprinta proizvoditsia "product back-log Refirement" t.e. mojno vnositi izmemnenia v product 
  ili v sam sprint.
- 5. Scrum master sledit za sprintom, v protesse scrum meetingov viiavliaiutsia 
- vse problemi na putik realizatii sprint gola.
- 6. V konte na demo meetinge pered relizom provoditsia obzor sprinta dlia zakazchika.
+ 5. Scrum master sledit za sprintom, v protesse scrum-meetingov viiavliaiutsia 
+ vse problemi na puti k realizatii sprint-gola.
+ 6. V konte na demo-meetinge pered relizom, provoditsia obzor sprinta dlia zakazchika.
  7. Vikativaetsia novaia versia, provoditsia retrospektiva.
  Ретроспекция — форма выражения информации, отсылающая слушателей к предшествующим событиям,
  обзор чего-либо, что было создано в прошлом.
@@ -101,35 +102,36 @@ Scrum — это методика, помогающая командам вес�
  
  
  Kanban - metodika v kotoroi net teli vikativati novuiu versiu cherez opredelennii period.
- Deiatelinosti reguliruesia kolichestvom zadach v statuse WIP "Work In Progress", 
- ih ne doljnobiti bolishe opredelennogo kollichestva. 
- A dalishe oni mogut vihoditi s raznoi pereodichnostiu, 
+ Deiatelinosti reguliruetsia kolichestvom zadach v statuse WIP "Work In Progress", 
+ ih ne doljno biti bolishe opredelennogo kollichestva. 
+ A dalishe oni mogut vihoditi s raznoi periodichnostiu, 
  no mi ne nabiraem sverh normi esli ne zakonchili rabotu nad kakim-to functionalom.
  Eto metodika bolee gibkaia chem Scrum s drugoi propusknoi sposobnostiu i drugimi teliami.
  Oceni vajno dlia komandi biti horosho organizovannoi, tak kak net priviazannosti k konkretnim 
  srokam.
  
  Sravnenie Kanban i Scrum:
-1. Kanban eto postoianni ili konveernii potok, mi ne priviazani k sroku, kogda gotovo,
-togda mi vikativaem.
-    Scrum - fiksirovannaia dlina sprinta.
+1. Kanban eto postoiannii ili konveernii potok, mi ne priviazani k sroku. 
+Kogda gotovo, togda mi vikativaem.
+V Scrum - fiksirovannaia dlina sprinta.
 2. V Scrum reliz v konte kajdogo sprinta, v Kanban kogda gotovo, togda mi vikativaem reliz.
 3. V Kanban net fiksirovannih rolei kak v Scrum.
 4. V Skram - metrikami iavliaiutsia Velocity - eto story point iz sprinta.
-   V Kanban - metriki eto vremia tikla t.e. vremia ot naciala raboti nad funktionalom do ego reliza,
-   takje WIP - skoliko zadaci nahodiatsia v protesse.
+V Kanban - metriki eto vremia tikla t.e. vremia ot naciala raboti nad funktionalom do ego reliza,
+takje WIP - skoliko zadaci nahodiatsia v protesse.
 5. Izmenenia v Kanban mogut proishoditi voobshe v liuboe vremia.
    V scrum vnositi izmenenia v sprint nelizia.
 ----------
 
-Test suit - sposob organizatii po functionalu.
+- Test suit - sposob organizatii po functionalu.
 t.e. obiedinennie vseh test keisov, kotorie otnosiatsia k odnomu komponentu.
-Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test keisa 
+
+- Preconditions - to cito nujno vipolnioti i podgotoviti dlia vipolnenia samogo test keisa 
 (to cito mojno podgotoviti za neskoliko dnei do nachala testirovania: 
-(podgotoviti faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
+podgotoviti printer, faili opredelennogo formata, bazu dannih, sozdati acaunt, zaprositi dostup,
 poluchiti login i paroli).
 -----------
 
 Scrumban - simbios odnogo s drugim. 
-Esti doska iz Kanban, ogaranicenia po odnovremennim zadachiam, Zadachi vipolniaiutsia v poriadke 
+Esti doska iz Kanban, ogranicenia po odnovremennim zadachiam, Zadachi vipolniaiutsia v poriadke 
 prioriteta. Esti meetingi i chetkie sprinti.
