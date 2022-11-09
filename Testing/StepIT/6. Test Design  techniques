@@ -83,7 +83,7 @@ Vizualizatia v vide diagrammi.
 
 6. Use case testing.
 Testirovshik igraet roli polizovatelia.
-(As a user i want ....., so that ......)
+(As a ...(user),  i want ....., so that ......).
 Tehnika pohoja na tehniku tabliti perehoda sostoianii (primer - polizovateli bancomata vvodit
 pin kod).
 Vizualizatia v vide tabliti.
