@@ -25,7 +25,7 @@ White box - testirovshik pishet testi dlia proverki koda, i ne meniaet nicego v 
 White box ottalkivaetsia ot tehniceskih trebovanii
 
 
-++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
 Kogda i kak vipolniaiutsia raznie vidi testirovania:
 
 - Unit Test Level (White box testing) vipolniaetsia vsiakii raz kogda kod meniaetsia,
