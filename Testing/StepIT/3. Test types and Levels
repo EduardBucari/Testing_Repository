@@ -81,7 +81,7 @@ Dorogo,
      4.2 Sanity testeng.
      4.3 Regresionnoe i podtverjdaiushee testirovanie.
  
- 4.1 Smoke testing (pered perehodom k detalinomu testirovaniu)
+ 4.1 Smoke testing eto samoe pervoe testirovanie (pered perehodom k detalinomu testirovaniu)
  (bilid verification)- sborka zasluzivaet cito na nee nujno 
  tratiti dalishe vremia i denigi (proverka osnovnogo functionala).
  - test zavisit ot slojnosti
