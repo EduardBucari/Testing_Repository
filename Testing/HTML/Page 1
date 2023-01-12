@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Step IT (Page 1)</title>
+
+   <style type="text/css">
+      table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+      }
+
+      tr {
+         background-color: #fffff5;
+      }
+
+      table {
+         width: 700px;
+         height: 100px;
+      }
+
+   </style>
+</head>
+
+
+<body>
+	<p>
+		<h1>HTML Formating Elements</h1>
+	</p>
+<table>
+	<!-- Row 1 -->
+	<tr>
+		<th align="centr">Nr.</th>
+		<th align="centr">Tag</th>
+		<th align="centr">Meaning</th>
+   </tr>
+
+   <!-- Row 2 -->
+   <tr>
+   	<td>1</td>
+   	<td> &lt b &gt </td>
+   	<td> <b>Bold text</b> </td>
+   </tr>
+
+   <!-- Row 3 -->
+   <tr>
+   	<td>2</td>
+   	<td> &lt strong &gt </td>
+   	<td> <strong>Important text</strong> </td>
+   </tr>
+
+   <!-- Row 4 -->
+   <tr>
+   	<td>3</td>
+   	<td> &lt i &gt </td>
+   	<td> <i>Italic text</i> </td>
+   </tr>
+
+   <!-- Row 5 -->
+   <tr>
+   	<td>4</td>
+   	<td> &lt em &gt </td>
+   	<td> <em>Emphasized text</em> </td>
+   </tr>
+
+   <!-- Row 6 -->
+   <tr>
+   	<td>5</td>
+   	<td> &lt mark &gt </td>
+   	<td> <mark>Marked text</mark> </td>
+   </tr>
+
+   <!-- Row 7 -->
+   <tr>
+   	<td>6</td>
+   	<td> &lt small &gt </td>
+   	<td> <small>Smaller text</small> </td>
+   </tr>
+
+   <!-- Row 8 -->
+   <tr>
+   	<td>7</td>
+   	<td> &lt del &gt </td>
+   	<td> <del>Deleted text</del> </td>
+   </tr>
+
+   <!-- Row 9 -->
+   <tr>
+   	<td>8</td>
+   	<td> &lt ins &gt </td>
+   	<td> <ins>Inserted text</ins> </td>
+   </tr>
+
+   <!-- Row 10 -->
+   <tr>
+   	<td>9</td>
+   	<td> &lt sub &gt </td>
+   	<td> <sub>Subscript text</sub> </td>
+   </tr>
+
+   <!-- Row 11 -->
+   <tr>
+   	<td>10</td>
+   	<td> &lt sup &gt </td>
+   	<td> <sup>Superscript text</sup> </td>
+   </tr>
+
+</table>
+
+</body>
+</html>
