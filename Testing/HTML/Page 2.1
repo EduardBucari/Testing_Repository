@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Multi-page Form</title> 
+<style> 
+/* Add CSS styles here */ 
+
+/* Personal Details Page */ 
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+label { 
+    margin-top: 1em; 
+} 
+input[type="text"], input[type="email"], input[type="tel"] { 
+    padding: 0.5em; 
+    margin-top: 0.5em; 
+    width: 20em; 
+} 
+
+/* Order Details Page */ 
+.form-group { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 1em; 
+} 
+select, input[type="number"] { 
+    padding: 0.5em; 
+    margin-top: 0.5em; 
+    width: 10em; 
+} 
+
+/* Confirmation Page */ 
+.confirmation { 
+    text-align: center; 
+    font-size: 1.5em; 
+    margin-top: 2em; 
+} 
+</style> 
+</head> 
+<body> 
+
+<!-- Personal Details Page --> 
+<form> 
+    <h2>Personal Details</h2> 
+    <label for="first-name">First Name:</label> 
+    <input type="text" id="first-name" name="first-name" required> 
+    <label for="last-name">Last Name:</label> 
+    <input type="text" id="last-name" name="last-name" required> 
+    <label for="email">Email:</label> 
+    <input type="email" id="email" name="email" required> 
+    <label for="telephone">Telephone:</label> 
+    <input type="tel" id="telephone" name="telephone" required> 
+    <label for="contact-method">How would you like to be contacted?</label> 
+    <input type="radio" id="email-contact" name="contact-method" value="email" required> 
+    <label for="email-contact">Email</label> 
+    <input type="radio" id="telephone-contact" name="contact-method" value="telephone" required> 
+    <label for="telephone-contact">Telephone</label> 
+    <input type="submit" value="Next" onclick="showOrderDetails()"> 
+</form> 
+
+<!-- Order Details Page --> 
+<form id="order-details" style="display: none;"> 
+    <h2>Order Details</h2> 
+    <div class="form-group"> 
+        <label for="delivery-date">Delivery Date:</label> 
+        <input type="date" id="delivery-date" name="delivery-date" required> 
+    </div> 
+    <div class="form-group"> 
+        <label for="delivery-time">Delivery Time:</label> 
+        <select id="del
