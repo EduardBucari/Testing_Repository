@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 80%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+
+
+<header>
+  <h2>MySite.com</h2>
+</header>
+
+<section>
+  <nav>
+    <p>
+    	文化轉型期的文藝理論，一般都呈現著特別關注文藝之外的歷史社會環境的傾向。不過，這種關注在二十世紀之前的文論中，大致上均以一種文藝內在規律語歷史社會語境二元對立的面貌出現。<br><hr>
+    	Dans les premiers jours de l'an VIII, au commencement de vendémiaire, ou, pour
+           se conformer au calendrier actuel, vers la fin du mois de septembre 1799, une
+           centaine de paysans et un assez grand nombre de bourgeois, partis le matin de
+           Fougères pour se rendre à Mayenne, gravissaient la montagne de la Pèlerine,
+           située à mi-chemin environ de Fougères à Ernée, petite ville où les voyageurs
+           ont coutume de se reposer.
+    </p>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <br>
+    <hr>
+    <p>
+    	本書以中國人的觀點，介紹巴赫汀的一生志業。深入淺出、引證周詳。尤其面對海峽兩岸劇變中的政治、文化思潮，巴赫汀從對話到喧嘩的理論，更具有深刻的歷史意義，發人省思。
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p>Copyright is not by MySite.com </p>
+</footer>
+
+</body>
+</html>
