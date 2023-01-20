@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FlexBox Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header {
+  background: darkgray;
+  height: 10vh;
+}
+footer {
+  background: gray;
+  height: 10vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+</style>
+<body>
+  <header>Header</header>
+  <div id="main">
+    <article>Article 
+      <p> <strong>Flexbox</strong> <br> <hr>
+      	Это новая технология, которая уже имеет достаточно широкую поддержку браузеров. 
+        Flexbox предоставляет инструменты для быстрого создания сложных, 
+        гибких макетов, и функции, которые были сложны в традиционных методах CSS.
+      </p>
+    </article>
+    <nav>Aside 1 and Navigation</nav>
+    <aside>Aside 2</aside>
+  </div>
+  <footer>Footer</footer>
+</body>
