@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid Exampla</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		.grid-container {
+			background-color: #0074B7;
+			padding: 10px;
+			display: grid;
+			gap: 10px;
+
+			grid-template-areas: 'x1 x1 x1 x1'
+			                     'x2 x3 x4 x4'
+			                     'x2 x5 x5 x6'
+			                     'x2 x7 x8 x9'
+			                     'x2 x10 x10 x10';
+		}
+
+		.grid-container > div {
+			background-color: #60A3D9;
+			border: 1px solid black;
+			padding: 20px 0;
+			font-size: 30px;
+			text-align: left;
+		}
+
+		.grid-item1 {grid-area: x1;}
+		.grid-item2 {grid-area: x2;}
+		.grid-item3 {grid-area: x3;}
+		.grid-item4 {grid-area: x4;}
+		.grid-item5 {grid-area: x5;}
+		.grid-item6 {grid-area: x6;}
+		.grid-item7 {grid-area: x7;}
+		.grid-item8 {grid-area: x8;}
+		.grid-item9 {grid-area: x9;}
+		.grid-item10 {grid-area: x10;}
+
+	</style>
+</head>
+
+<body>
+	<h1>Grid Example</h1>
+	<div class = "grid-container">
+		<div class = "grid-item1">1</div>
+		<div class = "grid-item2">2</div>
+		<div class = "grid-item3">3</div>
+		<div class = "grid-item4">4</div>
+		<div class = "grid-item5">5</div>
+		<div class = "grid-item6">6</div>
+		<div class = "grid-item7">7</div>
+		<div class = "grid-item8">8</div>
+		<div class = "grid-item9">9</div>
+		<div class = "grid-item10">10</div>		
+	</div>
+</body>
+
+</html>
