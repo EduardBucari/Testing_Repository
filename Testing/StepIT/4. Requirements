@@ -13,7 +13,7 @@ unit, componentnoe, integrationnoe, sistemnoe i priemocinoe testirovanie.
 
 e2e (end to end test)- vesi protes prohojdenia polizovatelem puti (ot registratii do pokupki).
 
-+++++++
+++++++++
 Metodi ili podhodi testirovania:
 White box, Black box, Grey box.
 
