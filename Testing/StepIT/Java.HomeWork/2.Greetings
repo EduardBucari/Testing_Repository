@@ -1,0 +1,35 @@
+package stepIT.homeWork;
+
+import java.util.Scanner;
+public class Greetings {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Выберите язык для привествия: ");
+
+        System.out.println("1 - Английский");
+        System.out.println("2 - Испанский");
+        System.out.println("3 - Француский");
+
+        int choice = scanner.nextInt();
+
+        String greeting = "";
+
+        switch (choice) {
+            case 1:
+                greeting = "Hello";
+                break;
+            case 2:
+                greeting = "Hola";
+                break;
+            case 3:
+                greeting = "Bonjour";
+                break;
+            default:
+                System.out.println("Некорректный выбор. (Выполните действия от 1 до 3)");
+                System.exit(0);
+        }
+        System.out.println(greeting + " Java !!!");
+        scanner.close();
+    }
+}
