@@ -1,0 +1,28 @@
+package stepIT.homeWork;
+
+import java.util.Scanner;
+/*
+Создайте программу, которая возвращает все пары множителей
+введённого числа (если таковые есть).
+
+Для создания программы, которая возвращает все пары множителей
+введенного числа, мы использовуем цикл for и операцию деления.
+ */
+public class Factors {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ведите число:");
+        int number = scanner.nextInt();
+
+        System.out.println("Множители " + number + ":");
+
+        for (int i = 1; i <= number; i++) {
+            if (number % i == 0) {
+                int factor = number / i;
+                System.out.println(i + " * " + factor + " = " + number);
+            }
+        }
+        scanner.close();
+    }
+}
