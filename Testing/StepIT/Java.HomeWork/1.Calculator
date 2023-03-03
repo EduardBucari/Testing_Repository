@@ -1,0 +1,65 @@
+package stepIT.homeWork;
+
+import java.util.Scanner;
+/*
+Напишите калькулятор, который получает числа введенные пользователем,
+и производит с ними заданные действия – поиск суммы / среднего значения/ сравнение.
+ */
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Введите первое число: ");
+        double number1 = scanner.nextDouble();
+
+        System.out.println("Введите второе число: ");
+        double number2 = scanner.nextDouble();
+
+        System.out.println("Выберите действие: ");
+        System.out.println("1 - сумма");
+        System.out.println("2 - вычитание");
+        System.out.println("3 - умножение");
+        System.out.println("4 - деление");
+        System.out.println("5 - среднее значение");
+        System.out.println("6 - сравнение");
+
+        int action = scanner.nextInt();
+
+        switch (action) {
+            case 1:
+                double sum = number1 + number2;
+                System.out.println("Результат суммы равен " + sum);
+                break;
+            case 2:
+                double subtraction = number1 - number2;
+                System.out.println("Результат вычитания равен " + subtraction);
+                break;
+            case 3:
+                double multiplication = number1 * number2;
+                System.out.println("Результат умножения равен " + multiplication);
+                break;
+            case 4:
+                double division = number1 / number2;
+                System.out.println("Результат деления равен " + division);
+                break;
+            case 5:
+                double average = (number1 + number2) / 2;
+                System.out.println("Среднее значение равно " + average);
+                break;
+            case 6:
+                if (number1 > number2) {
+                    System.out.println(number1 + " больше, чем " + number2);
+                } else if (number1 < number2) {
+                    System.out.println(number1 + " меньше, чем " + number2);
+                } else {
+                    System.out.println(number1 + " равно " + number2);
+                }
+                break;
+
+            default:
+                System.out.println("Некорректный выбор действия.(Выполните действия от 1 до 6)");
+                break;
+        }
+        scanner.close();
+    }
+}
