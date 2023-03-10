@@ -1,0 +1,26 @@
+package stepIT.homeWork;
+
+/*
+Задание:
+Уменьшить все элементы массива на 25%, кроме тех,
+которые станут от этого меньше единицы. Такие элементы увеличить на 25%.
+ */
+
+public class Array1 {
+    public static void main(String[] args) {
+        double[] arr = {1.5, 0.8, 1.2, 0.5, 2.0};
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < 1) {
+                arr[i] *= 1.25;
+            } else {
+                arr[i] *= 0.75;
+            }
+        }
+
+        // Вывод результата
+        for (double num : arr) {
+            System.out.println(num);
+        }
+    }
+}
