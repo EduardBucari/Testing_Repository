@@ -1,0 +1,20 @@
+package stepIT.homeWork;
+
+/*
+Задание:
+Переписать слово в обратном направлении.
+ */
+public class Revers {
+    public static void main(String[] args) {
+        String word = "Привет";
+        String reversedWord = ""; // Инициализируем переменную для хранения перевернутого слова
+
+        // Переворачиваем слово
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversedWord += word.charAt(i);
+        }
+
+        // Выводим результат
+        System.out.println("Перевернутое слово: " + reversedWord);
+    }
+}
