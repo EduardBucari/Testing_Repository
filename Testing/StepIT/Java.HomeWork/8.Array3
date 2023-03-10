@@ -1,0 +1,24 @@
+package stepIT.homeWork;
+
+/*
+Задание:
+Найти самое длинное слово в предложении.
+ */
+public class Array3 {
+    public static void main(String[] args) {
+        String sentence = "Это очень простое предложение с несколькими словами и мы найде самое длинное.";
+        String[] words = sentence.split(" "); // Разделяем предложение на слова
+
+        String longestWord = ""; // Инициализируем переменную для хранения самого длинного слова
+
+        // Ищем самое длинное слово в массиве
+        for (String word : words) {
+            if (word.length() > longestWord.length()) {
+                longestWord = word;
+            }
+        }
+
+        // Выводим результат
+        System.out.println("Самое длинное слово: " + longestWord);
+    }
+}
