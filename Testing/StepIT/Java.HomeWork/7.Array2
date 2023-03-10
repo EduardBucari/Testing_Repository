@@ -1,0 +1,45 @@
+package stepIT.homeWork;
+
+import java.util.Random;
+
+/*
+Задание:
+Найти элемент целочисленного массива заполненного случайными числами
+в заданном диапазоне, который ближе всего к среднему значению всех элементов массива.
+ */
+public class Array2 {
+    public static void main(String[] args) {
+        int[] arr = new int[10]; // Создаем массив из 10 элементов
+        Random random = new Random(); // Создаем объект класса Random для генерации случайных чисел
+
+        int min = 1; // Минимальное значение для диапазона случайных чисел
+        int max = 100; // Максимальное значение для диапазона случайных чисел
+        int sum = 0; // Переменная для хранения суммы всех элементов массива
+
+        // Заполняем массив случайными числами в заданном диапазоне и находим сумму всех элементов
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(max - min + 1) + min;
+            sum += arr[i];
+        }
+
+        // Находим среднее значение всех элементов массива
+        double average = (double) sum / arr.length;
+
+        // Инициализируем переменные для хранения ближайшего элемента и его разницы с средним значением
+        int closest = arr[0];
+        int diff = Math.abs(arr[0] - (int) average);
+
+        // Ищем элемент, ближайший к среднему значению
+        for (int i = 1; i < arr.length; i++) {
+            int currDiff = Math.abs(arr[i] - (int) average);
+            if (currDiff < diff) {
+                closest = arr[i];
+                diff = currDiff;
+            }
+        }
+
+        // Выводим результат
+        System.out.println("Среднее значение: " + average);
+        System.out.println("Ближайший элемент: " + closest);
+    }
+}
