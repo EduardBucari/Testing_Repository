@@ -1,0 +1,49 @@
+package stepIT.homeWork;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+/*
+Задание:
+Поиск палиндрома в текстовом файле, переданном пользователем.
+ */
+public class TextPalindrome {
+    public static boolean isPalindrome(String input) {
+        // Удаляем все не-буквенно-цифровые символы и приводим к нижнему регистру
+        String cleanInput = input.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        // Переворачиваем строку
+        String reversed = new StringBuilder(cleanInput).reverse().toString();
+        // Проверяем, равна ли перевернутая строка исходной строке
+        return reversed.equals(cleanInput);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите путь к файлу: ");
+        String filePath = scanner.nextLine();
+        scanner.close();
+
+        try {
+            // Читаем содержимое файла
+            BufferedReader fileReader = new BufferedReader(new FileReader(filePath));
+            StringBuilder content = new StringBuilder();
+            String line;
+            while ((line = fileReader.readLine()) != null) {
+                content.append(line);
+            }
+            fileReader.close();
+
+            // Проверяем, является ли содержимое файла палиндромом
+            if (isPalindrome(content.toString())) {
+                System.out.println("Содержимое файла является палиндромом!");
+            } else {
+                System.out.println("Содержимое файла не является палиндромом.");
+            }
+        } catch (IOException e) {
+            System.out.println("Ошибка при чтении файла: " + e.getMessage());
+        }
+    }
+
+}
