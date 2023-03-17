@@ -1,0 +1,66 @@
+package stepIT.homeWork.FitnessClub;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Schedule {
+    private String dayType;  // тип дня (будний или выходной)
+    private List<String> timeSlots; // список временных слотов, когда клуб работает.
+
+    // Конструктор:
+
+    public Schedule(String dayType, List<String> timeSlots) {
+        this.dayType = dayType;
+        this.timeSlots = timeSlots;
+    }
+
+    // Get & Set позволяют получать и устанавливать значения полей:
+
+    public String getDayType() {
+        return dayType;
+    }
+
+    public void setDayType(String dayType) {
+        this.dayType = dayType;
+    }
+
+    public List<String> getTimeSlots() {
+        return timeSlots;
+    }
+
+    public void setTimeSlots(List<String> timeSlots) {
+        this.timeSlots = timeSlots;
+    }
+
+    // Метод isOpenAt принимает время в виде строки и возвращает true,
+    // если клуб работает в этот момент времени.
+    public boolean isOpen (String time) {
+        return timeSlots.contains(time);
+    }
+
+    // Пример использования класса Schedule:
+    public static void main(String[] args) {
+        List<String> timeSlots = new ArrayList<>();
+        timeSlots.add("10:00");
+        timeSlots.add("11:00");
+        timeSlots.add("12:00");
+
+        /*
+        Создаем объект Schedule, передавая тип дня (weekday) и
+        список временных слотов, когда клуб работает.
+        Затем мы вызываем метод isOpenAt с различными временными точками,
+        чтобы проверить, работает ли клуб в эти моменты времени.
+        Затем мы устанавливаем тип дня на выходной и снова
+        вызываем метод isOpenAt для проверки работы клуба в выходной день.
+         */
+
+        Schedule schedule = new Schedule("Weekend", timeSlots);
+
+        System.out.println("The club is open at 10:00 : " + schedule.isOpen("10:00"));
+        System.out.println("The club is open at 13:00 : " + schedule.isOpen("13:00"));
+
+        schedule.setDayType("Weekend");
+
+        System.out.println("The club is open at 10:00 on weekend : " + schedule.isOpen("10:00"));
+    }
+}
