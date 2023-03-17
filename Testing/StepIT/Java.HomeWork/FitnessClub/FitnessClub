@@ -1,0 +1,79 @@
+package stepIT.homeWork.FitnessClub;
+
+public class FitnessClub {
+    private String name;
+    private int maxClients;
+    private int currentClients;
+    private String address;
+
+    // Конструктор.
+    public FitnessClub (String name, int maxClients, int currentClients, String address) {
+        this.name = name;
+        this.maxClients = maxClients;
+        this.currentClients = currentClients;
+        this.address = address;
+    }
+
+    // Get & Set
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMaxClients() {
+        return maxClients;
+    }
+
+    public void setMaxClients(int maxClients) {
+        this.maxClients = maxClients;
+    }
+
+    public int getCurrentClients() {
+        return currentClients;
+    }
+
+    public void setCurrentClients(int currentClients) {
+        this.currentClients = currentClients;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    // Методы:
+
+    // 1. Возможность добавить нового клиента.
+    public boolean canAddClients (int numClients) {
+        return currentClients + numClients <= maxClients;
+    }
+
+   // 2. Добавить нового клиента.
+    public void addClients (int numClients) {
+        if (canAddClients(numClients)) {
+            currentClients += numClients;
+            System.out.println(numClients + " client added successfully");
+        } else {
+            System.out.println("Cannot add " + numClients + " clients." +
+                    "Maximum capacity reached.");
+        }
+    }
+
+    // 3. Удаление клиента.
+    public void removeClients (int numClients) {
+        if (currentClients >= numClients) {
+            currentClients -= numClients;
+            System.out.println(numClients + " clients removed successfully");
+        } else {
+            System.out.println("Cannot remove " + numClients +
+                    "clients. Current number of client is " + currentClients);
+        }
+    }
+}
