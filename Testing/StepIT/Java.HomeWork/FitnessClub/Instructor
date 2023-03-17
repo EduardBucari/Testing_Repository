@@ -1,0 +1,55 @@
+package stepIT.homeWork.FitnessClub;
+
+public class Instructor {
+
+    // Поля класса Instructor:
+    private String name; // Имя инструктора.
+    private int age; // Возраст инструктора.
+    private String subject;  // Предмет за который ответственен инструктор.
+
+    // Конструктор:
+    public Instructor(String name, int age, String subject) {
+        this.name = name;
+        this.age = age;
+        this.subject = subject;
+    }
+
+    // Get & Set позволяют получать и устанавливать значения соответствующих полей.
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    // Методы:
+
+    // 1. teach() выводит сообщения в консоль о том,
+    // что преподаватель преподает уроки.
+    public void teach() {
+        System.out.println(name + " is teaching " + subject);
+    }
+    // 2. grade(), выводят сообщения в консоль о том,
+    // что преподаватель оценивает работу.
+    public void grade() {
+        System.out.println(name + " is grading for " + subject);
+    }
+}
