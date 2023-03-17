@@ -1,0 +1,58 @@
+package stepIT.homeWork.FitnessClub;
+
+import java.time.LocalDate;
+
+public class Abonement {
+    private double cost; // стоимость абонемента
+    private int visitsLeft; // количество оставшихся посещений
+    private LocalDate expirationDate; // дата окончания срока действия абонемента.
+
+    // Конструктор:
+    public Abonement(double cost, int visitsLeft, LocalDate expirationDate) {
+        this.cost = cost;
+        this.visitsLeft = visitsLeft;
+        this.expirationDate = expirationDate;
+    }
+
+    // Get & Set:
+
+    public double getCost() {
+        return cost;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    public int getVisitsLeft() {
+        return visitsLeft;
+    }
+
+    public void setVisitsLeft(int visitsLeft) {
+        this.visitsLeft = visitsLeft;
+    }
+
+    public LocalDate getExpirationDate() {
+        return expirationDate;
+    }
+
+    public void setExpirationDate(LocalDate expirationDate) {
+        this.expirationDate = expirationDate;
+    }
+
+    // Методы:
+    // Оба метода используют класс LocalDate из библиотеки java.time,
+    // чтобы работать с датами.
+
+    // 1. Метод isActive() позволяют проверить, активен ли
+    // абонемент на текущую дату.
+    public boolean isActive() {
+        return LocalDate.now().isBefore(expirationDate);
+    }
+
+    // 2. Метода getDaysLeft(), позволяют получить количество дней,
+    // оставшихся до окончания срока действия.
+    public int getDaysLeft() {
+        return LocalDate.now().until(expirationDate).getDays();
+    }
+}
