@@ -1,0 +1,28 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class Premium extends Abonement {
+    private boolean hasPersonalTrainer; // наличие персонального тренера
+
+    public Premium(int duration, double price, boolean hasPersonalTrainer) {
+        super(duration, price);
+        this.hasPersonalTrainer = hasPersonalTrainer;
+    }
+
+    public boolean hasPersonalTrainer() {
+        return hasPersonalTrainer;
+    }
+
+    @Override
+    public String getType() {
+        return "Premium";
+    }
+
+    @Override
+    public String getAdditionalInfo() {
+        if (hasPersonalTrainer) {
+            return "Includes a personal trainer.";
+        } else {
+            return "Does not include a personal trainer.";
+        }
+    }
+}
