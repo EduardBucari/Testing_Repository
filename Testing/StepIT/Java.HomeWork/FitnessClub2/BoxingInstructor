@@ -1,0 +1,19 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class BoxingInstructor extends Instructor {
+    private String rank;
+
+    public BoxingInstructor(String name, int age, String gender, String rank) {
+        super(name, age, gender);
+        this.rank = rank;
+    }
+
+    public String getRank() {
+        return rank;
+    }
+
+    @Override
+    public String getSpecialization() {
+        return "Бокс";
+    }
+}
