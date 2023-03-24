@@ -1,0 +1,50 @@
+package stepIT.homeWork.FitnessClub2;
+
+
+import java.util.List;
+
+public class Reception {
+    private Schedule schedule;
+    private List<Instructor> instructors;
+    private List<Clients> clients;
+
+    public Reception(Schedule schedule, List<Instructor> instructors, List<Clients> clients) {
+        this.schedule = schedule;
+        this.instructors = instructors;
+        this.clients = clients;
+    }
+
+    public Schedule getSchedule() {
+        return schedule;
+    }
+
+    public List<Instructor> getInstructors() {
+        return instructors;
+    }
+
+    public List<Clients> getClients() {
+        return clients;
+    }
+
+    public void addClient(Clients client) {
+        clients.add(client);
+    }
+
+    public void removeClient(Clients client) {
+        clients.remove(client);
+    }
+
+    public void purchaseAbonement(Clients client, Abonement abonement) {
+        client.setAbonement(abonement);
+    }
+
+    public Instructor findFreeInstructor() {
+        for (Instructor instructor : instructors) {
+            if (schedule.isFree(instructor)) {
+                return instructor;
+            }
+        }
+        return null;
+    }
+}
+
