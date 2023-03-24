@@ -1,0 +1,56 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class Clients {
+    private String name;
+    private int age;
+    private String phoneNumber;
+    private String email;
+    private String membershipType;
+    private boolean isActive;
+
+    public Clients(String name, int age, String phoneNumber, String email, String membershipType, boolean isActive) {
+        this.name = name;
+        this.age = age;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.membershipType = membershipType;
+        this.isActive = isActive;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getMembershipType() {
+        return membershipType;
+    }
+
+    public void setMembershipType(String membershipType) {
+        this.membershipType = membershipType;
+    }
+
+
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    public void setAbonement(Abonement abonement) {
+    }
+}
+
