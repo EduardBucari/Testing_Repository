@@ -1,0 +1,29 @@
+package stepIT.homeWork.FitnessClub2;
+
+import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Schedule {
+    private Map<LocalDate, String> scheduleMap; // карта расписания, где ключ - дата, значение - описание расписания
+
+    public Schedule() {
+        scheduleMap = new HashMap<>();
+    }
+
+    public void addSchedule(LocalDate date, String description) {
+        scheduleMap.put(date, description);
+    }
+
+    public void removeSchedule(LocalDate date) {
+        scheduleMap.remove(date);
+    }
+
+    public String getSchedule(LocalDate date) {
+        return scheduleMap.get(date);
+    }
+
+    public boolean isFree(Instructor instructor) {
+       return instructor.getAge() > 0;
+    }
+}
