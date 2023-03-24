@@ -1,0 +1,23 @@
+package stepIT.homeWork.FitnessClub2;
+
+public abstract class Abonement {
+    protected int duration; // продолжительность абонемента в днях
+    protected double price; // стоимость абонемента
+
+    public Abonement(int duration, double price) {
+        this.duration = duration;
+        this.price = price;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public abstract String getType(); // тип абонемента
+
+    public abstract String getAdditionalInfo(); // дополнительная информация об абонементе
+}
