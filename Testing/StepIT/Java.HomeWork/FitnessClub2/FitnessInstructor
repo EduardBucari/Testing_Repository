@@ -1,0 +1,19 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class FitnessInstructor extends Instructor {
+    private String certification;
+
+    public FitnessInstructor(String name, int age, String gender, String certification) {
+        super(name, age, gender);
+        this.certification = certification;
+    }
+
+    public String getCertification() {
+        return certification;
+    }
+
+    @Override
+    public String getSpecialization() {
+        return "Фитнес-тренировки";
+    }
+}
