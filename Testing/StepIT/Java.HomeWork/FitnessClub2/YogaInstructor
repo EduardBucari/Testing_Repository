@@ -1,0 +1,19 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class YogaInstructor extends Instructor {
+    private final int experienceYears;
+
+    public YogaInstructor(String name, int age, String gender, int experienceYears) {
+        super(name, age, gender);
+        this.experienceYears = experienceYears;
+    }
+
+    public int getExperienceYears() {
+        return experienceYears;
+    }
+
+    @Override
+    public String getSpecialization() {
+        return "Йога";
+    }
+}
