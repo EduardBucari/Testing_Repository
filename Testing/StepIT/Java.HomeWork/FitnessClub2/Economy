@@ -1,0 +1,28 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class Economy extends Abonement {
+    private boolean isRestricted; // ограниченный доступ
+
+    public Economy(int duration, double price, boolean isRestricted) {
+        super(duration, price);
+        this.isRestricted = isRestricted;
+    }
+
+    public boolean isRestricted() {
+        return isRestricted;
+    }
+
+    @Override
+    public String getType() {
+        return "Economy";
+    }
+
+    @Override
+    public String getAdditionalInfo() {
+        if (isRestricted) {
+            return "Includes restricted access to certain areas.";
+        } else {
+            return "Includes full access to all areas.";
+        }
+    }
+}
