@@ -1,0 +1,6 @@
+package stepIT.homeWork.FitnessClub2;
+
+public interface InstructorInterface {
+    void startClass();
+    void endClass();
+}
