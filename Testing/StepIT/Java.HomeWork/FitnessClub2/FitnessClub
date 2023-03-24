@@ -1,0 +1,40 @@
+package stepIT.homeWork.FitnessClub2;
+
+public class FitnessClub {
+    private String name;
+    private String address;
+    private int currentCapacity;
+
+    public FitnessClub(String name, String address) {
+        this.name = name;
+        this.address = address;
+        this.currentCapacity = 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public int getCurrentCapacity() {
+        return currentCapacity;
+    }
+
+    public void setCurrentCapacity(int currentCapacity) {
+        this.currentCapacity = currentCapacity;
+    }
+
+    public void admitCustomer() {
+        currentCapacity++;
+        System.out.println("Welcome to the fitness club!");
+    }
+
+    public void displayInformation() {
+        System.out.println("Fitness Club: " + name);
+        System.out.println("Address: " + address);
+        System.out.println("Current Capacity: " + currentCapacity);
+    }
+}
