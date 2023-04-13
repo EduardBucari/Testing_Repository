@@ -1,0 +1,45 @@
+package com.selenium.tutorail.homework;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.*;
+
+import java.time.Duration;
+
+public class InputsTest {
+    private static WebDriver driver;
+    private static WebDriverWait wait;
+
+    @BeforeClass
+    public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofMillis(5000L));
+        driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        driver.quit();
+    }
+
+    @Test
+    public void testInput() {
+        driver.get("https://the-internet.herokuapp.com/inputs");
+
+        // Find the input field
+        WebElement inputField = wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("input")));
+
+        // Enter a value into the input field
+        inputField.sendKeys("1234");
+
+        // Verify that the value is entered correctly
+        Assert.assertEquals(inputField.getAttribute("value"), "1234");
+    }
+}
