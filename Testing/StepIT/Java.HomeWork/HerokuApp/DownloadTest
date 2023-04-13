@@ -1,0 +1,50 @@
+package com.selenium.tutorail.homework;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.*;
+
+import java.io.File;
+import java.time.Duration;
+
+public class DownloadTest {
+    private static WebDriver driver;
+    private static WebDriverWait wait;
+
+    @BeforeClass
+    public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofMillis(5000L));
+        driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        driver.quit();
+    }
+
+    @Test
+    public void testDownload() {
+        driver.get("https://the-internet.herokuapp.com/download");
+
+        // Find the download link
+        WebElement downloadLink = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("some-file.txt")));
+
+        // Download the file
+        downloadLink.click();
+
+        // Wait for the file to download
+        wait.until(ExpectedConditions.urlContains("/download"));
+
+        // Verify that the downloaded file exists
+        File downloadedFile = new File("C:\\Users\\48510\\Downloads\\Diplom.txt");
+        Assert.assertTrue(downloadedFile.exists());
+    }
+}
