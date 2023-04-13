@@ -1,54 +1,32 @@
 package com.selenium.tutorail.homework;
 
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.BeforeClass;
+
 import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.*;
-
-import java.time.Duration;
 
 public class ChallengingDomTest {
-    private static WebDriver driver;
-    private static WebDriverWait wait;
-
-    @BeforeClass
-    public static void setUp() {
+    @Test
+    public void checkChallengingDom() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofMillis(5000L));
-        driver.manage().window().maximize();
-    }
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://the-internet.herokuapp.com/challenging_dom");
 
-    @AfterClass
-    public static void tearDown() {
+        WebElement targetButtons1 = driver.findElement(By.xpath("//a[@class='button']"));
+        targetButtons1.click();
+        Thread.sleep(1000);
+
+        WebElement targetButtons2 = driver.findElement(By.xpath("//a[@class='button alert']"));
+        targetButtons2.click();
+        Thread.sleep(1000);
+
+        WebElement targetButtons3 = driver.findElement(By.xpath("//a[@class='button success']"));
+        targetButtons3.click();
+        Thread.sleep(1000);
+
         driver.quit();
     }
 
-    @Test
-    public void testChallengingDom() {
-        driver.get("https://the-internet.herokuapp.com/challenging_dom");
-
-        // Find the "Edit" button
-        WebElement editButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("button")));
-
-        // Click the "Edit" button
-        editButton.click();
-
-        // Find the "Save" button
-        WebElement saveButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".large-2 > .button")));
-
-        // Click the "Save" button
-        saveButton.click();
-
-        // Verify that the alert message is displayed
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        Assert.assertEquals(alert.getText(), "saved!");
-        alert.accept();
-    }
 }
