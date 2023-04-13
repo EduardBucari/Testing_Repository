@@ -1,0 +1,52 @@
+package com.selenium.tutorail.homework;
+
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.*;
+
+import java.time.Duration;
+
+public class UploadTest {
+    private static WebDriver driver;
+    private static WebDriverWait wait;
+
+    @BeforeClass
+    public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofMillis(5000L));
+        driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        driver.quit();
+    }
+
+    @Test
+    public void testUpload() {
+        driver.get("https://the-internet.herokuapp.com/upload");
+
+        // Find the file input element
+        WebElement fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("file-upload")));
+
+        // Upload a file
+        fileInput.sendKeys("C:\\Users\\48510\\Downloads\\Diplom.txt");
+
+        // Find the submit button
+        WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("file-submit")));
+
+        // Click the submit button
+        submitButton.click();
+
+        // Wait for the upload success message
+        WebElement successMessage = wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("h3")));
+        Assert.assertEquals(successMessage.getText(), "File Uploaded!");
+    }
+}
