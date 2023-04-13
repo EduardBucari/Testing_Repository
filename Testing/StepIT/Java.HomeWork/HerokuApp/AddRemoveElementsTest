@@ -1,0 +1,48 @@
+package com.selenium.tutorail.homework;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.*;
+
+import java.time.Duration;
+
+public class AddRemoveElementsTest {
+    private static WebDriver driver;
+    private static WebDriverWait wait;
+
+    @BeforeClass
+    public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofMillis(5000L));
+        driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public static void tearDown() {
+        driver.quit();
+    }
+
+    @Test
+    public void testAddRemoveElements() {
+        driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
+
+        // Add Element
+        WebElement addButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Add Element']")));
+        addButton.click();
+
+        // Wait for the element to appear
+        WebElement deleteButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Delete']")));
+
+        // Remove Element
+        deleteButton.click();
+
+        // Wait for the element to disappear
+        wait.until(ExpectedConditions.invisibilityOf(deleteButton));
+    }
+}
